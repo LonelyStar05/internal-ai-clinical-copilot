@@ -10,3 +10,5 @@ __pycache__/
 .pytest_cache/
 logs/
 backend/app/data/runtime_patients/
+
+.vercel
