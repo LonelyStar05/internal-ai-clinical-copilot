@@ -1,0 +1,168 @@
+{
+ "patient_id": "p053",
+ "source": "sinh tự động",
+ "traps": {},
+ "module1": {
+  "flags": {},
+  "facts": [
+   {
+    "id": "dx-I10",
+    "contains": "Tăng huyết áp",
+    "must_cite": [
+     "KB-2024-05-01"
+    ]
+   },
+   {
+    "id": "dx-M10",
+    "contains": "Gút",
+    "must_cite": [
+     "KB-2024-06-20"
+    ]
+   },
+   {
+    "id": "dx-E78",
+    "contains": "Rối loạn lipid máu",
+    "must_cite": [
+     "KB-2025-01-11"
+    ]
+   },
+   {
+    "id": "egfr",
+    "contains": "eGFR",
+    "must_cite": [
+     "XN-2024-05-20",
+     "XN-2026-10-04"
+    ]
+   }
+  ],
+  "forbidden": []
+ },
+ "module2": {
+  "transcript_id": "TS-p053",
+  "facts": [
+   {
+    "section": "S",
+    "turn": 2,
+    "keywords": [
+     "sốt",
+     "đờm"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 4,
+    "keywords": [
+     "khó thở"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 6,
+    "keywords": [
+     "ibuprofen"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 7,
+    "keywords": [
+     "Phổi"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 8,
+    "keywords": [
+     "93"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 8,
+    "keywords": [
+     "106/66"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 9,
+    "keywords": [
+     "x-quang"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 10,
+    "keywords": [
+     "65"
+    ]
+   },
+   {
+    "section": "A",
+    "turn": 11,
+    "keywords": [
+     "viêm phổi"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 12,
+    "keywords": [
+     "Augmentin"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 13,
+    "keywords": [
+     "điện giải"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 15,
+    "keywords": [
+     "thuốc cũ"
+    ]
+   }
+  ],
+  "missing": [
+   "di_ung",
+   "tien_su_gia_dinh",
+   "thuoc_la_ruou"
+  ],
+  "flags": [
+   {
+    "kind": "interaction",
+    "pair": [
+     "amlodipine",
+     "clarithromycin"
+    ]
+   },
+   {
+    "kind": "interaction",
+    "pair": [
+     "losartan",
+     "ibuprofen"
+    ]
+   },
+   {
+    "kind": "interaction",
+    "pair": [
+     "atorvastatin",
+     "clarithromycin"
+    ]
+   },
+   {
+    "kind": "renal_dose",
+    "drug": "ibuprofen"
+   }
+  ],
+  "forbidden_numbers": [],
+  "forbidden_text": [
+   "xuất huyết tiêu hóa",
+   "sốc nhiễm khuẩn"
+  ],
+  "forbidden_patterns": []
+ }
+}

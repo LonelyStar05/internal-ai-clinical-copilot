@@ -1,0 +1,205 @@
+{
+ "patient_id": "p062",
+ "source": "sinh tự động",
+ "traps": {
+  "duplicate": true,
+  "unresolved_k": true,
+  "missing_result": true
+ },
+ "module1": {
+  "flags": {
+   "dup": {
+    "kind": "duplicate_ingredient",
+    "must_cite": [
+     "RX-2024-12-31-2",
+     "RX-2026-03-08-9"
+    ]
+   },
+   "k": {
+    "kind": "unresolved_abnormal",
+    "must_cite": [
+     "XN-2025-09-26"
+    ]
+   },
+   "missing": {
+    "kind": "missing_result",
+    "must_cite": [
+     "APT-2024-01-22"
+    ]
+   }
+  },
+  "facts": [
+   {
+    "id": "dx-I50",
+    "contains": "Suy tim",
+    "must_cite": [
+     "KB-2024-01-22"
+    ]
+   },
+   {
+    "id": "dx-I25",
+    "contains": "Bệnh tim thiếu máu cục bộ mạn",
+    "must_cite": [
+     "KB-2024-12-31"
+    ]
+   },
+   {
+    "id": "dx-I48",
+    "contains": "Rung nhĩ",
+    "must_cite": [
+     "KB-2026-02-12"
+    ]
+   },
+   {
+    "id": "egfr",
+    "contains": "eGFR",
+    "must_cite": [
+     "XN-2024-01-25",
+     "XN-2026-10-31"
+    ]
+   }
+  ],
+  "forbidden": []
+ },
+ "module2": {
+  "transcript_id": "TS-p062",
+  "facts": [
+   {
+    "section": "S",
+    "turn": 2,
+    "keywords": [
+     "khó thở"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 4,
+    "keywords": [
+     "phù"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 6,
+    "keywords": [
+     "ibuprofen"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 7,
+    "keywords": [
+     "lú lẫn"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 9,
+    "keywords": [
+     "tiểu đường"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 10,
+    "keywords": [
+     "Ran"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 11,
+    "keywords": [
+     "94"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 11,
+    "keywords": [
+     "111/87"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 12,
+    "keywords": [
+     "x-quang"
+    ]
+   },
+   {
+    "section": "A",
+    "turn": 13,
+    "keywords": [
+     "suy tim"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 14,
+    "keywords": [
+     "Furosemid"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 15,
+    "keywords": [
+     "điện giải"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 17,
+    "keywords": [
+     "thuốc cũ"
+    ]
+   }
+  ],
+  "missing": [
+   "di_ung",
+   "thuoc_la_ruou",
+   "can_nang"
+  ],
+  "flags": [
+   {
+    "kind": "red_flag",
+    "id": "confusion"
+   },
+   {
+    "kind": "asr_normalized",
+    "value": "94"
+   },
+   {
+    "kind": "interaction",
+    "pair": [
+     "apixaban",
+     "ibuprofen"
+    ]
+   },
+   {
+    "kind": "interaction",
+    "pair": [
+     "furosemide",
+     "ibuprofen"
+    ]
+   },
+   {
+    "kind": "allergy_reminder",
+    "substance": "Penicillin"
+   },
+   {
+    "kind": "renal_dose",
+    "drug": "ibuprofen"
+   }
+  ],
+  "forbidden_numbers": [],
+  "forbidden_text": [
+   "xuất huyết tiêu hóa",
+   "sốc nhiễm khuẩn"
+  ],
+  "forbidden_patterns": [
+   "cân nặng:\\s*\\d"
+  ]
+ }
+}

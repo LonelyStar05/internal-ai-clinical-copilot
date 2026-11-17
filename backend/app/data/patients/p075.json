@@ -1,0 +1,279 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p075",
+  "name": "Lý Hữu Sơn",
+  "birth_year": 1972,
+  "gender": "Nam",
+  "occupation": "Hưu trí",
+  "address": "Cầu Giấy, Hà Nội",
+  "insurance": "BHYT (mức hưởng 95%)",
+  "contact": "Lê Thị Liên (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 8 - Giường 8",
+  "attending": "bs.binh",
+  "admission": {
+   "id": "BA-2026-11-05",
+   "admitted_at": "2026-11-05T18:00",
+   "ward_at": "2026-11-05T21:00",
+   "reason": "Sốt, ho đờm, khó thở. Vào ngày thứ 4 của bệnh.",
+   "kkb_diagnosis": "Viêm phổi",
+   "vitals": {
+    "pulse": 112,
+    "pulse_note": "đều",
+    "temp": 39.0,
+    "bp": "125/64",
+    "resp_rate": 28,
+    "spo2": 87,
+    "weight": null
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "APT-2025-06-10",
+   "type": "Appointment",
+   "date": "2025-06-10",
+   "encounter": "KB-2025-06-10",
+   "source": "Vinmec",
+   "description": "Siêu âm tim",
+   "due": "2025-09-08"
+  },
+  {
+   "id": "KB-2025-06-10",
+   "type": "Encounter",
+   "date": "2025-06-10",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [
+    {
+     "code": "E78",
+     "display": "Rối loạn lipid máu"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rối loạn lipid máu. Kê Atorvastatin 20 mg 20 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-06-10-1",
+   "type": "MedicationRequest",
+   "date": "2025-06-10",
+   "encounter": "KB-2025-06-10",
+   "source": "Vinmec",
+   "practitioner": "BS. Vũ Hạnh",
+   "drug_name": "Atorvastatin 20 mg",
+   "dose": "20 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2025-06-11",
+   "type": "LabPanel",
+   "date": "2025-06-11",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 88,
+    "egfr": 80,
+    "potassium": 4.5
+   }
+  },
+  {
+   "id": "NGOAI-2025-09-15",
+   "type": "DocumentReference",
+   "date": "2025-09-15",
+   "source": "Giấy ra viện BV huyện (ảnh chụp)",
+   "text": "Ra viện ổn định. Dị ứng: Aspirin (nổi mẩn).",
+   "allergies_recorded": [
+    {
+     "substance": "Aspirin",
+     "reaction": "nổi mẩn"
+    }
+   ]
+  },
+  {
+   "id": "XN-2025-10-03",
+   "type": "LabPanel",
+   "date": "2025-10-03",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 93,
+    "egfr": 75,
+    "potassium": 5.9
+   },
+   "note": "Không có ghi chú xử trí"
+  },
+  {
+   "id": "XN-2026-01-06",
+   "type": "LabPanel",
+   "date": "2026-01-06",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 100,
+    "egfr": 70
+   }
+  },
+  {
+   "id": "KB-2026-03-28",
+   "type": "Encounter",
+   "date": "2026-03-28",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Kê Amlodipin 5 mg 5 mg x 1 lần/ngày, Losartan 50 mg 50 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2026-03-28-1",
+   "type": "MedicationRequest",
+   "date": "2026-03-28",
+   "encounter": "KB-2026-03-28",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Amlodipin 5 mg",
+   "dose": "5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2026-03-28-2",
+   "type": "MedicationRequest",
+   "date": "2026-03-28",
+   "encounter": "KB-2026-03-28",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Losartan 50 mg",
+   "dose": "50 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2026-04-11",
+   "type": "Encounter",
+   "date": "2026-04-11",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Đỗ Quang",
+   "diagnoses": [
+    {
+     "code": "I25",
+     "display": "Bệnh tim thiếu máu cục bộ mạn"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh tim thiếu máu cục bộ mạn. Kê Plavix 75 mg 75 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2026-04-11-1",
+   "type": "MedicationRequest",
+   "date": "2026-04-11",
+   "encounter": "KB-2026-04-11",
+   "source": "Vinmec",
+   "practitioner": "BS. Đỗ Quang",
+   "drug_name": "Plavix 75 mg",
+   "dose": "75 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2026-04-13",
+   "type": "Encounter",
+   "date": "2026-04-13",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "E78",
+     "display": "Rối loạn lipid máu"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rối loạn lipid máu. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "XN-2026-04-17",
+   "type": "LabPanel",
+   "date": "2026-04-17",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 108,
+    "egfr": 65
+   }
+  },
+  {
+   "id": "KB-2026-04-18",
+   "type": "Encounter",
+   "date": "2026-04-18",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [
+    {
+     "code": "E78",
+     "display": "Rối loạn lipid máu"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rối loạn lipid máu. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2026-07-31",
+   "type": "Encounter",
+   "date": "2026-07-31",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "I25",
+     "display": "Bệnh tim thiếu máu cục bộ mạn"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh tim thiếu máu cục bộ mạn. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "XN-2026-08-05",
+   "type": "LabPanel",
+   "date": "2026-08-05",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 117,
+    "egfr": 60
+   }
+  },
+  {
+   "id": "KB-2026-08-16",
+   "type": "Encounter",
+   "date": "2026-08-16",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [],
+   "allergies_recorded": [
+    {
+     "substance": "Aspirin",
+     "reaction": "nổi mẩn"
+    }
+   ],
+   "text": "Tái khám định kỳ. Dị ứng: Aspirin."
+  },
+  {
+   "id": "CDHA-2026-11-05",
+   "type": "ImagingStudy",
+   "date": "2026-11-05",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Đám mờ thùy dưới phổi trái."
+  },
+  {
+   "id": "XN-2026-11-05",
+   "type": "LabPanel",
+   "date": "2026-11-05",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 127,
+    "egfr": 55,
+    "potassium": 3.8,
+    "crp": 129,
+    "wbc": 7.6
+   }
+  }
+ ]
+}

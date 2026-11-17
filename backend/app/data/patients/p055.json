@@ -1,0 +1,234 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p055",
+  "name": "Lê Minh Thủy",
+  "birth_year": 1953,
+  "gender": "Nữ",
+  "occupation": "Hưu trí",
+  "address": "Hà Đông, Hà Nội",
+  "insurance": "BHYT (mức hưởng 95%)",
+  "contact": "Lý Ngọc Hằng (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 1 - Giường 15",
+  "attending": "bs.an",
+  "admission": {
+   "id": "BA-2026-10-04",
+   "admitted_at": "2026-10-04T20:00",
+   "ward_at": "2026-10-04T21:00",
+   "reason": "Sốt rét run, tiểu buốt. Vào ngày thứ 2 của bệnh.",
+   "kkb_diagnosis": "Nhiễm khuẩn tiết niệu",
+   "vitals": {
+    "pulse": 114,
+    "pulse_note": "đều",
+    "temp": 38.4,
+    "bp": "137/82",
+    "resp_rate": 22,
+    "spo2": 98,
+    "weight": 49
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "APT-2025-02-12",
+   "type": "Appointment",
+   "date": "2025-02-12",
+   "encounter": "KB-2025-02-12",
+   "source": "Vinmec",
+   "description": "Siêu âm tim",
+   "due": "2025-05-13"
+  },
+  {
+   "id": "KB-2025-02-12",
+   "type": "Encounter",
+   "date": "2025-02-12",
+   "source": "Vinmec - Khám cơ xương khớp",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "M10",
+     "display": "Gút"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán gút. Kê Allopurinol 300 mg 300 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-02-12-1",
+   "type": "MedicationRequest",
+   "date": "2025-02-12",
+   "encounter": "KB-2025-02-12",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Allopurinol 300 mg",
+   "dose": "300 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2025-03-02",
+   "type": "LabPanel",
+   "date": "2025-03-02",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 83,
+    "egfr": 84,
+    "hba1c": 8.6,
+    "potassium": 3.9
+   }
+  },
+  {
+   "id": "KB-2025-04-07",
+   "type": "Encounter",
+   "date": "2025-04-07",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [
+    {
+     "code": "E78",
+     "display": "Rối loạn lipid máu"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rối loạn lipid máu. Kê Atorvastatin 20 mg 20 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-04-07-1",
+   "type": "MedicationRequest",
+   "date": "2025-04-07",
+   "encounter": "KB-2025-04-07",
+   "source": "Vinmec",
+   "practitioner": "BS. Lê Hà",
+   "drug_name": "Atorvastatin 20 mg",
+   "dose": "20 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "CDHA-2025-05-17",
+   "type": "ImagingStudy",
+   "date": "2025-05-17",
+   "source": "Vinmec",
+   "modality": "Siêu âm tim",
+   "text": "Kết quả trong giới hạn bình thường."
+  },
+  {
+   "id": "XN-2025-09-05",
+   "type": "LabPanel",
+   "date": "2025-09-05",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 100,
+    "egfr": 70,
+    "hba1c": 6.6,
+    "potassium": 4.4
+   }
+  },
+  {
+   "id": "KB-2025-09-23",
+   "type": "Encounter",
+   "date": "2025-09-23",
+   "source": "Vinmec - Khám nội tiết",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "E11",
+     "display": "Đái tháo đường type 2"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán đái tháo đường type 2. Kê Metformin 850 mg 850 mg x 2 lần/ngày, Diamicron MR 30 mg 30 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-09-23-1",
+   "type": "MedicationRequest",
+   "date": "2025-09-23",
+   "encounter": "KB-2025-09-23",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Metformin 850 mg",
+   "dose": "850 mg x 2 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2025-09-23-2",
+   "type": "MedicationRequest",
+   "date": "2025-09-23",
+   "encounter": "KB-2025-09-23",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Diamicron MR 30 mg",
+   "dose": "30 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2026-01-10",
+   "type": "Encounter",
+   "date": "2026-01-10",
+   "source": "Vinmec - Khám nội tiết",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "E11",
+     "display": "Đái tháo đường type 2"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán đái tháo đường type 2. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2026-01-28",
+   "type": "Encounter",
+   "date": "2026-01-28",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [],
+   "allergies_recorded": null,
+   "text": "Tái khám. Kê Lipitor 20 mg 20 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2026-01-28-9",
+   "type": "MedicationRequest",
+   "date": "2026-01-28",
+   "encounter": "KB-2026-01-28",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Lipitor 20 mg",
+   "dose": "20 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2026-03-23",
+   "type": "LabPanel",
+   "date": "2026-03-23",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 125,
+    "egfr": 56,
+    "hba1c": 7.0,
+    "potassium": 3.8
+   }
+  },
+  {
+   "id": "CDHA-2026-10-04",
+   "type": "ImagingStudy",
+   "date": "2026-10-04",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Không thấy tổn thương nhu mô phổi."
+  },
+  {
+   "id": "XN-2026-10-04",
+   "type": "LabPanel",
+   "date": "2026-10-04",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 167,
+    "egfr": 42,
+    "potassium": 3.9,
+    "crp": 168,
+    "wbc": 10.3,
+    "glucose": 9.4
+   }
+  }
+ ]
+}

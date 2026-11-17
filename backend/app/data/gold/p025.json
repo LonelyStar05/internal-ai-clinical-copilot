@@ -1,0 +1,156 @@
+{
+ "patient_id": "p025",
+ "source": "sinh tự động",
+ "traps": {},
+ "module1": {
+  "flags": {},
+  "facts": [
+   {
+    "id": "dx-J44",
+    "contains": "Bệnh phổi tắc nghẽn mạn tính",
+    "must_cite": [
+     "KB-2024-11-12"
+    ]
+   },
+   {
+    "id": "dx-E78",
+    "contains": "Rối loạn lipid máu",
+    "must_cite": [
+     "KB-2025-03-19"
+    ]
+   },
+   {
+    "id": "egfr",
+    "contains": "eGFR",
+    "must_cite": [
+     "XN-2024-11-27",
+     "XN-2026-10-16"
+    ]
+   }
+  ],
+  "forbidden": []
+ },
+ "module2": {
+  "transcript_id": "TS-p025",
+  "facts": [
+   {
+    "section": "S",
+    "turn": 2,
+    "keywords": [
+     "khó thở",
+     "đờm"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 4,
+    "keywords": [
+     "ventolin"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 6,
+    "keywords": [
+     "thuốc"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 8,
+    "keywords": [
+     "aspirin"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 10,
+    "keywords": [
+     "rượu"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 12,
+    "keywords": [
+     "tiểu đường"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 13,
+    "keywords": [
+     "Phổi"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 14,
+    "keywords": [
+     "87"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 14,
+    "keywords": [
+     "146/70"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 14,
+    "keywords": [
+     "oxy"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 15,
+    "keywords": [
+     "x-quang"
+    ]
+   },
+   {
+    "section": "A",
+    "turn": 16,
+    "keywords": [
+     "bệnh phổi tắc nghẽn"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 17,
+    "keywords": [
+     "Salbutamol"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 18,
+    "keywords": [
+     "điện giải"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 20,
+    "keywords": [
+     "thuốc cũ"
+    ]
+   }
+  ],
+  "missing": [],
+  "flags": [
+   {
+    "kind": "vital_abnormal"
+   }
+  ],
+  "forbidden_numbers": [],
+  "forbidden_text": [
+   "xuất huyết tiêu hóa",
+   "sốc nhiễm khuẩn"
+  ],
+  "forbidden_patterns": []
+ }
+}

@@ -1,0 +1,165 @@
+{
+ "patient_id": "p048",
+ "source": "sinh tự động",
+ "traps": {
+  "duplicate": true,
+  "renal_metformin": true
+ },
+ "module1": {
+  "flags": {
+   "dup": {
+    "kind": "duplicate_ingredient",
+    "must_cite": [
+     "RX-2024-08-03-1",
+     "RX-2026-07-03-9"
+    ]
+   },
+   "renal": {
+    "kind": "renal_dose",
+    "must_cite": [
+     "RX-2025-03-06-1",
+     "XN-2026-10-02"
+    ]
+   }
+  },
+  "facts": [
+   {
+    "id": "dx-I25",
+    "contains": "Bệnh tim thiếu máu cục bộ mạn",
+    "must_cite": [
+     "KB-2024-06-15"
+    ]
+   },
+   {
+    "id": "dx-I10",
+    "contains": "Tăng huyết áp",
+    "must_cite": [
+     "KB-2024-08-03"
+    ]
+   },
+   {
+    "id": "dx-I48",
+    "contains": "Rung nhĩ",
+    "must_cite": [
+     "KB-2024-10-17"
+    ]
+   },
+   {
+    "id": "dx-E11",
+    "contains": "Đái tháo đường type 2",
+    "must_cite": [
+     "KB-2025-03-06"
+    ]
+   },
+   {
+    "id": "egfr",
+    "contains": "eGFR",
+    "must_cite": [
+     "XN-2024-06-17",
+     "XN-2026-10-02"
+    ]
+   }
+  ],
+  "forbidden": []
+ },
+ "module2": {
+  "transcript_id": "TS-p048",
+  "facts": [
+   {
+    "section": "S",
+    "turn": 2,
+    "keywords": [
+     "sốt",
+     "tiểu buốt"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 4,
+    "keywords": [
+     "đau"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 6,
+    "keywords": [
+     "thuốc"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 7,
+    "keywords": [
+     "Ấn"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 8,
+    "keywords": [
+     "97"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 8,
+    "keywords": [
+     "112/78"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 9,
+    "keywords": [
+     "x-quang"
+    ]
+   },
+   {
+    "section": "A",
+    "turn": 10,
+    "keywords": [
+     "nhiễm khuẩn tiết niệu"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 11,
+    "keywords": [
+     "Ceftriaxone"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 12,
+    "keywords": [
+     "điện giải"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 14,
+    "keywords": [
+     "thuốc cũ"
+    ]
+   }
+  ],
+  "missing": [
+   "di_ung",
+   "tien_su_gia_dinh",
+   "thuoc_la_ruou"
+  ],
+  "flags": [
+   {
+    "kind": "allergy_reminder",
+    "substance": "Aspirin"
+   }
+  ],
+  "forbidden_numbers": [],
+  "forbidden_text": [
+   "xuất huyết tiêu hóa",
+   "sốc nhiễm khuẩn"
+  ],
+  "forbidden_patterns": []
+ }
+}

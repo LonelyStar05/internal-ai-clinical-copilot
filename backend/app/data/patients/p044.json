@@ -1,0 +1,253 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p044",
+  "name": "Hoàng Minh Tâm",
+  "birth_year": 1960,
+  "gender": "Nam",
+  "occupation": "Hưu trí",
+  "address": "Hai Bà Trưng, Hà Nội",
+  "insurance": "BHYT (mức hưởng 80%)",
+  "contact": "Nguyễn Thu Mai (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 5 - Giường 16",
+  "attending": "bs.an",
+  "admission": {
+   "id": "BA-2026-10-01",
+   "admitted_at": "2026-10-01T13:30",
+   "ward_at": "2026-10-01T21:00",
+   "reason": "Sốt, ho đờm, khó thở. Vào ngày thứ 3 của bệnh.",
+   "kkb_diagnosis": "Viêm phổi",
+   "vitals": {
+    "pulse": 101,
+    "pulse_note": "đều",
+    "temp": 38.7,
+    "bp": "137/79",
+    "resp_rate": 27,
+    "spo2": 91,
+    "weight": null
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "APT-2025-05-08",
+   "type": "Appointment",
+   "date": "2025-05-08",
+   "encounter": "KB-2025-05-08",
+   "source": "Vinmec",
+   "description": "Siêu âm bụng",
+   "due": "2025-08-06"
+  },
+  {
+   "id": "KB-2025-05-08",
+   "type": "Encounter",
+   "date": "2025-05-08",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Đỗ Quang",
+   "diagnoses": [
+    {
+     "code": "I25",
+     "display": "Bệnh tim thiếu máu cục bộ mạn"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh tim thiếu máu cục bộ mạn. Kê Plavix 75 mg 75 mg x 1 lần/ngày, Atorvastatin 20 mg 20 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-05-08-1",
+   "type": "MedicationRequest",
+   "date": "2025-05-08",
+   "encounter": "KB-2025-05-08",
+   "source": "Vinmec",
+   "practitioner": "BS. Đỗ Quang",
+   "drug_name": "Plavix 75 mg",
+   "dose": "75 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2025-05-08-2",
+   "type": "MedicationRequest",
+   "date": "2025-05-08",
+   "encounter": "KB-2025-05-08",
+   "source": "Vinmec",
+   "practitioner": "BS. Đỗ Quang",
+   "drug_name": "Atorvastatin 20 mg",
+   "dose": "20 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2025-05-11",
+   "type": "Encounter",
+   "date": "2025-05-11",
+   "source": "Vinmec - Khám nội tiết",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "E11",
+     "display": "Đái tháo đường type 2"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán đái tháo đường type 2. Kê Metformin 850 mg 850 mg x 2 lần/ngày, Diamicron MR 30 mg 30 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-05-11-1",
+   "type": "MedicationRequest",
+   "date": "2025-05-11",
+   "encounter": "KB-2025-05-11",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Metformin 850 mg",
+   "dose": "850 mg x 2 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2025-05-11-2",
+   "type": "MedicationRequest",
+   "date": "2025-05-11",
+   "encounter": "KB-2025-05-11",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Diamicron MR 30 mg",
+   "dose": "30 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2025-05-21",
+   "type": "LabPanel",
+   "date": "2025-05-21",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 91,
+    "egfr": 77,
+    "hba1c": 8.2,
+    "potassium": 3.8
+   }
+  },
+  {
+   "id": "CDHA-2025-08-17",
+   "type": "ImagingStudy",
+   "date": "2025-08-17",
+   "source": "Vinmec",
+   "modality": "Siêu âm bụng",
+   "text": "Kết quả trong giới hạn bình thường."
+  },
+  {
+   "id": "XN-2025-09-28",
+   "type": "LabPanel",
+   "date": "2025-09-28",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 91,
+    "egfr": 77,
+    "hba1c": 6.8,
+    "potassium": 4.5
+   }
+  },
+  {
+   "id": "XN-2026-02-03",
+   "type": "LabPanel",
+   "date": "2026-02-03",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 92,
+    "egfr": 76,
+    "hba1c": 7.3,
+    "potassium": 4.1
+   }
+  },
+  {
+   "id": "KB-2026-03-12",
+   "type": "Encounter",
+   "date": "2026-03-12",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": [],
+   "text": "Chẩn đoán tăng huyết áp. Kê Amlodipin 5 mg 5 mg x 1 lần/ngày, Losartan 50 mg 50 mg x 1 lần/ngày. Dị ứng: không."
+  },
+  {
+   "id": "RX-2026-03-12-1",
+   "type": "MedicationRequest",
+   "date": "2026-03-12",
+   "encounter": "KB-2026-03-12",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Amlodipin 5 mg",
+   "dose": "5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2026-03-12-2",
+   "type": "MedicationRequest",
+   "date": "2026-03-12",
+   "encounter": "KB-2026-03-12",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Losartan 50 mg",
+   "dose": "50 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2026-04-04",
+   "type": "Encounter",
+   "date": "2026-04-04",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [],
+   "allergies_recorded": null,
+   "text": "Tái khám. Kê Lipitor 20 mg 20 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2026-04-04-9",
+   "type": "MedicationRequest",
+   "date": "2026-04-04",
+   "encounter": "KB-2026-04-04",
+   "source": "Vinmec",
+   "practitioner": "BS. Nguyễn Thu",
+   "drug_name": "Lipitor 20 mg",
+   "dose": "20 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2026-06-12",
+   "type": "LabPanel",
+   "date": "2026-06-12",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 92,
+    "egfr": 76,
+    "hba1c": 8.1,
+    "potassium": 4.2
+   }
+  },
+  {
+   "id": "CDHA-2026-10-01",
+   "type": "ImagingStudy",
+   "date": "2026-10-01",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Đám mờ thùy dưới phổi trái."
+  },
+  {
+   "id": "XN-2026-10-01",
+   "type": "LabPanel",
+   "date": "2026-10-01",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 92,
+    "egfr": 76,
+    "potassium": 4.5,
+    "crp": 141,
+    "wbc": 10.6,
+    "glucose": 15.9
+   }
+  }
+ ]
+}

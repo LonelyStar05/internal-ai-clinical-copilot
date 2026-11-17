@@ -1,0 +1,183 @@
+{
+ "patient_id": "p074",
+ "source": "sinh tự động",
+ "traps": {
+  "unresolved_k": true,
+  "renal_metformin": true,
+  "ddi_active": true
+ },
+ "module1": {
+  "flags": {
+   "ddi": {
+    "kind": "interaction",
+    "must_cite": [
+     "RX-2024-11-03-1",
+     "RX-2026-08-04-8"
+    ]
+   },
+   "k": {
+    "kind": "unresolved_abnormal",
+    "must_cite": [
+     "XN-2025-05-04"
+    ]
+   },
+   "renal": {
+    "kind": "renal_dose",
+    "must_cite": [
+     "RX-2025-07-17-1",
+     "XN-2026-10-04"
+    ]
+   }
+  },
+  "facts": [
+   {
+    "id": "dx-I25",
+    "contains": "Bệnh tim thiếu máu cục bộ mạn",
+    "must_cite": [
+     "KB-2024-11-03"
+    ]
+   },
+   {
+    "id": "dx-E11",
+    "contains": "Đái tháo đường type 2",
+    "must_cite": [
+     "KB-2025-07-17"
+    ]
+   },
+   {
+    "id": "dx-I10",
+    "contains": "Tăng huyết áp",
+    "must_cite": [
+     "KB-2025-09-09"
+    ]
+   },
+   {
+    "id": "egfr",
+    "contains": "eGFR",
+    "must_cite": [
+     "XN-2024-11-15",
+     "XN-2026-10-04"
+    ]
+   }
+  ],
+  "forbidden": []
+ },
+ "module2": {
+  "transcript_id": "TS-p074",
+  "facts": [
+   {
+    "section": "S",
+    "turn": 2,
+    "keywords": [
+     "sốt",
+     "tiểu buốt"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 4,
+    "keywords": [
+     "đau"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 6,
+    "keywords": [
+     "thuốc"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 8,
+    "keywords": [
+     "phân đen"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 9,
+    "keywords": [
+     "Ấn"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 10,
+    "keywords": [
+     "94"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 10,
+    "keywords": [
+     "100/77"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 11,
+    "keywords": [
+     "x-quang"
+    ]
+   },
+   {
+    "section": "A",
+    "turn": 12,
+    "keywords": [
+     "nhiễm khuẩn tiết niệu"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 13,
+    "keywords": [
+     "Ceftriaxone"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 14,
+    "keywords": [
+     "điện giải"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 16,
+    "keywords": [
+     "thuốc cũ"
+    ]
+   }
+  ],
+  "missing": [
+   "di_ung",
+   "tien_su_gia_dinh",
+   "thuoc_la_ruou",
+   "can_nang"
+  ],
+  "flags": [
+   {
+    "kind": "red_flag",
+    "id": "gi_bleed"
+   },
+   {
+    "kind": "asr_normalized",
+    "value": "94"
+   },
+   {
+    "kind": "allergy_reminder",
+    "substance": "Hải sản"
+   }
+  ],
+  "forbidden_numbers": [],
+  "forbidden_text": [
+   "xuất huyết tiêu hóa",
+   "sốc nhiễm khuẩn"
+  ],
+  "forbidden_patterns": [
+   "cân nặng:\\s*\\d"
+  ]
+ }
+}

@@ -1,0 +1,160 @@
+{
+ "patient_id": "p005",
+ "source": "sinh tự động",
+ "traps": {},
+ "module1": {
+  "flags": {},
+  "facts": [
+   {
+    "id": "dx-J44",
+    "contains": "Bệnh phổi tắc nghẽn mạn tính",
+    "must_cite": [
+     "KB-2024-12-07"
+    ]
+   },
+   {
+    "id": "dx-E78",
+    "contains": "Rối loạn lipid máu",
+    "must_cite": [
+     "KB-2025-03-22"
+    ]
+   },
+   {
+    "id": "dx-M10",
+    "contains": "Gút",
+    "must_cite": [
+     "KB-2025-06-26"
+    ]
+   },
+   {
+    "id": "dx-I25",
+    "contains": "Bệnh tim thiếu máu cục bộ mạn",
+    "must_cite": [
+     "KB-2025-08-20"
+    ]
+   },
+   {
+    "id": "egfr",
+    "contains": "eGFR",
+    "must_cite": [
+     "XN-2024-12-07",
+     "XN-2026-10-30"
+    ]
+   }
+  ],
+  "forbidden": []
+ },
+ "module2": {
+  "transcript_id": "TS-p005",
+  "facts": [
+   {
+    "section": "S",
+    "turn": 2,
+    "keywords": [
+     "khó thở",
+     "đờm"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 4,
+    "keywords": [
+     "ventolin"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 6,
+    "keywords": [
+     "ibuprofen"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 7,
+    "keywords": [
+     "Phổi"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 8,
+    "keywords": [
+     "90"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 8,
+    "keywords": [
+     "128/65"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 8,
+    "keywords": [
+     "oxy"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 9,
+    "keywords": [
+     "x-quang"
+    ]
+   },
+   {
+    "section": "A",
+    "turn": 10,
+    "keywords": [
+     "bệnh phổi tắc nghẽn"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 11,
+    "keywords": [
+     "Salbutamol"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 12,
+    "keywords": [
+     "điện giải"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 14,
+    "keywords": [
+     "thuốc cũ"
+    ]
+   }
+  ],
+  "missing": [
+   "di_ung",
+   "tien_su_gia_dinh",
+   "thuoc_la_ruou",
+   "can_nang"
+  ],
+  "flags": [
+   {
+    "kind": "asr_normalized",
+    "value": "90"
+   },
+   {
+    "kind": "vital_abnormal"
+   }
+  ],
+  "forbidden_numbers": [],
+  "forbidden_text": [
+   "xuất huyết tiêu hóa",
+   "sốc nhiễm khuẩn"
+  ],
+  "forbidden_patterns": [
+   "cân nặng:\\s*\\d"
+  ]
+ }
+}

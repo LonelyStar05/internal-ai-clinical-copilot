@@ -1,0 +1,166 @@
+{
+ "patient_id": "p064",
+ "source": "sinh tự động",
+ "traps": {
+  "unresolved_k": true
+ },
+ "module1": {
+  "flags": {
+   "k": {
+    "kind": "unresolved_abnormal",
+    "must_cite": [
+     "XN-2026-02-16"
+    ]
+   }
+  },
+  "facts": [
+   {
+    "id": "dx-I10",
+    "contains": "Tăng huyết áp",
+    "must_cite": [
+     "KB-2023-11-24"
+    ]
+   },
+   {
+    "id": "dx-I25",
+    "contains": "Bệnh tim thiếu máu cục bộ mạn",
+    "must_cite": [
+     "KB-2024-10-24"
+    ]
+   },
+   {
+    "id": "egfr",
+    "contains": "eGFR",
+    "must_cite": [
+     "XN-2023-12-12",
+     "XN-2026-11-09"
+    ]
+   }
+  ],
+  "forbidden": []
+ },
+ "module2": {
+  "transcript_id": "TS-p064",
+  "facts": [
+   {
+    "section": "S",
+    "turn": 2,
+    "keywords": [
+     "sốt",
+     "đờm"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 4,
+    "keywords": [
+     "khó thở"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 6,
+    "keywords": [
+     "thuốc"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 7,
+    "keywords": [
+     "lú lẫn"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 8,
+    "keywords": [
+     "Phổi"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 9,
+    "keywords": [
+     "87"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 9,
+    "keywords": [
+     "111/70"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 9,
+    "keywords": [
+     "oxy"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 10,
+    "keywords": [
+     "x-quang"
+    ]
+   },
+   {
+    "section": "A",
+    "turn": 11,
+    "keywords": [
+     "viêm phổi"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 12,
+    "keywords": [
+     "Augmentin"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 13,
+    "keywords": [
+     "điện giải"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 15,
+    "keywords": [
+     "thuốc cũ"
+    ]
+   }
+  ],
+  "missing": [
+   "di_ung",
+   "tien_su_gia_dinh",
+   "thuoc_la_ruou",
+   "can_nang"
+  ],
+  "flags": [
+   {
+    "kind": "red_flag",
+    "id": "confusion"
+   },
+   {
+    "kind": "allergy_reminder",
+    "substance": "Hải sản"
+   },
+   {
+    "kind": "vital_abnormal"
+   }
+  ],
+  "forbidden_numbers": [],
+  "forbidden_text": [
+   "xuất huyết tiêu hóa",
+   "sốc nhiễm khuẩn"
+  ],
+  "forbidden_patterns": [
+   "cân nặng:\\s*\\d"
+  ]
+ }
+}

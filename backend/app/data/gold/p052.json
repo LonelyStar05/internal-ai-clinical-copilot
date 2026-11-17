@@ -1,0 +1,139 @@
+{
+ "patient_id": "p052",
+ "source": "sinh tự động",
+ "traps": {},
+ "module1": {
+  "flags": {},
+  "facts": [
+   {
+    "id": "dx-I50",
+    "contains": "Suy tim",
+    "must_cite": [
+     "KB-2024-12-31"
+    ]
+   },
+   {
+    "id": "dx-I25",
+    "contains": "Bệnh tim thiếu máu cục bộ mạn",
+    "must_cite": [
+     "KB-2025-02-13"
+    ]
+   },
+   {
+    "id": "dx-M10",
+    "contains": "Gút",
+    "must_cite": [
+     "KB-2025-07-06"
+    ]
+   },
+   {
+    "id": "egfr",
+    "contains": "eGFR",
+    "must_cite": [
+     "XN-2025-01-11",
+     "XN-2026-11-03"
+    ]
+   }
+  ],
+  "forbidden": []
+ },
+ "module2": {
+  "transcript_id": "TS-p052",
+  "facts": [
+   {
+    "section": "S",
+    "turn": 2,
+    "keywords": [
+     "khó thở"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 4,
+    "keywords": [
+     "phù"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 6,
+    "keywords": [
+     "thuốc"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 8,
+    "keywords": [
+     "phân đen"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 9,
+    "keywords": [
+     "Ran"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 10,
+    "keywords": [
+     "97"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 10,
+    "keywords": [
+     "133/63"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 11,
+    "keywords": [
+     "x-quang"
+    ]
+   },
+   {
+    "section": "A",
+    "turn": 12,
+    "keywords": [
+     "suy tim"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 13,
+    "keywords": [
+     "Furosemid"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 14,
+    "keywords": [
+     "điện giải"
+    ]
+   }
+  ],
+  "missing": [
+   "di_ung",
+   "tien_su_gia_dinh",
+   "thuoc_la_ruou"
+  ],
+  "flags": [
+   {
+    "kind": "red_flag",
+    "id": "gi_bleed"
+   }
+  ],
+  "forbidden_numbers": [],
+  "forbidden_text": [
+   "xuất huyết tiêu hóa",
+   "sốc nhiễm khuẩn"
+  ],
+  "forbidden_patterns": []
+ }
+}

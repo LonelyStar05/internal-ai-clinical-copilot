@@ -1,0 +1,336 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p050",
+  "name": "Vũ Quang Long",
+  "birth_year": 1966,
+  "gender": "Nam",
+  "occupation": "Hưu trí",
+  "address": "Đống Đa, Hà Nội",
+  "insurance": "BHYT (mức hưởng 80%)",
+  "contact": "Lý Thanh Liên (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 3 - Giường 21",
+  "attending": "bs.an",
+  "admission": {
+   "id": "BA-2026-11-02",
+   "admitted_at": "2026-11-02T15:45",
+   "ward_at": "2026-11-02T21:00",
+   "reason": "Khó thở khi nằm, phù hai chân. Vào ngày thứ 2 của bệnh.",
+   "kkb_diagnosis": "Suy tim",
+   "vitals": {
+    "pulse": 109,
+    "pulse_note": "đều",
+    "temp": 36.9,
+    "bp": "108/66",
+    "resp_rate": 27,
+    "spo2": 86,
+    "weight": null
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "KB-2024-09-24",
+   "type": "Encounter",
+   "date": "2024-09-24",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "I50",
+     "display": "Suy tim"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán suy tim. Kê Furosemid 40 mg 40 mg x 1 lần/ngày, Bisoprolol 2,5 mg 2,5 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-09-24-1",
+   "type": "MedicationRequest",
+   "date": "2024-09-24",
+   "encounter": "KB-2024-09-24",
+   "source": "Vinmec",
+   "practitioner": "BS. Nguyễn Thu",
+   "drug_name": "Furosemid 40 mg",
+   "dose": "40 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2024-09-24-2",
+   "type": "MedicationRequest",
+   "date": "2024-09-24",
+   "encounter": "KB-2024-09-24",
+   "source": "Vinmec",
+   "practitioner": "BS. Nguyễn Thu",
+   "drug_name": "Bisoprolol 2,5 mg",
+   "dose": "2,5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2024-09-28",
+   "type": "LabPanel",
+   "date": "2024-09-28",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 109,
+    "egfr": 64,
+    "hba1c": 8.4,
+    "potassium": 4.5
+   }
+  },
+  {
+   "id": "XN-2025-03-03",
+   "type": "LabPanel",
+   "date": "2025-03-03",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 119,
+    "egfr": 59,
+    "hba1c": 8.7,
+    "potassium": 4.6
+   }
+  },
+  {
+   "id": "KB-2025-04-08",
+   "type": "Encounter",
+   "date": "2025-04-08",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "I25",
+     "display": "Bệnh tim thiếu máu cục bộ mạn"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh tim thiếu máu cục bộ mạn. Kê Plavix 75 mg 75 mg x 1 lần/ngày, Atorvastatin 20 mg 20 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-04-08-1",
+   "type": "MedicationRequest",
+   "date": "2025-04-08",
+   "encounter": "KB-2025-04-08",
+   "source": "Vinmec",
+   "practitioner": "BS. Nguyễn Thu",
+   "drug_name": "Plavix 75 mg",
+   "dose": "75 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2025-04-08-2",
+   "type": "MedicationRequest",
+   "date": "2025-04-08",
+   "encounter": "KB-2025-04-08",
+   "source": "Vinmec",
+   "practitioner": "BS. Nguyễn Thu",
+   "drug_name": "Atorvastatin 20 mg",
+   "dose": "20 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2025-08-17",
+   "type": "LabPanel",
+   "date": "2025-08-17",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 130,
+    "egfr": 54,
+    "hba1c": 6.8,
+    "potassium": 4.8
+   }
+  },
+  {
+   "id": "KB-2025-08-26",
+   "type": "Encounter",
+   "date": "2025-08-26",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "E78",
+     "display": "Rối loạn lipid máu"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rối loạn lipid máu. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2025-11-08",
+   "type": "Encounter",
+   "date": "2025-11-08",
+   "source": "Vinmec - Khám nội tiết",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "E11",
+     "display": "Đái tháo đường type 2"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán đái tháo đường type 2. Kê Metformin 850 mg 850 mg x 2 lần/ngày, Diamicron MR 30 mg 30 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-11-08-1",
+   "type": "MedicationRequest",
+   "date": "2025-11-08",
+   "encounter": "KB-2025-11-08",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Metformin 850 mg",
+   "dose": "850 mg x 2 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2025-11-08-2",
+   "type": "MedicationRequest",
+   "date": "2025-11-08",
+   "encounter": "KB-2025-11-08",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Diamicron MR 30 mg",
+   "dose": "30 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2026-01-05",
+   "type": "LabPanel",
+   "date": "2026-01-05",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 143,
+    "egfr": 49,
+    "hba1c": 7.2,
+    "potassium": 4.0
+   }
+  },
+  {
+   "id": "KB-2026-03-08",
+   "type": "Encounter",
+   "date": "2026-03-08",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Kê Amlodipin 5 mg 5 mg x 1 lần/ngày, Losartan 50 mg 50 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2026-03-08-1",
+   "type": "MedicationRequest",
+   "date": "2026-03-08",
+   "encounter": "KB-2026-03-08",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Amlodipin 5 mg",
+   "dose": "5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2026-03-08-2",
+   "type": "MedicationRequest",
+   "date": "2026-03-08",
+   "encounter": "KB-2026-03-08",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Losartan 50 mg",
+   "dose": "50 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2026-03-23",
+   "type": "Encounter",
+   "date": "2026-03-23",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2026-04-02",
+   "type": "Encounter",
+   "date": "2026-04-02",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [],
+   "allergies_recorded": null,
+   "text": "Tái khám. Kê Cozaar 50 mg 50 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2026-04-02-9",
+   "type": "MedicationRequest",
+   "date": "2026-04-02",
+   "encounter": "KB-2026-04-02",
+   "source": "Vinmec",
+   "practitioner": "BS. Nguyễn Thu",
+   "drug_name": "Cozaar 50 mg",
+   "dose": "50 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2026-04-26",
+   "type": "Encounter",
+   "date": "2026-04-26",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [],
+   "allergies_recorded": null,
+   "text": "Kê thêm Omeprazol 20 mg 20 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2026-04-26-8",
+   "type": "MedicationRequest",
+   "date": "2026-04-26",
+   "encounter": "KB-2026-04-26",
+   "source": "Vinmec",
+   "practitioner": "BS. Lê Hà",
+   "drug_name": "Omeprazol 20 mg",
+   "dose": "20 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2026-06-07",
+   "type": "LabPanel",
+   "date": "2026-06-07",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 159,
+    "egfr": 44,
+    "hba1c": 8.6,
+    "potassium": 4.1
+   }
+  },
+  {
+   "id": "CDHA-2026-11-02",
+   "type": "ImagingStudy",
+   "date": "2026-11-02",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Bóng tim to, xung huyết hai phổi."
+  },
+  {
+   "id": "XN-2026-11-02",
+   "type": "LabPanel",
+   "date": "2026-11-02",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 179,
+    "egfr": 39,
+    "potassium": 4.7,
+    "crp": 168,
+    "wbc": 14.5,
+    "glucose": 14.6
+   }
+  }
+ ]
+}

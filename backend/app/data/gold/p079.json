@@ -1,0 +1,197 @@
+{
+ "patient_id": "p079",
+ "source": "sinh tự động",
+ "traps": {
+  "duplicate": true,
+  "unresolved_k": true,
+  "ddi_active": true
+ },
+ "module1": {
+  "flags": {
+   "dup": {
+    "kind": "duplicate_ingredient",
+    "must_cite": [
+     "RX-2024-12-09-1",
+     "RX-2026-09-12-9"
+    ]
+   },
+   "ddi": {
+    "kind": "interaction",
+    "must_cite": [
+     "RX-2024-11-12-1",
+     "RX-2026-10-09-8"
+    ]
+   },
+   "k": {
+    "kind": "unresolved_abnormal",
+    "must_cite": [
+     "XN-2025-07-03"
+    ]
+   }
+  },
+  "facts": [
+   {
+    "id": "dx-I50",
+    "contains": "Suy tim",
+    "must_cite": [
+     "KB-2024-10-24"
+    ]
+   },
+   {
+    "id": "dx-I25",
+    "contains": "Bệnh tim thiếu máu cục bộ mạn",
+    "must_cite": [
+     "KB-2024-11-12"
+    ]
+   },
+   {
+    "id": "dx-E11",
+    "contains": "Đái tháo đường type 2",
+    "must_cite": [
+     "KB-2024-12-09"
+    ]
+   },
+   {
+    "id": "dx-I10",
+    "contains": "Tăng huyết áp",
+    "must_cite": [
+     "KB-2024-12-16"
+    ]
+   },
+   {
+    "id": "egfr",
+    "contains": "eGFR",
+    "must_cite": [
+     "XN-2024-10-30",
+     "XN-2026-10-31"
+    ]
+   }
+  ],
+  "forbidden": []
+ },
+ "module2": {
+  "transcript_id": "TS-p079",
+  "facts": [
+   {
+    "section": "S",
+    "turn": 2,
+    "keywords": [
+     "khó thở"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 4,
+    "keywords": [
+     "phù"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 6,
+    "keywords": [
+     "ibuprofen"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 7,
+    "keywords": [
+     "Ran"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 8,
+    "keywords": [
+     "95"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 8,
+    "keywords": [
+     "112/68"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 9,
+    "keywords": [
+     "x-quang"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 10,
+    "keywords": [
+     "72"
+    ]
+   },
+   {
+    "section": "A",
+    "turn": 11,
+    "keywords": [
+     "suy tim"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 12,
+    "keywords": [
+     "Furosemid"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 13,
+    "keywords": [
+     "điện giải"
+    ]
+   }
+  ],
+  "missing": [
+   "di_ung",
+   "tien_su_gia_dinh",
+   "thuoc_la_ruou"
+  ],
+  "flags": [
+   {
+    "kind": "asr_normalized",
+    "value": "95"
+   },
+   {
+    "kind": "interaction",
+    "pair": [
+     "losartan",
+     "ibuprofen"
+    ]
+   },
+   {
+    "kind": "interaction",
+    "pair": [
+     "furosemide",
+     "ibuprofen"
+    ]
+   },
+   {
+    "kind": "allergy_reminder",
+    "substance": "Aspirin"
+   },
+   {
+    "kind": "allergy_cross",
+    "drug": "ibuprofen"
+   },
+   {
+    "kind": "renal_dose",
+    "drug": "ibuprofen"
+   }
+  ],
+  "forbidden_numbers": [],
+  "forbidden_text": [
+   "xuất huyết tiêu hóa",
+   "sốc nhiễm khuẩn"
+  ],
+  "forbidden_patterns": []
+ }
+}

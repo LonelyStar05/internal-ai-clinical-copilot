@@ -1,0 +1,154 @@
+{
+ "patient_id": "p020",
+ "source": "sinh tự động",
+ "traps": {},
+ "module1": {
+  "flags": {},
+  "facts": [
+   {
+    "id": "dx-E11",
+    "contains": "Đái tháo đường type 2",
+    "must_cite": [
+     "KB-2025-03-24"
+    ]
+   },
+   {
+    "id": "dx-E78",
+    "contains": "Rối loạn lipid máu",
+    "must_cite": [
+     "KB-2025-07-22"
+    ]
+   },
+   {
+    "id": "dx-I48",
+    "contains": "Rung nhĩ",
+    "must_cite": [
+     "KB-2025-10-17"
+    ]
+   },
+   {
+    "id": "egfr",
+    "contains": "eGFR",
+    "must_cite": [
+     "XN-2025-04-08",
+     "XN-2026-10-19"
+    ]
+   }
+  ],
+  "forbidden": []
+ },
+ "module2": {
+  "transcript_id": "TS-p020",
+  "facts": [
+   {
+    "section": "S",
+    "turn": 2,
+    "keywords": [
+     "sốt",
+     "tiểu buốt"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 4,
+    "keywords": [
+     "đau"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 6,
+    "keywords": [
+     "ibuprofen"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 8,
+    "keywords": [
+     "aspirin"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 9,
+    "keywords": [
+     "Ấn"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 10,
+    "keywords": [
+     "93"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 10,
+    "keywords": [
+     "137/88"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 11,
+    "keywords": [
+     "x-quang"
+    ]
+   },
+   {
+    "section": "A",
+    "turn": 12,
+    "keywords": [
+     "nhiễm khuẩn tiết niệu"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 13,
+    "keywords": [
+     "Ceftriaxone"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 14,
+    "keywords": [
+     "điện giải"
+    ]
+   }
+  ],
+  "missing": [
+   "tien_su_gia_dinh",
+   "thuoc_la_ruou"
+  ],
+  "flags": [
+   {
+    "kind": "asr_normalized",
+    "value": "93"
+   },
+   {
+    "kind": "interaction",
+    "pair": [
+     "warfarin",
+     "ibuprofen"
+    ]
+   },
+   {
+    "kind": "allergy_cross",
+    "drug": "ibuprofen"
+   },
+   {
+    "kind": "renal_dose",
+    "drug": "ibuprofen"
+   }
+  ],
+  "forbidden_numbers": [],
+  "forbidden_text": [
+   "xuất huyết tiêu hóa",
+   "sốc nhiễm khuẩn"
+  ],
+  "forbidden_patterns": []
+ }
+}

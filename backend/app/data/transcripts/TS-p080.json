@@ -1,0 +1,68 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động",
+ "id": "TS-p080",
+ "patient_id": "p080",
+ "date": "2026-10-30T21:30",
+ "turns": [
+  {
+   "n": 1,
+   "speaker": "BS",
+   "text": "Chào bác, hôm nay bác thấy trong người thế nào?"
+  },
+  {
+   "n": 2,
+   "speaker": "BN",
+   "text": "Tôi sốt năm hôm nay rồi, ho nhiều, đờm màu vàng."
+  },
+  {
+   "n": 3,
+   "speaker": "BS",
+   "text": "Khó thở từ bao giờ ạ?"
+  },
+  {
+   "n": 4,
+   "speaker": "BN",
+   "text": "Từ hôm qua, đi lại trong nhà cũng thấy mệt, thở dốc."
+  },
+  {
+   "n": 5,
+   "speaker": "BS",
+   "text": "Ở nhà bác đã uống thuốc gì chưa?"
+  },
+  {
+   "n": 6,
+   "speaker": "BN",
+   "text": "Tôi có uống ibuprofen để hạ sốt, ngày hai ba viên. Thuốc của bệnh viện thì vẫn uống đều."
+  },
+  {
+   "n": 7,
+   "speaker": "BS",
+   "text": "Được rồi, để tôi khám. Phổi phải có ran nổ vùng đáy, phổi còn lại thông khí được. Tim nhịp đều, tần số khoảng bảy mươi sáu. Bụng mềm."
+  },
+  {
+   "n": 8,
+   "speaker": "BS",
+   "text": "SpO2 đang chín mươi bảy. Huyết áp một trăm ba mươi mốt trên năm mươi chín."
+  },
+  {
+   "n": 9,
+   "speaker": "BS",
+   "text": "X-quang đám mờ thùy dưới phổi phải, bạch cầu mười một phẩy bảy."
+  },
+  {
+   "n": 10,
+   "speaker": "BS",
+   "text": "Nghe phù hợp viêm phổi cộng đồng phổi phải."
+  },
+  {
+   "n": 11,
+   "speaker": "BS",
+   "text": "Cho Augmentin truyền tĩnh mạch, phối hợp Clarithromycin 500 mg ngày hai lần."
+  },
+  {
+   "n": 12,
+   "speaker": "BS",
+   "text": "Làm thêm điện giải đồ, khí máu, theo dõi sát sinh hiệu."
+  }
+ ]
+}

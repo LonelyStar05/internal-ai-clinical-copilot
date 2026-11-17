@@ -1,0 +1,227 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p016",
+  "name": "Phạm Đức Hải",
+  "birth_year": 1945,
+  "gender": "Nam",
+  "occupation": "Hưu trí",
+  "address": "Thanh Xuân, Hà Nội",
+  "insurance": "BHYT (mức hưởng 95%)",
+  "contact": "Phạm Thị Lan (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 3 - Giường 20",
+  "attending": "bs.binh",
+  "admission": {
+   "id": "BA-2026-11-09",
+   "admitted_at": "2026-11-09T10:00",
+   "ward_at": "2026-11-09T21:00",
+   "reason": "Sốt, ho đờm, khó thở. Vào ngày thứ 5 của bệnh.",
+   "kkb_diagnosis": "Viêm phổi",
+   "vitals": {
+    "pulse": 114,
+    "pulse_note": "đều",
+    "temp": 38.5,
+    "bp": "99/71",
+    "resp_rate": 26,
+    "spo2": 91,
+    "weight": null
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "APT-2024-02-12",
+   "type": "Appointment",
+   "date": "2024-02-12",
+   "encounter": "KB-2024-02-12",
+   "source": "Vinmec",
+   "description": "Siêu âm tim",
+   "due": "2024-05-12"
+  },
+  {
+   "id": "KB-2024-02-12",
+   "type": "Encounter",
+   "date": "2024-02-12",
+   "source": "Vinmec - Khám nội tiết",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "E11",
+     "display": "Đái tháo đường type 2"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán đái tháo đường type 2. Kê Metformin 850 mg 850 mg x 2 lần/ngày, Diamicron MR 30 mg 30 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-02-12-1",
+   "type": "MedicationRequest",
+   "date": "2024-02-12",
+   "encounter": "KB-2024-02-12",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Metformin 850 mg",
+   "dose": "850 mg x 2 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2024-02-12-2",
+   "type": "MedicationRequest",
+   "date": "2024-02-12",
+   "encounter": "KB-2024-02-12",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Diamicron MR 30 mg",
+   "dose": "30 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2024-02-24",
+   "type": "LabPanel",
+   "date": "2024-02-24",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 82,
+    "egfr": 85,
+    "hba1c": 8.8,
+    "potassium": 4.7
+   }
+  },
+  {
+   "id": "KB-2024-04-24",
+   "type": "Encounter",
+   "date": "2024-04-24",
+   "source": "Vinmec - Khám nội tiết",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [
+    {
+     "code": "E11",
+     "display": "Đái tháo đường type 2"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán đái tháo đường type 2. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "CDHA-2024-05-28",
+   "type": "ImagingStudy",
+   "date": "2024-05-28",
+   "source": "Vinmec",
+   "modality": "Siêu âm tim",
+   "text": "Kết quả trong giới hạn bình thường."
+  },
+  {
+   "id": "KB-2024-06-22",
+   "type": "Encounter",
+   "date": "2024-06-22",
+   "source": "Vinmec - Khám nội tiết",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [
+    {
+     "code": "E11",
+     "display": "Đái tháo đường type 2"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán đái tháo đường type 2. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2024-08-24",
+   "type": "Encounter",
+   "date": "2024-08-24",
+   "source": "Vinmec - Khám nội tiết",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "E11",
+     "display": "Đái tháo đường type 2"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán đái tháo đường type 2. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "XN-2025-01-12",
+   "type": "LabPanel",
+   "date": "2025-01-12",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 88,
+    "egfr": 80,
+    "hba1c": 7.1,
+    "potassium": 4.1
+   }
+  },
+  {
+   "id": "KB-2025-08-04",
+   "type": "Encounter",
+   "date": "2025-08-04",
+   "source": "Vinmec - Khám nội tiết",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [
+    {
+     "code": "E11",
+     "display": "Đái tháo đường type 2"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán đái tháo đường type 2. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2025-08-17",
+   "type": "Encounter",
+   "date": "2025-08-17",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [],
+   "allergies_recorded": null,
+   "text": "Tái khám. Kê Glucophage 850 mg 850 mg x 2 lần/ngày."
+  },
+  {
+   "id": "RX-2025-08-17-9",
+   "type": "MedicationRequest",
+   "date": "2025-08-17",
+   "encounter": "KB-2025-08-17",
+   "source": "Vinmec",
+   "practitioner": "BS. Vũ Hạnh",
+   "drug_name": "Glucophage 850 mg",
+   "dose": "850 mg x 2 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2025-12-24",
+   "type": "LabPanel",
+   "date": "2025-12-24",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 92,
+    "egfr": 76,
+    "hba1c": 8.0,
+    "potassium": 4.2
+   }
+  },
+  {
+   "id": "CDHA-2026-11-09",
+   "type": "ImagingStudy",
+   "date": "2026-11-09",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Đám mờ thùy dưới phổi trái."
+  },
+  {
+   "id": "XN-2026-11-09",
+   "type": "LabPanel",
+   "date": "2026-11-09",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 99,
+    "egfr": 71,
+    "potassium": 4.1,
+    "crp": 68,
+    "wbc": 13.2,
+    "glucose": 14.2
+   }
+  }
+ ]
+}

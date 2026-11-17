@@ -1,0 +1,171 @@
+{
+ "patient_id": "p057",
+ "source": "sinh tự động",
+ "traps": {
+  "renal_metformin": true,
+  "ddi_active": true
+ },
+ "module1": {
+  "flags": {
+   "ddi": {
+    "kind": "interaction",
+    "must_cite": [
+     "RX-2024-02-10-2",
+     "RX-2026-03-10-8"
+    ]
+   },
+   "renal": {
+    "kind": "renal_dose",
+    "must_cite": [
+     "RX-2025-01-20-1",
+     "XN-2026-10-07"
+    ]
+   }
+  },
+  "facts": [
+   {
+    "id": "dx-I50",
+    "contains": "Suy tim",
+    "must_cite": [
+     "KB-2023-11-20"
+    ]
+   },
+   {
+    "id": "dx-I10",
+    "contains": "Tăng huyết áp",
+    "must_cite": [
+     "KB-2024-02-10"
+    ]
+   },
+   {
+    "id": "dx-E11",
+    "contains": "Đái tháo đường type 2",
+    "must_cite": [
+     "KB-2025-01-20"
+    ]
+   },
+   {
+    "id": "egfr",
+    "contains": "eGFR",
+    "must_cite": [
+     "XN-2023-12-05",
+     "XN-2026-10-07"
+    ]
+   }
+  ],
+  "forbidden": []
+ },
+ "module2": {
+  "transcript_id": "TS-p057",
+  "facts": [
+   {
+    "section": "S",
+    "turn": 2,
+    "keywords": [
+     "khó thở"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 4,
+    "keywords": [
+     "phù"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 6,
+    "keywords": [
+     "thuốc"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 8,
+    "keywords": [
+     "aspirin"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 10,
+    "keywords": [
+     "30 năm"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 11,
+    "keywords": [
+     "Ran"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 12,
+    "keywords": [
+     "88"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 12,
+    "keywords": [
+     "125/75"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 12,
+    "keywords": [
+     "oxy"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 13,
+    "keywords": [
+     "x-quang"
+    ]
+   },
+   {
+    "section": "A",
+    "turn": 14,
+    "keywords": [
+     "suy tim"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 15,
+    "keywords": [
+     "Furosemid"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 16,
+    "keywords": [
+     "điện giải"
+    ]
+   }
+  ],
+  "missing": [
+   "tien_su_gia_dinh",
+   "can_nang"
+  ],
+  "flags": [
+   {
+    "kind": "vital_abnormal"
+   }
+  ],
+  "forbidden_numbers": [],
+  "forbidden_text": [
+   "xuất huyết tiêu hóa",
+   "sốc nhiễm khuẩn"
+  ],
+  "forbidden_patterns": [
+   "cân nặng:\\s*\\d"
+  ]
+ }
+}

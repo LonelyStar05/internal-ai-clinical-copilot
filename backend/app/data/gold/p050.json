@@ -1,0 +1,200 @@
+{
+ "patient_id": "p050",
+ "source": "sinh tự động",
+ "traps": {
+  "duplicate": true,
+  "renal_metformin": true,
+  "ddi_active": true
+ },
+ "module1": {
+  "flags": {
+   "dup": {
+    "kind": "duplicate_ingredient",
+    "must_cite": [
+     "RX-2026-03-08-2",
+     "RX-2026-04-02-9"
+    ]
+   },
+   "ddi": {
+    "kind": "interaction",
+    "must_cite": [
+     "RX-2025-04-08-1",
+     "RX-2026-04-26-8"
+    ]
+   },
+   "renal": {
+    "kind": "renal_dose",
+    "must_cite": [
+     "RX-2025-11-08-1",
+     "XN-2026-11-02"
+    ]
+   }
+  },
+  "facts": [
+   {
+    "id": "dx-I50",
+    "contains": "Suy tim",
+    "must_cite": [
+     "KB-2024-09-24"
+    ]
+   },
+   {
+    "id": "dx-I25",
+    "contains": "Bệnh tim thiếu máu cục bộ mạn",
+    "must_cite": [
+     "KB-2025-04-08"
+    ]
+   },
+   {
+    "id": "dx-E78",
+    "contains": "Rối loạn lipid máu",
+    "must_cite": [
+     "KB-2025-08-26"
+    ]
+   },
+   {
+    "id": "dx-E11",
+    "contains": "Đái tháo đường type 2",
+    "must_cite": [
+     "KB-2025-11-08"
+    ]
+   },
+   {
+    "id": "dx-I10",
+    "contains": "Tăng huyết áp",
+    "must_cite": [
+     "KB-2026-03-08"
+    ]
+   },
+   {
+    "id": "egfr",
+    "contains": "eGFR",
+    "must_cite": [
+     "XN-2024-09-28",
+     "XN-2026-11-02"
+    ]
+   }
+  ],
+  "forbidden": []
+ },
+ "module2": {
+  "transcript_id": "TS-p050",
+  "facts": [
+   {
+    "section": "S",
+    "turn": 2,
+    "keywords": [
+     "khó thở"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 4,
+    "keywords": [
+     "phù"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 6,
+    "keywords": [
+     "thuốc"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 8,
+    "keywords": [
+     "dị ứng"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 10,
+    "keywords": [
+     "tiểu đường"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 11,
+    "keywords": [
+     "Ran"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 12,
+    "keywords": [
+     "86"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 12,
+    "keywords": [
+     "108/66"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 12,
+    "keywords": [
+     "oxy"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 13,
+    "keywords": [
+     "x-quang"
+    ]
+   },
+   {
+    "section": "A",
+    "turn": 14,
+    "keywords": [
+     "suy tim"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 15,
+    "keywords": [
+     "Furosemid"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 16,
+    "keywords": [
+     "điện giải"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 18,
+    "keywords": [
+     "thuốc cũ"
+    ]
+   }
+  ],
+  "missing": [
+   "thuoc_la_ruou",
+   "can_nang"
+  ],
+  "flags": [
+   {
+    "kind": "vital_abnormal"
+   }
+  ],
+  "forbidden_numbers": [],
+  "forbidden_text": [
+   "xuất huyết tiêu hóa",
+   "sốc nhiễm khuẩn"
+  ],
+  "forbidden_patterns": [
+   "cân nặng:\\s*\\d"
+  ]
+ }
+}

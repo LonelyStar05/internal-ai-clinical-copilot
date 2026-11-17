@@ -1,0 +1,298 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p081",
+  "name": "Ngô Đức Hùng",
+  "birth_year": 1972,
+  "gender": "Nam",
+  "occupation": "Hưu trí",
+  "address": "Hai Bà Trưng, Hà Nội",
+  "insurance": "BHYT (mức hưởng 95%)",
+  "contact": "Ngô Thu Hoa (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 3 - Giường 26",
+  "attending": "bs.an",
+  "admission": {
+   "id": "BA-2026-10-21",
+   "admitted_at": "2026-10-21T07:30",
+   "ward_at": "2026-10-21T21:00",
+   "reason": "Khó thở khi nằm, phù hai chân. Vào ngày thứ 4 của bệnh.",
+   "kkb_diagnosis": "Suy tim",
+   "vitals": {
+    "pulse": 82,
+    "pulse_note": "không đều",
+    "temp": 37.4,
+    "bp": "138/73",
+    "resp_rate": 19,
+    "spo2": 96,
+    "weight": 60
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "APT-2024-04-17",
+   "type": "Appointment",
+   "date": "2024-04-17",
+   "encounter": "KB-2024-04-17",
+   "source": "Vinmec",
+   "description": "Nội soi dạ dày",
+   "due": "2024-07-16"
+  },
+  {
+   "id": "KB-2024-04-17",
+   "type": "Encounter",
+   "date": "2024-04-17",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [
+    {
+     "code": "I50",
+     "display": "Suy tim"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán suy tim. Kê Furosemid 40 mg 40 mg x 1 lần/ngày, Bisoprolol 2,5 mg 2,5 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-04-17-1",
+   "type": "MedicationRequest",
+   "date": "2024-04-17",
+   "encounter": "KB-2024-04-17",
+   "source": "Vinmec",
+   "practitioner": "BS. Vũ Hạnh",
+   "drug_name": "Furosemid 40 mg",
+   "dose": "40 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2024-04-17-2",
+   "type": "MedicationRequest",
+   "date": "2024-04-17",
+   "encounter": "KB-2024-04-17",
+   "source": "Vinmec",
+   "practitioner": "BS. Vũ Hạnh",
+   "drug_name": "Bisoprolol 2,5 mg",
+   "dose": "2,5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2024-04-24",
+   "type": "LabPanel",
+   "date": "2024-04-24",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 82,
+    "egfr": 85,
+    "hba1c": 7.8,
+    "potassium": 3.8
+   }
+  },
+  {
+   "id": "KB-2024-07-05",
+   "type": "Encounter",
+   "date": "2024-07-05",
+   "source": "Vinmec - Khám nội tiết",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "E11",
+     "display": "Đái tháo đường type 2"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán đái tháo đường type 2. Kê Metformin 850 mg 850 mg x 2 lần/ngày, Diamicron MR 30 mg 30 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-07-05-1",
+   "type": "MedicationRequest",
+   "date": "2024-07-05",
+   "encounter": "KB-2024-07-05",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Metformin 850 mg",
+   "dose": "850 mg x 2 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2024-07-05-2",
+   "type": "MedicationRequest",
+   "date": "2024-07-05",
+   "encounter": "KB-2024-07-05",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Diamicron MR 30 mg",
+   "dose": "30 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "CDHA-2024-07-10",
+   "type": "ImagingStudy",
+   "date": "2024-07-10",
+   "source": "Vinmec",
+   "modality": "Nội soi dạ dày",
+   "text": "Kết quả trong giới hạn bình thường."
+  },
+  {
+   "id": "NGOAI-2024-07-25",
+   "type": "DocumentReference",
+   "date": "2024-07-25",
+   "source": "Đơn thuốc phòng khám tư (ảnh chụp)",
+   "text": "Ra viện ổn định. Dị ứng: Aspirin (nổi mẩn).",
+   "allergies_recorded": [
+    {
+     "substance": "Aspirin",
+     "reaction": "nổi mẩn"
+    }
+   ]
+  },
+  {
+   "id": "XN-2024-10-27",
+   "type": "LabPanel",
+   "date": "2024-10-27",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 84,
+    "egfr": 83,
+    "hba1c": 8.1,
+    "potassium": 4.5
+   }
+  },
+  {
+   "id": "KB-2024-12-30",
+   "type": "Encounter",
+   "date": "2024-12-30",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Đỗ Quang",
+   "diagnoses": [
+    {
+     "code": "I48",
+     "display": "Rung nhĩ"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rung nhĩ. Kê Apixaban 5 mg 5 mg x 2 lần/ngày."
+  },
+  {
+   "id": "RX-2024-12-30-1",
+   "type": "MedicationRequest",
+   "date": "2024-12-30",
+   "encounter": "KB-2024-12-30",
+   "source": "Vinmec",
+   "practitioner": "BS. Đỗ Quang",
+   "drug_name": "Apixaban 5 mg",
+   "dose": "5 mg x 2 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2025-04-29",
+   "type": "LabPanel",
+   "date": "2025-04-29",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 86,
+    "egfr": 81,
+    "hba1c": 7.0,
+    "potassium": 4.3
+   }
+  },
+  {
+   "id": "KB-2025-05-14",
+   "type": "Encounter",
+   "date": "2025-05-14",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Kê Amlodipin 5 mg 5 mg x 1 lần/ngày, Losartan 50 mg 50 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-05-14-1",
+   "type": "MedicationRequest",
+   "date": "2025-05-14",
+   "encounter": "KB-2025-05-14",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Amlodipin 5 mg",
+   "dose": "5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2025-05-14-2",
+   "type": "MedicationRequest",
+   "date": "2025-05-14",
+   "encounter": "KB-2025-05-14",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Losartan 50 mg",
+   "dose": "50 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2025-06-02",
+   "type": "Encounter",
+   "date": "2025-06-02",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [],
+   "allergies_recorded": [
+    {
+     "substance": "Aspirin",
+     "reaction": "nổi mẩn"
+    }
+   ],
+   "text": "Tái khám định kỳ. Dị ứng: Aspirin."
+  },
+  {
+   "id": "XN-2025-11-04",
+   "type": "LabPanel",
+   "date": "2025-11-04",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 89,
+    "egfr": 79,
+    "hba1c": 8.0,
+    "potassium": 4.5
+   }
+  },
+  {
+   "id": "XN-2026-05-03",
+   "type": "LabPanel",
+   "date": "2026-05-03",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 91,
+    "egfr": 77,
+    "hba1c": 7.2,
+    "potassium": 4.4
+   }
+  },
+  {
+   "id": "CDHA-2026-10-21",
+   "type": "ImagingStudy",
+   "date": "2026-10-21",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Bóng tim to, xung huyết hai phổi."
+  },
+  {
+   "id": "XN-2026-10-21",
+   "type": "LabPanel",
+   "date": "2026-10-21",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 93,
+    "egfr": 75,
+    "potassium": 4.2,
+    "crp": 174,
+    "wbc": 6.6,
+    "glucose": 9.0
+   }
+  }
+ ]
+}

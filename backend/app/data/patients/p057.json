@@ -1,0 +1,321 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p057",
+  "name": "Trần Thanh Dung",
+  "birth_year": 1941,
+  "gender": "Nữ",
+  "occupation": "Hưu trí",
+  "address": "Thanh Xuân, Hà Nội",
+  "insurance": "BHYT (mức hưởng 80%)",
+  "contact": "Lý Thị Hạnh (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 3 - Giường 6",
+  "attending": "bs.binh",
+  "admission": {
+   "id": "BA-2026-10-07",
+   "admitted_at": "2026-10-07T14:30",
+   "ward_at": "2026-10-07T21:00",
+   "reason": "Khó thở khi nằm, phù hai chân. Vào ngày thứ 2 của bệnh.",
+   "kkb_diagnosis": "Suy tim",
+   "vitals": {
+    "pulse": 105,
+    "pulse_note": "đều",
+    "temp": 36.8,
+    "bp": "125/75",
+    "resp_rate": 25,
+    "spo2": 88,
+    "weight": null
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "KB-2023-11-20",
+   "type": "Encounter",
+   "date": "2023-11-20",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [
+    {
+     "code": "I50",
+     "display": "Suy tim"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán suy tim. Kê Furosemid 40 mg 40 mg x 1 lần/ngày, Bisoprolol 2,5 mg 2,5 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2023-11-20-1",
+   "type": "MedicationRequest",
+   "date": "2023-11-20",
+   "encounter": "KB-2023-11-20",
+   "source": "Vinmec",
+   "practitioner": "BS. Vũ Hạnh",
+   "drug_name": "Furosemid 40 mg",
+   "dose": "40 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2023-11-20-2",
+   "type": "MedicationRequest",
+   "date": "2023-11-20",
+   "encounter": "KB-2023-11-20",
+   "source": "Vinmec",
+   "practitioner": "BS. Vũ Hạnh",
+   "drug_name": "Bisoprolol 2,5 mg",
+   "dose": "2,5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2023-12-05",
+   "type": "LabPanel",
+   "date": "2023-12-05",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 108,
+    "egfr": 65,
+    "hba1c": 7.2,
+    "potassium": 4.9
+   }
+  },
+  {
+   "id": "NGOAI-2023-12-29",
+   "type": "DocumentReference",
+   "date": "2023-12-29",
+   "source": "Đơn thuốc phòng khám tư (ảnh chụp)",
+   "text": "Ra viện ổn định. Dị ứng: Aspirin (nổi mẩn).",
+   "allergies_recorded": [
+    {
+     "substance": "Aspirin",
+     "reaction": "nổi mẩn"
+    }
+   ]
+  },
+  {
+   "id": "KB-2024-02-10",
+   "type": "Encounter",
+   "date": "2024-02-10",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Kê Amlodipin 5 mg 5 mg x 1 lần/ngày, Losartan 50 mg 50 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-02-10-1",
+   "type": "MedicationRequest",
+   "date": "2024-02-10",
+   "encounter": "KB-2024-02-10",
+   "source": "Vinmec",
+   "practitioner": "BS. Nguyễn Thu",
+   "drug_name": "Amlodipin 5 mg",
+   "dose": "5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2024-02-10-2",
+   "type": "MedicationRequest",
+   "date": "2024-02-10",
+   "encounter": "KB-2024-02-10",
+   "source": "Vinmec",
+   "practitioner": "BS. Nguyễn Thu",
+   "drug_name": "Losartan 50 mg",
+   "dose": "50 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2024-06-26",
+   "type": "LabPanel",
+   "date": "2024-06-26",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 119,
+    "egfr": 59,
+    "hba1c": 7.5,
+    "potassium": 4.9
+   }
+  },
+  {
+   "id": "KB-2025-01-20",
+   "type": "Encounter",
+   "date": "2025-01-20",
+   "source": "Vinmec - Khám nội tiết",
+   "practitioner": "BS. Đỗ Quang",
+   "diagnoses": [
+    {
+     "code": "E11",
+     "display": "Đái tháo đường type 2"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán đái tháo đường type 2. Kê Metformin 850 mg 850 mg x 2 lần/ngày, Diamicron MR 30 mg 30 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-01-20-1",
+   "type": "MedicationRequest",
+   "date": "2025-01-20",
+   "encounter": "KB-2025-01-20",
+   "source": "Vinmec",
+   "practitioner": "BS. Đỗ Quang",
+   "drug_name": "Metformin 850 mg",
+   "dose": "850 mg x 2 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2025-01-20-2",
+   "type": "MedicationRequest",
+   "date": "2025-01-20",
+   "encounter": "KB-2025-01-20",
+   "source": "Vinmec",
+   "practitioner": "BS. Đỗ Quang",
+   "drug_name": "Diamicron MR 30 mg",
+   "dose": "30 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2025-02-01",
+   "type": "LabPanel",
+   "date": "2025-02-01",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 132,
+    "egfr": 53,
+    "hba1c": 7.4,
+    "potassium": 4.1
+   }
+  },
+  {
+   "id": "KB-2025-02-09",
+   "type": "Encounter",
+   "date": "2025-02-09",
+   "source": "Vinmec - Khám nội tiết",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "E11",
+     "display": "Đái tháo đường type 2"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán đái tháo đường type 2. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "XN-2025-08-28",
+   "type": "LabPanel",
+   "date": "2025-08-28",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 152,
+    "egfr": 46,
+    "hba1c": 8.7,
+    "potassium": 3.9
+   }
+  },
+  {
+   "id": "KB-2025-10-27",
+   "type": "Encounter",
+   "date": "2025-10-27",
+   "source": "Vinmec - Khám nội tiết",
+   "practitioner": "BS. Đỗ Quang",
+   "diagnoses": [
+    {
+     "code": "E11",
+     "display": "Đái tháo đường type 2"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán đái tháo đường type 2. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2026-01-26",
+   "type": "Encounter",
+   "date": "2026-01-26",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2026-03-05",
+   "type": "Encounter",
+   "date": "2026-03-05",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [],
+   "allergies_recorded": [
+    {
+     "substance": "Aspirin",
+     "reaction": "nổi mẩn"
+    }
+   ],
+   "text": "Tái khám định kỳ. Dị ứng: Aspirin."
+  },
+  {
+   "id": "KB-2026-03-10",
+   "type": "Encounter",
+   "date": "2026-03-10",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [],
+   "allergies_recorded": null,
+   "text": "Kê thêm Verospiron 25 mg 25 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2026-03-10-8",
+   "type": "MedicationRequest",
+   "date": "2026-03-10",
+   "encounter": "KB-2026-03-10",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Verospiron 25 mg",
+   "dose": "25 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2026-03-30",
+   "type": "LabPanel",
+   "date": "2026-03-30",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 175,
+    "egfr": 40,
+    "hba1c": 8.6,
+    "potassium": 4.5
+   }
+  },
+  {
+   "id": "CDHA-2026-10-07",
+   "type": "ImagingStudy",
+   "date": "2026-10-07",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Bóng tim to, xung huyết hai phổi."
+  },
+  {
+   "id": "XN-2026-10-07",
+   "type": "LabPanel",
+   "date": "2026-10-07",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 206,
+    "egfr": 34,
+    "potassium": 4.7,
+    "crp": 58,
+    "wbc": 14.6,
+    "glucose": 9.5
+   }
+  }
+ ]
+}

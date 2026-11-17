@@ -1,0 +1,266 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p009",
+  "name": "Dương Thị Loan",
+  "birth_year": 1958,
+  "gender": "Nữ",
+  "occupation": "Hưu trí",
+  "address": "Long Biên, Hà Nội",
+  "insurance": "BHYT (mức hưởng 100%)",
+  "contact": "Vũ Minh Hạnh (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 5 - Giường 10",
+  "attending": "bs.an",
+  "admission": {
+   "id": "BA-2026-10-17",
+   "admitted_at": "2026-10-17T13:30",
+   "ward_at": "2026-10-17T21:00",
+   "reason": "Khó thở khi nằm, phù hai chân. Vào ngày thứ 4 của bệnh.",
+   "kkb_diagnosis": "Suy tim",
+   "vitals": {
+    "pulse": 112,
+    "pulse_note": "đều",
+    "temp": 36.8,
+    "bp": "109/70",
+    "resp_rate": 28,
+    "spo2": 86,
+    "weight": null
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "APT-2024-09-06",
+   "type": "Appointment",
+   "date": "2024-09-06",
+   "encounter": "KB-2024-09-06",
+   "source": "Vinmec",
+   "description": "Nội soi dạ dày",
+   "due": "2024-12-05"
+  },
+  {
+   "id": "KB-2024-09-06",
+   "type": "Encounter",
+   "date": "2024-09-06",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "I50",
+     "display": "Suy tim"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán suy tim. Kê Furosemid 40 mg 40 mg x 1 lần/ngày, Bisoprolol 2,5 mg 2,5 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-09-06-1",
+   "type": "MedicationRequest",
+   "date": "2024-09-06",
+   "encounter": "KB-2024-09-06",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Furosemid 40 mg",
+   "dose": "40 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2024-09-06-2",
+   "type": "MedicationRequest",
+   "date": "2024-09-06",
+   "encounter": "KB-2024-09-06",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Bisoprolol 2,5 mg",
+   "dose": "2,5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2024-09-20",
+   "type": "LabPanel",
+   "date": "2024-09-20",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 83,
+    "egfr": 84,
+    "potassium": 4.1
+   }
+  },
+  {
+   "id": "KB-2024-10-05",
+   "type": "Encounter",
+   "date": "2024-10-05",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "I25",
+     "display": "Bệnh tim thiếu máu cục bộ mạn"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh tim thiếu máu cục bộ mạn. Kê Plavix 75 mg 75 mg x 1 lần/ngày, Atorvastatin 20 mg 20 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-10-05-1",
+   "type": "MedicationRequest",
+   "date": "2024-10-05",
+   "encounter": "KB-2024-10-05",
+   "source": "Vinmec",
+   "practitioner": "BS. Nguyễn Thu",
+   "drug_name": "Plavix 75 mg",
+   "dose": "75 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2024-10-05-2",
+   "type": "MedicationRequest",
+   "date": "2024-10-05",
+   "encounter": "KB-2024-10-05",
+   "source": "Vinmec",
+   "practitioner": "BS. Nguyễn Thu",
+   "drug_name": "Atorvastatin 20 mg",
+   "dose": "20 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "CDHA-2024-11-30",
+   "type": "ImagingStudy",
+   "date": "2024-11-30",
+   "source": "Vinmec",
+   "modality": "Nội soi dạ dày",
+   "text": "Kết quả trong giới hạn bình thường."
+  },
+  {
+   "id": "NGOAI-2025-02-23",
+   "type": "DocumentReference",
+   "date": "2025-02-23",
+   "source": "Đơn thuốc phòng khám tư (ảnh chụp)",
+   "text": "Ra viện ổn định. Dị ứng: Penicillin (khó thở, nổi mề đay).",
+   "allergies_recorded": [
+    {
+     "substance": "Penicillin",
+     "reaction": "khó thở, nổi mề đay"
+    }
+   ]
+  },
+  {
+   "id": "XN-2025-05-28",
+   "type": "LabPanel",
+   "date": "2025-05-28",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 90,
+    "egfr": 78,
+    "potassium": 3.9
+   }
+  },
+  {
+   "id": "XN-2026-02-03",
+   "type": "LabPanel",
+   "date": "2026-02-03",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 99,
+    "egfr": 71,
+    "potassium": 6.1
+   },
+   "note": "Không có ghi chú xử trí"
+  },
+  {
+   "id": "KB-2026-07-10",
+   "type": "Encounter",
+   "date": "2026-07-10",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Kê Amlodipin 5 mg 5 mg x 1 lần/ngày, Losartan 50 mg 50 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2026-07-10-1",
+   "type": "MedicationRequest",
+   "date": "2026-07-10",
+   "encounter": "KB-2026-07-10",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Amlodipin 5 mg",
+   "dose": "5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2026-07-10-2",
+   "type": "MedicationRequest",
+   "date": "2026-07-10",
+   "encounter": "KB-2026-07-10",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Losartan 50 mg",
+   "dose": "50 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2026-07-28",
+   "type": "Encounter",
+   "date": "2026-07-28",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [],
+   "allergies_recorded": [
+    {
+     "substance": "Penicillin",
+     "reaction": "khó thở, nổi mề đay"
+    }
+   ],
+   "text": "Tái khám định kỳ. Dị ứng: Penicillin."
+  },
+  {
+   "id": "KB-2026-08-18",
+   "type": "Encounter",
+   "date": "2026-08-18",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [],
+   "allergies_recorded": null,
+   "text": "Kê thêm Verospiron 25 mg 25 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2026-08-18-8",
+   "type": "MedicationRequest",
+   "date": "2026-08-18",
+   "encounter": "KB-2026-08-18",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Verospiron 25 mg",
+   "dose": "25 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "CDHA-2026-10-17",
+   "type": "ImagingStudy",
+   "date": "2026-10-17",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Bóng tim to, xung huyết hai phổi."
+  },
+  {
+   "id": "XN-2026-10-17",
+   "type": "LabPanel",
+   "date": "2026-10-17",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 108,
+    "egfr": 65,
+    "potassium": 4.7,
+    "crp": 102,
+    "wbc": 10.9
+   }
+  }
+ ]
+}

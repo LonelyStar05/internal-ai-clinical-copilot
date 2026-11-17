@@ -1,0 +1,173 @@
+{
+ "patient_id": "p063",
+ "source": "sinh tự động",
+ "traps": {
+  "unresolved_k": true
+ },
+ "module1": {
+  "flags": {
+   "k": {
+    "kind": "unresolved_abnormal",
+    "must_cite": [
+     "XN-2026-07-13"
+    ]
+   }
+  },
+  "facts": [
+   {
+    "id": "dx-M10",
+    "contains": "Gút",
+    "must_cite": [
+     "KB-2025-02-10"
+    ]
+   },
+   {
+    "id": "dx-I48",
+    "contains": "Rung nhĩ",
+    "must_cite": [
+     "KB-2025-08-09"
+    ]
+   },
+   {
+    "id": "dx-I10",
+    "contains": "Tăng huyết áp",
+    "must_cite": [
+     "KB-2025-11-30"
+    ]
+   },
+   {
+    "id": "egfr",
+    "contains": "eGFR",
+    "must_cite": [
+     "XN-2025-02-17",
+     "XN-2026-11-02"
+    ]
+   }
+  ],
+  "forbidden": []
+ },
+ "module2": {
+  "transcript_id": "TS-p063",
+  "facts": [
+   {
+    "section": "S",
+    "turn": 2,
+    "keywords": [
+     "sốt",
+     "tiểu buốt"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 4,
+    "keywords": [
+     "đau"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 6,
+    "keywords": [
+     "thuốc"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 8,
+    "keywords": [
+     "dị ứng"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 10,
+    "keywords": [
+     "30 năm"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 12,
+    "keywords": [
+     "tiểu đường"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 13,
+    "keywords": [
+     "Ấn"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 14,
+    "keywords": [
+     "93"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 14,
+    "keywords": [
+     "150/66"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 15,
+    "keywords": [
+     "x-quang"
+    ]
+   },
+   {
+    "section": "A",
+    "turn": 16,
+    "keywords": [
+     "nhiễm khuẩn tiết niệu"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 17,
+    "keywords": [
+     "Ceftriaxone"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 18,
+    "keywords": [
+     "điện giải"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 20,
+    "keywords": [
+     "thuốc cũ"
+    ]
+   }
+  ],
+  "missing": [],
+  "flags": [
+   {
+    "kind": "asr_normalized",
+    "value": "93"
+   },
+   {
+    "kind": "interaction",
+    "pair": [
+     "warfarin",
+     "levofloxacin"
+    ]
+   }
+  ],
+  "forbidden_numbers": [],
+  "forbidden_text": [
+   "xuất huyết tiêu hóa",
+   "sốc nhiễm khuẩn"
+  ],
+  "forbidden_patterns": []
+ }
+}

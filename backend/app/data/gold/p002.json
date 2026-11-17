@@ -1,0 +1,183 @@
+{
+ "patient_id": "p002",
+ "source": "sinh tự động",
+ "traps": {
+  "allergy_conflict": true
+ },
+ "module1": {
+  "flags": {
+   "allergy": {
+    "kind": "allergy_conflict",
+    "must_cite": [
+     "NGOAI-2025-02-15",
+     "KB-2026-07-07"
+    ]
+   }
+  },
+  "facts": [
+   {
+    "id": "dx-I50",
+    "contains": "Suy tim",
+    "must_cite": [
+     "KB-2024-11-01"
+    ]
+   },
+   {
+    "id": "dx-I10",
+    "contains": "Tăng huyết áp",
+    "must_cite": [
+     "KB-2025-04-24"
+    ]
+   },
+   {
+    "id": "dx-I48",
+    "contains": "Rung nhĩ",
+    "must_cite": [
+     "KB-2025-06-13"
+    ]
+   },
+   {
+    "id": "egfr",
+    "contains": "eGFR",
+    "must_cite": [
+     "XN-2024-11-13",
+     "XN-2026-10-06"
+    ]
+   }
+  ],
+  "forbidden": []
+ },
+ "module2": {
+  "transcript_id": "TS-p002",
+  "facts": [
+   {
+    "section": "S",
+    "turn": 2,
+    "keywords": [
+     "khó thở"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 4,
+    "keywords": [
+     "phù"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 6,
+    "keywords": [
+     "ibuprofen"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 8,
+    "keywords": [
+     "30 năm"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 9,
+    "keywords": [
+     "Ran"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 10,
+    "keywords": [
+     "88"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 10,
+    "keywords": [
+     "136/71"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 10,
+    "keywords": [
+     "oxy"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 11,
+    "keywords": [
+     "x-quang"
+    ]
+   },
+   {
+    "section": "A",
+    "turn": 12,
+    "keywords": [
+     "suy tim"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 13,
+    "keywords": [
+     "Furosemid"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 14,
+    "keywords": [
+     "điện giải"
+    ]
+   }
+  ],
+  "missing": [
+   "di_ung",
+   "tien_su_gia_dinh"
+  ],
+  "flags": [
+   {
+    "kind": "interaction",
+    "pair": [
+     "apixaban",
+     "ibuprofen"
+    ]
+   },
+   {
+    "kind": "interaction",
+    "pair": [
+     "losartan",
+     "ibuprofen"
+    ]
+   },
+   {
+    "kind": "interaction",
+    "pair": [
+     "furosemide",
+     "ibuprofen"
+    ]
+   },
+   {
+    "kind": "allergy_reminder",
+    "substance": "Penicillin"
+   },
+   {
+    "kind": "renal_dose",
+    "drug": "ibuprofen"
+   },
+   {
+    "kind": "vital_abnormal"
+   }
+  ],
+  "forbidden_numbers": [],
+  "forbidden_text": [
+   "xuất huyết tiêu hóa",
+   "sốc nhiễm khuẩn"
+  ],
+  "forbidden_patterns": []
+ }
+}

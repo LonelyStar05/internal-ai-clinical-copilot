@@ -1,0 +1,88 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động",
+ "id": "TS-p029",
+ "patient_id": "p029",
+ "date": "2026-10-10T21:30",
+ "turns": [
+  {
+   "n": 1,
+   "speaker": "BS",
+   "text": "Chào bác, hôm nay bác thấy trong người thế nào?"
+  },
+  {
+   "n": 2,
+   "speaker": "BN",
+   "text": "Tôi sốt rét run bốn hôm nay, đi tiểu buốt, tiểu rắt."
+  },
+  {
+   "n": 3,
+   "speaker": "BS",
+   "text": "Có đau lưng không bác?"
+  },
+  {
+   "n": 4,
+   "speaker": "BN",
+   "text": "Đau âm ỉ bên hông phải."
+  },
+  {
+   "n": 5,
+   "speaker": "BS",
+   "text": "Ở nhà bác đã uống thuốc gì chưa?"
+  },
+  {
+   "n": 6,
+   "speaker": "BN",
+   "text": "Chỉ uống thuốc của bệnh viện kê, vẫn uống đều hằng ngày."
+  },
+  {
+   "n": 7,
+   "speaker": "BS",
+   "text": "Bác có dị ứng thuốc gì không?"
+  },
+  {
+   "n": 8,
+   "speaker": "BN",
+   "text": "Tôi dị ứng hải sản, bị ngứa."
+  },
+  {
+   "n": 9,
+   "speaker": "BS",
+   "text": "Bác có hút thuốc lá hay uống rượu không?"
+  },
+  {
+   "n": 10,
+   "speaker": "BN",
+   "text": "Tôi hút thuốc lá ba mươi năm, bỏ được hai năm rồi."
+  },
+  {
+   "n": 11,
+   "speaker": "BS",
+   "text": "Được rồi, để tôi khám. Ấn đau điểm niệu quản phải, rung thận phải dương tính. Tim nhịp đều, tần số khoảng một trăm mười ba. Bụng mềm."
+  },
+  {
+   "n": 12,
+   "speaker": "BS",
+   "text": "SpO2 đang chin mươi ba. Huyết áp một trăm ba mươi mốt trên bảy mươi tám."
+  },
+  {
+   "n": 13,
+   "speaker": "BS",
+   "text": "X-quang không thấy tổn thương nhu mô phổi, bạch cầu mười bảy phẩy năm."
+  },
+  {
+   "n": 14,
+   "speaker": "BS",
+   "text": "Nghĩ nhiễm khuẩn tiết niệu."
+  },
+  {
+   "n": 15,
+   "speaker": "BS",
+   "text": "Cho Ceftriaxone truyền tĩnh mạch, phối hợp Levofloxacin 750 mg ngày một lần."
+  },
+  {
+   "n": 16,
+   "speaker": "BS",
+   "text": "Làm thêm điện giải đồ, khí máu, theo dõi sát sinh hiệu."
+  }
+ ]
+}

@@ -1,0 +1,123 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động",
+ "id": "TS-p059",
+ "patient_id": "p059",
+ "date": "2026-10-08T21:30",
+ "turns": [
+  {
+   "n": 1,
+   "speaker": "BS",
+   "text": "Chào bác, hôm nay bác thấy trong người thế nào?"
+  },
+  {
+   "n": 2,
+   "speaker": "BN",
+   "text": "Tôi nằm xuống là khó thở, phải kê cao gối mới ngủ được."
+  },
+  {
+   "n": 3,
+   "speaker": "BS",
+   "text": "Chân bác có phù không?"
+  },
+  {
+   "n": 4,
+   "speaker": "BN",
+   "text": "Có, phù hai chân năm hôm nay, ấn vào lõm."
+  },
+  {
+   "n": 5,
+   "speaker": "BS",
+   "text": "Ở nhà bác đã uống thuốc gì chưa?"
+  },
+  {
+   "n": 6,
+   "speaker": "BN",
+   "text": "Chỉ uống thuốc của bệnh viện kê, vẫn uống đều hằng ngày."
+  },
+  {
+   "n": 7,
+   "speaker": "NN",
+   "text": "Bác sĩ ơi, từ tối qua bố cháu hay lú lẫn, nói lảm nhảm, gọi không nhận ra người nhà."
+  },
+  {
+   "n": 8,
+   "speaker": "BS",
+   "text": "Đi ngoài thế nào bác?"
+  },
+  {
+   "n": 9,
+   "speaker": "BN",
+   "text": "Hôm qua tôi đi ngoài phân đen, nát, một lần."
+  },
+  {
+   "n": 10,
+   "speaker": "BS",
+   "text": "Bác có dị ứng thuốc gì không?"
+  },
+  {
+   "n": 11,
+   "speaker": "BN",
+   "text": "Không, tôi chưa dị ứng thuốc gì."
+  },
+  {
+   "n": 12,
+   "speaker": "BS",
+   "text": "Bác có hút thuốc lá hay uống rượu không?"
+  },
+  {
+   "n": 13,
+   "speaker": "BN",
+   "text": "Không hút thuốc, thỉnh thoảng uống chút rượu."
+  },
+  {
+   "n": 14,
+   "speaker": "BS",
+   "text": "Trong gia đình có ai bị bệnh tim mạch, tiểu đường không?"
+  },
+  {
+   "n": 15,
+   "speaker": "BN",
+   "text": "Mẹ tôi bị tiểu đường."
+  },
+  {
+   "n": 16,
+   "speaker": "BS",
+   "text": "Được rồi, để tôi khám. Ran ẩm hai đáy phổi, phù hai chi dưới, tĩnh mạch cổ nổi. Tim nhịp đều, tần số khoảng tám mươi hai. Bụng mềm."
+  },
+  {
+   "n": 17,
+   "speaker": "BS",
+   "text": "SpO2 đang chin mươi sáu. Huyết áp một trăm linh bảy trên bảy mươi."
+  },
+  {
+   "n": 18,
+   "speaker": "BS",
+   "text": "X-quang bóng tim to, xung huyết hai phổi, bạch cầu mười ba phẩy tám."
+  },
+  {
+   "n": 19,
+   "speaker": "BS",
+   "text": "Phù hợp suy tim mất bù."
+  },
+  {
+   "n": 20,
+   "speaker": "BS",
+   "text": "Cho Furosemid tiêm tĩnh mạch."
+  },
+  {
+   "n": 21,
+   "speaker": "BS",
+   "text": "Làm thêm điện giải đồ, khí máu, theo dõi sát sinh hiệu."
+  },
+  {
+   "n": 22,
+   "speaker": "NN",
+   "text": "Thuốc cũ của bố cháu vẫn uống tiếp ạ?"
+  },
+  {
+   "n": 23,
+   "speaker": "BS",
+   "text": "Tiếp tục thuốc cũ, chiều tôi xem lại đơn."
+  }
+ ]
+}

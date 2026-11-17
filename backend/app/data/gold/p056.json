@@ -1,0 +1,175 @@
+{
+ "patient_id": "p056",
+ "source": "sinh tự động",
+ "traps": {
+  "unresolved_k": true
+ },
+ "module1": {
+  "flags": {
+   "k": {
+    "kind": "unresolved_abnormal",
+    "must_cite": [
+     "XN-2024-11-20"
+    ]
+   }
+  },
+  "facts": [
+   {
+    "id": "dx-I25",
+    "contains": "Bệnh tim thiếu máu cục bộ mạn",
+    "must_cite": [
+     "KB-2024-05-06"
+    ]
+   },
+   {
+    "id": "dx-E11",
+    "contains": "Đái tháo đường type 2",
+    "must_cite": [
+     "KB-2025-09-12"
+    ]
+   },
+   {
+    "id": "dx-I48",
+    "contains": "Rung nhĩ",
+    "must_cite": [
+     "KB-2026-02-15"
+    ]
+   },
+   {
+    "id": "egfr",
+    "contains": "eGFR",
+    "must_cite": [
+     "XN-2024-05-12",
+     "XN-2026-10-13"
+    ]
+   }
+  ],
+  "forbidden": []
+ },
+ "module2": {
+  "transcript_id": "TS-p056",
+  "facts": [
+   {
+    "section": "S",
+    "turn": 2,
+    "keywords": [
+     "sốt",
+     "đờm"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 4,
+    "keywords": [
+     "khó thở"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 6,
+    "keywords": [
+     "thuốc"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 7,
+    "keywords": [
+     "lú lẫn"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 9,
+    "keywords": [
+     "30 năm"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 11,
+    "keywords": [
+     "huyết áp"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 12,
+    "keywords": [
+     "Phổi"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 13,
+    "keywords": [
+     "98"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 13,
+    "keywords": [
+     "110/68"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 14,
+    "keywords": [
+     "x-quang"
+    ]
+   },
+   {
+    "section": "A",
+    "turn": 15,
+    "keywords": [
+     "viêm phổi"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 16,
+    "keywords": [
+     "Augmentin"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 17,
+    "keywords": [
+     "điện giải"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 19,
+    "keywords": [
+     "thuốc cũ"
+    ]
+   }
+  ],
+  "missing": [
+   "di_ung",
+   "can_nang"
+  ],
+  "flags": [
+   {
+    "kind": "red_flag",
+    "id": "confusion"
+   },
+   {
+    "kind": "allergy_reminder",
+    "substance": "Aspirin"
+   }
+  ],
+  "forbidden_numbers": [],
+  "forbidden_text": [
+   "xuất huyết tiêu hóa",
+   "sốc nhiễm khuẩn"
+  ],
+  "forbidden_patterns": [
+   "cân nặng:\\s*\\d"
+  ]
+ }
+}

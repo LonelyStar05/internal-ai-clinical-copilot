@@ -1,0 +1,244 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p015",
+  "name": "Dương Thu Loan",
+  "birth_year": 1975,
+  "gender": "Nữ",
+  "occupation": "Hưu trí",
+  "address": "Thanh Xuân, Hà Nội",
+  "insurance": "BHYT (mức hưởng 80%)",
+  "contact": "Dương Minh Dung (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 4 - Giường 5",
+  "attending": "bs.an",
+  "admission": {
+   "id": "BA-2026-11-03",
+   "admitted_at": "2026-11-03T12:30",
+   "ward_at": "2026-11-03T21:00",
+   "reason": "Khó thở khi nằm, phù hai chân. Vào ngày thứ 2 của bệnh.",
+   "kkb_diagnosis": "Suy tim",
+   "vitals": {
+    "pulse": 96,
+    "pulse_note": "không đều",
+    "temp": 36.7,
+    "bp": "107/75",
+    "resp_rate": 21,
+    "spo2": 97,
+    "weight": null
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "APT-2025-02-08",
+   "type": "Appointment",
+   "date": "2025-02-08",
+   "encounter": "KB-2025-02-08",
+   "source": "Vinmec",
+   "description": "Nội soi dạ dày",
+   "due": "2025-05-09"
+  },
+  {
+   "id": "KB-2025-02-08",
+   "type": "Encounter",
+   "date": "2025-02-08",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "I50",
+     "display": "Suy tim"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán suy tim. Kê Furosemid 40 mg 40 mg x 1 lần/ngày, Bisoprolol 2,5 mg 2,5 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-02-08-1",
+   "type": "MedicationRequest",
+   "date": "2025-02-08",
+   "encounter": "KB-2025-02-08",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Furosemid 40 mg",
+   "dose": "40 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2025-02-08-2",
+   "type": "MedicationRequest",
+   "date": "2025-02-08",
+   "encounter": "KB-2025-02-08",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Bisoprolol 2,5 mg",
+   "dose": "2,5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2025-02-20",
+   "type": "LabPanel",
+   "date": "2025-02-20",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 82,
+    "egfr": 85,
+    "potassium": 3.9
+   }
+  },
+  {
+   "id": "NGOAI-2025-04-08",
+   "type": "DocumentReference",
+   "date": "2025-04-08",
+   "source": "Giấy ra viện BV đa khoa tỉnh (scan PDF)",
+   "text": "Ra viện ổn định. Dị ứng: Hải sản (ngứa).",
+   "allergies_recorded": [
+    {
+     "substance": "Hải sản",
+     "reaction": "ngứa"
+    }
+   ]
+  },
+  {
+   "id": "CDHA-2025-04-29",
+   "type": "ImagingStudy",
+   "date": "2025-04-29",
+   "source": "Vinmec",
+   "modality": "Nội soi dạ dày",
+   "text": "Kết quả trong giới hạn bình thường."
+  },
+  {
+   "id": "XN-2025-06-20",
+   "type": "LabPanel",
+   "date": "2025-06-20",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 92,
+    "egfr": 76,
+    "potassium": 3.9
+   }
+  },
+  {
+   "id": "XN-2025-10-25",
+   "type": "LabPanel",
+   "date": "2025-10-25",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 104,
+    "egfr": 67,
+    "potassium": 4.3
+   }
+  },
+  {
+   "id": "KB-2026-01-17",
+   "type": "Encounter",
+   "date": "2026-01-17",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "I48",
+     "display": "Rung nhĩ"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rung nhĩ. Kê Apixaban 5 mg 5 mg x 2 lần/ngày."
+  },
+  {
+   "id": "RX-2026-01-17-1",
+   "type": "MedicationRequest",
+   "date": "2026-01-17",
+   "encounter": "KB-2026-01-17",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Apixaban 5 mg",
+   "dose": "5 mg x 2 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2026-03-07",
+   "type": "LabPanel",
+   "date": "2026-03-07",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 119,
+    "egfr": 59,
+    "potassium": 4.3
+   }
+  },
+  {
+   "id": "KB-2026-06-03",
+   "type": "Encounter",
+   "date": "2026-06-03",
+   "source": "Vinmec - Khám cơ xương khớp",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [
+    {
+     "code": "M10",
+     "display": "Gút"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán gút. Kê Allopurinol 300 mg 300 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2026-06-03-1",
+   "type": "MedicationRequest",
+   "date": "2026-06-03",
+   "encounter": "KB-2026-06-03",
+   "source": "Vinmec",
+   "practitioner": "BS. Lê Hà",
+   "drug_name": "Allopurinol 300 mg",
+   "dose": "300 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2026-07-05",
+   "type": "Encounter",
+   "date": "2026-07-05",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [],
+   "allergies_recorded": [
+    {
+     "substance": "Hải sản",
+     "reaction": "ngứa"
+    }
+   ],
+   "text": "Tái khám định kỳ. Dị ứng: Hải sản."
+  },
+  {
+   "id": "XN-2026-07-15",
+   "type": "LabPanel",
+   "date": "2026-07-15",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 140,
+    "egfr": 50,
+    "potassium": 4.7
+   }
+  },
+  {
+   "id": "CDHA-2026-11-03",
+   "type": "ImagingStudy",
+   "date": "2026-11-03",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Bóng tim to, xung huyết hai phổi."
+  },
+  {
+   "id": "XN-2026-11-03",
+   "type": "LabPanel",
+   "date": "2026-11-03",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 171,
+    "egfr": 41,
+    "potassium": 4.6,
+    "crp": 152,
+    "wbc": 14.0
+   }
+  }
+ ]
+}

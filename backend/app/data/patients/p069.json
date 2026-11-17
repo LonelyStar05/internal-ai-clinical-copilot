@@ -1,0 +1,291 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p069",
+  "name": "Đỗ Hữu Dũng",
+  "birth_year": 1975,
+  "gender": "Nam",
+  "occupation": "Hưu trí",
+  "address": "Hai Bà Trưng, Hà Nội",
+  "insurance": "BHYT (mức hưởng 95%)",
+  "contact": "Lý Ngọc Hoa (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 4 - Giường 5",
+  "attending": "bs.binh",
+  "admission": {
+   "id": "BA-2026-11-07",
+   "admitted_at": "2026-11-07T12:15",
+   "ward_at": "2026-11-07T21:00",
+   "reason": "Khó thở tăng, ho khạc đờm nhiều. Vào ngày thứ 4 của bệnh.",
+   "kkb_diagnosis": "Bệnh phổi tắc nghẽn",
+   "vitals": {
+    "pulse": 98,
+    "pulse_note": "đều",
+    "temp": 36.8,
+    "bp": "102/78",
+    "resp_rate": 27,
+    "spo2": 91,
+    "weight": null
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "APT-2024-05-08",
+   "type": "Appointment",
+   "date": "2024-05-08",
+   "encounter": "KB-2024-05-08",
+   "source": "Vinmec",
+   "description": "Siêu âm tim",
+   "due": "2024-08-06"
+  },
+  {
+   "id": "KB-2024-05-08",
+   "type": "Encounter",
+   "date": "2024-05-08",
+   "source": "Vinmec - Khám hô hấp",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [
+    {
+     "code": "J44",
+     "display": "Bệnh phổi tắc nghẽn mạn tính"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh phổi tắc nghẽn mạn tính. Kê Ventolin xịt 100 mcg 2 nhát khi khó thở."
+  },
+  {
+   "id": "RX-2024-05-08-1",
+   "type": "MedicationRequest",
+   "date": "2024-05-08",
+   "encounter": "KB-2024-05-08",
+   "source": "Vinmec",
+   "practitioner": "BS. Vũ Hạnh",
+   "drug_name": "Ventolin xịt 100 mcg",
+   "dose": "2 nhát khi khó thở",
+   "status": "active"
+  },
+  {
+   "id": "XN-2024-05-25",
+   "type": "LabPanel",
+   "date": "2024-05-25",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 108,
+    "egfr": 65,
+    "potassium": 4.6
+   }
+  },
+  {
+   "id": "NGOAI-2024-08-06",
+   "type": "DocumentReference",
+   "date": "2024-08-06",
+   "source": "Giấy ra viện BV đa khoa tỉnh (scan PDF)",
+   "text": "Ra viện ổn định. Dị ứng: Penicillin (khó thở, nổi mề đay).",
+   "allergies_recorded": [
+    {
+     "substance": "Penicillin",
+     "reaction": "khó thở, nổi mề đay"
+    }
+   ]
+  },
+  {
+   "id": "XN-2025-01-07",
+   "type": "LabPanel",
+   "date": "2025-01-07",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 115,
+    "egfr": 61,
+    "potassium": 4.6
+   }
+  },
+  {
+   "id": "KB-2025-04-28",
+   "type": "Encounter",
+   "date": "2025-04-28",
+   "source": "Vinmec - Khám cơ xương khớp",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "M10",
+     "display": "Gút"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán gút. Kê Allopurinol 300 mg 300 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-04-28-1",
+   "type": "MedicationRequest",
+   "date": "2025-04-28",
+   "encounter": "KB-2025-04-28",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Allopurinol 300 mg",
+   "dose": "300 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2025-08-12",
+   "type": "LabPanel",
+   "date": "2025-08-12",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 121,
+    "egfr": 58,
+    "potassium": 4.6
+   }
+  },
+  {
+   "id": "KB-2025-11-19",
+   "type": "Encounter",
+   "date": "2025-11-19",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Kê Amlodipin 5 mg 5 mg x 1 lần/ngày, Losartan 50 mg 50 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-11-19-1",
+   "type": "MedicationRequest",
+   "date": "2025-11-19",
+   "encounter": "KB-2025-11-19",
+   "source": "Vinmec",
+   "practitioner": "BS. Nguyễn Thu",
+   "drug_name": "Amlodipin 5 mg",
+   "dose": "5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2025-11-19-2",
+   "type": "MedicationRequest",
+   "date": "2025-11-19",
+   "encounter": "KB-2025-11-19",
+   "source": "Vinmec",
+   "practitioner": "BS. Nguyễn Thu",
+   "drug_name": "Losartan 50 mg",
+   "dose": "50 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2026-01-02",
+   "type": "Encounter",
+   "date": "2026-01-02",
+   "source": "Vinmec - Khám hô hấp",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "J44",
+     "display": "Bệnh phổi tắc nghẽn mạn tính"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh phổi tắc nghẽn mạn tính. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "XN-2026-03-30",
+   "type": "LabPanel",
+   "date": "2026-03-30",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 130,
+    "egfr": 54,
+    "potassium": 3.9
+   }
+  },
+  {
+   "id": "KB-2026-08-05",
+   "type": "Encounter",
+   "date": "2026-08-05",
+   "source": "Vinmec - Khám hô hấp",
+   "practitioner": "BS. Đỗ Quang",
+   "diagnoses": [
+    {
+     "code": "J44",
+     "display": "Bệnh phổi tắc nghẽn mạn tính"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh phổi tắc nghẽn mạn tính. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2026-08-13",
+   "type": "Encounter",
+   "date": "2026-08-13",
+   "source": "Vinmec - Khám cơ xương khớp",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "M10",
+     "display": "Gút"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán gút. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2026-09-11",
+   "type": "Encounter",
+   "date": "2026-09-11",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [],
+   "allergies_recorded": [
+    {
+     "substance": "Penicillin",
+     "reaction": "khó thở, nổi mề đay"
+    }
+   ],
+   "text": "Tái khám định kỳ. Dị ứng: Penicillin."
+  },
+  {
+   "id": "KB-2026-10-09",
+   "type": "Encounter",
+   "date": "2026-10-09",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [],
+   "allergies_recorded": null,
+   "text": "Kê thêm Verospiron 25 mg 25 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2026-10-09-8",
+   "type": "MedicationRequest",
+   "date": "2026-10-09",
+   "encounter": "KB-2026-10-09",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Verospiron 25 mg",
+   "dose": "25 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "CDHA-2026-11-07",
+   "type": "ImagingStudy",
+   "date": "2026-11-07",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Phổi tăng sáng, không thấy đám mờ khu trú."
+  },
+  {
+   "id": "XN-2026-11-07",
+   "type": "LabPanel",
+   "date": "2026-11-07",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 140,
+    "egfr": 50,
+    "potassium": 4.9,
+    "crp": 14,
+    "wbc": 12.8
+   }
+  }
+ ]
+}

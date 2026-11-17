@@ -1,0 +1,177 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p046",
+  "name": "Đỗ Văn Hải",
+  "birth_year": 1961,
+  "gender": "Nam",
+  "occupation": "Hưu trí",
+  "address": "Long Biên, Hà Nội",
+  "insurance": "BHYT (mức hưởng 80%)",
+  "contact": "Phạm Thanh Hằng (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 7 - Giường 14",
+  "attending": "bs.an",
+  "admission": {
+   "id": "BA-2026-11-07",
+   "admitted_at": "2026-11-07T20:45",
+   "ward_at": "2026-11-07T21:00",
+   "reason": "Sốt rét run, tiểu buốt. Vào ngày thứ 2 của bệnh.",
+   "kkb_diagnosis": "Nhiễm khuẩn tiết niệu",
+   "vitals": {
+    "pulse": 88,
+    "pulse_note": "không đều",
+    "temp": 38.3,
+    "bp": "143/71",
+    "resp_rate": 22,
+    "spo2": 94,
+    "weight": 73
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "KB-2024-06-16",
+   "type": "Encounter",
+   "date": "2024-06-16",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "I48",
+     "display": "Rung nhĩ"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rung nhĩ. Kê Apixaban 5 mg 5 mg x 2 lần/ngày, Bisoprolol 2,5 mg 2,5 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-06-16-1",
+   "type": "MedicationRequest",
+   "date": "2024-06-16",
+   "encounter": "KB-2024-06-16",
+   "source": "Vinmec",
+   "practitioner": "BS. Nguyễn Thu",
+   "drug_name": "Apixaban 5 mg",
+   "dose": "5 mg x 2 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2024-06-16-2",
+   "type": "MedicationRequest",
+   "date": "2024-06-16",
+   "encounter": "KB-2024-06-16",
+   "source": "Vinmec",
+   "practitioner": "BS. Nguyễn Thu",
+   "drug_name": "Bisoprolol 2,5 mg",
+   "dose": "2,5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2024-06-16",
+   "type": "LabPanel",
+   "date": "2024-06-16",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 84,
+    "egfr": 83,
+    "potassium": 4.4
+   }
+  },
+  {
+   "id": "KB-2025-01-28",
+   "type": "Encounter",
+   "date": "2025-01-28",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [
+    {
+     "code": "E78",
+     "display": "Rối loạn lipid máu"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rối loạn lipid máu. Kê Atorvastatin 20 mg 20 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-01-28-1",
+   "type": "MedicationRequest",
+   "date": "2025-01-28",
+   "encounter": "KB-2025-01-28",
+   "source": "Vinmec",
+   "practitioner": "BS. Vũ Hạnh",
+   "drug_name": "Atorvastatin 20 mg",
+   "dose": "20 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2025-02-03",
+   "type": "LabPanel",
+   "date": "2025-02-03",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 91,
+    "egfr": 77,
+    "potassium": 4.9
+   }
+  },
+  {
+   "id": "XN-2025-09-07",
+   "type": "LabPanel",
+   "date": "2025-09-07",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 100,
+    "egfr": 70,
+    "potassium": 4.8
+   }
+  },
+  {
+   "id": "KB-2026-02-13",
+   "type": "Encounter",
+   "date": "2026-02-13",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "E78",
+     "display": "Rối loạn lipid máu"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rối loạn lipid máu. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "XN-2026-04-19",
+   "type": "LabPanel",
+   "date": "2026-04-19",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 109,
+    "egfr": 64,
+    "potassium": 3.9
+   }
+  },
+  {
+   "id": "CDHA-2026-11-07",
+   "type": "ImagingStudy",
+   "date": "2026-11-07",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Không thấy tổn thương nhu mô phổi."
+  },
+  {
+   "id": "XN-2026-11-07",
+   "type": "LabPanel",
+   "date": "2026-11-07",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 121,
+    "egfr": 58,
+    "potassium": 4.7,
+    "crp": 61,
+    "wbc": 7.7
+   }
+  }
+ ]
+}

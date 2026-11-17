@@ -1,0 +1,237 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p006",
+  "name": "Bùi Đức Quân",
+  "birth_year": 1940,
+  "gender": "Nam",
+  "occupation": "Hưu trí",
+  "address": "Hoàng Mai, Hà Nội",
+  "insurance": "BHYT (mức hưởng 100%)",
+  "contact": "Phạm Minh Loan (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 3 - Giường 6",
+  "attending": "bs.an",
+  "admission": {
+   "id": "BA-2026-10-03",
+   "admitted_at": "2026-10-03T12:45",
+   "ward_at": "2026-10-03T21:00",
+   "reason": "Khó thở tăng, ho khạc đờm nhiều. Vào ngày thứ 4 của bệnh.",
+   "kkb_diagnosis": "Bệnh phổi tắc nghẽn",
+   "vitals": {
+    "pulse": 118,
+    "pulse_note": "đều",
+    "temp": 36.9,
+    "bp": "111/59",
+    "resp_rate": 25,
+    "spo2": 89,
+    "weight": null
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "APT-2024-06-04",
+   "type": "Appointment",
+   "date": "2024-06-04",
+   "encounter": "KB-2024-06-04",
+   "source": "Vinmec",
+   "description": "Nội soi dạ dày",
+   "due": "2024-09-02"
+  },
+  {
+   "id": "KB-2024-06-04",
+   "type": "Encounter",
+   "date": "2024-06-04",
+   "source": "Vinmec - Khám hô hấp",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "J44",
+     "display": "Bệnh phổi tắc nghẽn mạn tính"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh phổi tắc nghẽn mạn tính. Kê Ventolin xịt 100 mcg 2 nhát khi khó thở."
+  },
+  {
+   "id": "RX-2024-06-04-1",
+   "type": "MedicationRequest",
+   "date": "2024-06-04",
+   "encounter": "KB-2024-06-04",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Ventolin xịt 100 mcg",
+   "dose": "2 nhát khi khó thở",
+   "status": "active"
+  },
+  {
+   "id": "XN-2024-06-22",
+   "type": "LabPanel",
+   "date": "2024-06-22",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 96,
+    "egfr": 73,
+    "potassium": 4.2
+   }
+  },
+  {
+   "id": "KB-2024-08-20",
+   "type": "Encounter",
+   "date": "2024-08-20",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Kê Amlodipin 5 mg 5 mg x 1 lần/ngày, Losartan 50 mg 50 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-08-20-1",
+   "type": "MedicationRequest",
+   "date": "2024-08-20",
+   "encounter": "KB-2024-08-20",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Amlodipin 5 mg",
+   "dose": "5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2024-08-20-2",
+   "type": "MedicationRequest",
+   "date": "2024-08-20",
+   "encounter": "KB-2024-08-20",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Losartan 50 mg",
+   "dose": "50 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2024-12-26",
+   "type": "Encounter",
+   "date": "2024-12-26",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "XN-2025-01-10",
+   "type": "LabPanel",
+   "date": "2025-01-10",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 103,
+    "egfr": 68,
+    "potassium": 5.0
+   }
+  },
+  {
+   "id": "KB-2025-05-10",
+   "type": "Encounter",
+   "date": "2025-05-10",
+   "source": "Vinmec - Khám hô hấp",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "J44",
+     "display": "Bệnh phổi tắc nghẽn mạn tính"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh phổi tắc nghẽn mạn tính. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2025-05-25",
+   "type": "Encounter",
+   "date": "2025-05-25",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": [],
+   "text": "Chẩn đoán tăng huyết áp. Tiếp tục thuốc cũ. Dị ứng: không."
+  },
+  {
+   "id": "KB-2025-06-13",
+   "type": "Encounter",
+   "date": "2025-06-13",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [],
+   "allergies_recorded": null,
+   "text": "Tái khám. Kê Amlor 5 mg 5 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-06-13-9",
+   "type": "MedicationRequest",
+   "date": "2025-06-13",
+   "encounter": "KB-2025-06-13",
+   "source": "Vinmec",
+   "practitioner": "BS. Lê Hà",
+   "drug_name": "Amlor 5 mg",
+   "dose": "5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2025-08-11",
+   "type": "LabPanel",
+   "date": "2025-08-11",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 109,
+    "egfr": 64,
+    "potassium": 4.0
+   }
+  },
+  {
+   "id": "XN-2026-03-24",
+   "type": "LabPanel",
+   "date": "2026-03-24",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 119,
+    "egfr": 59,
+    "potassium": 4.8
+   }
+  },
+  {
+   "id": "CDHA-2026-10-03",
+   "type": "ImagingStudy",
+   "date": "2026-10-03",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Phổi tăng sáng, không thấy đám mờ khu trú."
+  },
+  {
+   "id": "XN-2026-10-03",
+   "type": "LabPanel",
+   "date": "2026-10-03",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 130,
+    "egfr": 54,
+    "potassium": 4.7,
+    "crp": 161,
+    "wbc": 8.7
+   }
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.codex-video-tooling/
+*.tsbuildinfo
+backend/.venv/
+backend/app/data/runtime.db
+backend/app/data/runtime.db-*
+backend/app/data/runtime_transcripts/*
+__pycache__/
+.pytest_cache/
+logs/
+backend/app/data/runtime_patients/

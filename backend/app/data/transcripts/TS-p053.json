@@ -1,0 +1,83 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động",
+ "id": "TS-p053",
+ "patient_id": "p053",
+ "date": "2026-10-04T21:30",
+ "turns": [
+  {
+   "n": 1,
+   "speaker": "BS",
+   "text": "Chào bác, hôm nay bác thấy trong người thế nào?"
+  },
+  {
+   "n": 2,
+   "speaker": "BN",
+   "text": "Tôi sốt bốn hôm nay rồi, ho nhiều, đờm màu vàng."
+  },
+  {
+   "n": 3,
+   "speaker": "BS",
+   "text": "Khó thở từ bao giờ ạ?"
+  },
+  {
+   "n": 4,
+   "speaker": "BN",
+   "text": "Từ hôm qua, đi lại trong nhà cũng thấy mệt, thở dốc."
+  },
+  {
+   "n": 5,
+   "speaker": "BS",
+   "text": "Ở nhà bác đã uống thuốc gì chưa?"
+  },
+  {
+   "n": 6,
+   "speaker": "BN",
+   "text": "Tôi có uống ibuprofen để hạ sốt, ngày hai ba viên. Thuốc của bệnh viện thì vẫn uống đều."
+  },
+  {
+   "n": 7,
+   "speaker": "BS",
+   "text": "Được rồi, để tôi khám. Phổi trái có ran nổ vùng đáy, phổi còn lại thông khí được. Tim nhịp đều, tần số khoảng tám mươi mốt. Bụng mềm."
+  },
+  {
+   "n": 8,
+   "speaker": "BS",
+   "text": "SpO2 đang chín mươi ba. Huyết áp một trăm linh sáu trên sáu mươi sáu."
+  },
+  {
+   "n": 9,
+   "speaker": "BS",
+   "text": "X-quang đám mờ thùy dưới phổi trái, bạch cầu mười ba phẩy một."
+  },
+  {
+   "n": 10,
+   "speaker": "BS",
+   "text": "Cân nặng hôm nay sáu mươi lăm ki lô."
+  },
+  {
+   "n": 11,
+   "speaker": "BS",
+   "text": "Nghe phù hợp viêm phổi cộng đồng phổi trái."
+  },
+  {
+   "n": 12,
+   "speaker": "BS",
+   "text": "Cho Augmentin truyền tĩnh mạch, phối hợp Clarithromycin 500 mg ngày hai lần."
+  },
+  {
+   "n": 13,
+   "speaker": "BS",
+   "text": "Làm thêm điện giải đồ, khí máu, theo dõi sát sinh hiệu."
+  },
+  {
+   "n": 14,
+   "speaker": "NN",
+   "text": "Thuốc cũ của bố cháu vẫn uống tiếp ạ?"
+  },
+  {
+   "n": 15,
+   "speaker": "BS",
+   "text": "Tiếp tục thuốc cũ, chiều tôi xem lại đơn."
+  }
+ ]
+}

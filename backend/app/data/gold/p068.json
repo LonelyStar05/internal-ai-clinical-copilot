@@ -1,0 +1,183 @@
+{
+ "patient_id": "p068",
+ "source": "sinh tự động",
+ "traps": {
+  "ddi_active": true
+ },
+ "module1": {
+  "flags": {
+   "ddi": {
+    "kind": "interaction",
+    "must_cite": [
+     "RX-2026-04-20-2",
+     "RX-2026-06-30-8"
+    ]
+   }
+  },
+  "facts": [
+   {
+    "id": "dx-E11",
+    "contains": "Đái tháo đường type 2",
+    "must_cite": [
+     "KB-2025-02-27"
+    ]
+   },
+   {
+    "id": "dx-M10",
+    "contains": "Gút",
+    "must_cite": [
+     "KB-2025-03-20"
+    ]
+   },
+   {
+    "id": "dx-I25",
+    "contains": "Bệnh tim thiếu máu cục bộ mạn",
+    "must_cite": [
+     "KB-2025-10-22"
+    ]
+   },
+   {
+    "id": "dx-I10",
+    "contains": "Tăng huyết áp",
+    "must_cite": [
+     "KB-2026-04-20"
+    ]
+   },
+   {
+    "id": "egfr",
+    "contains": "eGFR",
+    "must_cite": [
+     "XN-2025-03-16",
+     "XN-2026-11-06"
+    ]
+   }
+  ],
+  "forbidden": []
+ },
+ "module2": {
+  "transcript_id": "TS-p068",
+  "facts": [
+   {
+    "section": "S",
+    "turn": 2,
+    "keywords": [
+     "sốt",
+     "đờm"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 4,
+    "keywords": [
+     "khó thở"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 6,
+    "keywords": [
+     "thuốc"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 7,
+    "keywords": [
+     "ho ra máu"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 9,
+    "keywords": [
+     "dị ứng"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 11,
+    "keywords": [
+     "rượu"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 12,
+    "keywords": [
+     "Phổi"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 13,
+    "keywords": [
+     "97"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 13,
+    "keywords": [
+     "125/77"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 14,
+    "keywords": [
+     "x-quang"
+    ]
+   },
+   {
+    "section": "A",
+    "turn": 15,
+    "keywords": [
+     "viêm phổi"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 16,
+    "keywords": [
+     "Augmentin"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 17,
+    "keywords": [
+     "điện giải"
+    ]
+   }
+  ],
+  "missing": [
+   "tien_su_gia_dinh"
+  ],
+  "flags": [
+   {
+    "kind": "red_flag",
+    "id": "hemoptysis"
+   },
+   {
+    "kind": "interaction",
+    "pair": [
+     "amlodipine",
+     "clarithromycin"
+    ]
+   },
+   {
+    "kind": "interaction",
+    "pair": [
+     "atorvastatin",
+     "clarithromycin"
+    ]
+   }
+  ],
+  "forbidden_numbers": [],
+  "forbidden_text": [
+   "xuất huyết tiêu hóa",
+   "sốc nhiễm khuẩn"
+  ],
+  "forbidden_patterns": []
+ }
+}

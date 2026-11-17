@@ -1,0 +1,194 @@
+{
+ "patient_id": "p078",
+ "source": "sinh tự động",
+ "traps": {
+  "renal_metformin": true,
+  "missing_result": true
+ },
+ "module1": {
+  "flags": {
+   "renal": {
+    "kind": "renal_dose",
+    "must_cite": [
+     "RX-2026-02-16-1",
+     "XN-2026-10-04"
+    ]
+   },
+   "missing": {
+    "kind": "missing_result",
+    "must_cite": [
+     "APT-2025-02-01"
+    ]
+   }
+  },
+  "facts": [
+   {
+    "id": "dx-I25",
+    "contains": "Bệnh tim thiếu máu cục bộ mạn",
+    "must_cite": [
+     "KB-2025-02-01"
+    ]
+   },
+   {
+    "id": "dx-I48",
+    "contains": "Rung nhĩ",
+    "must_cite": [
+     "KB-2025-06-18"
+    ]
+   },
+   {
+    "id": "dx-E11",
+    "contains": "Đái tháo đường type 2",
+    "must_cite": [
+     "KB-2026-02-16"
+    ]
+   },
+   {
+    "id": "egfr",
+    "contains": "eGFR",
+    "must_cite": [
+     "XN-2025-02-12",
+     "XN-2026-10-04"
+    ]
+   }
+  ],
+  "forbidden": []
+ },
+ "module2": {
+  "transcript_id": "TS-p078",
+  "facts": [
+   {
+    "section": "S",
+    "turn": 2,
+    "keywords": [
+     "sốt",
+     "đờm"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 4,
+    "keywords": [
+     "khó thở"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 6,
+    "keywords": [
+     "ibuprofen"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 7,
+    "keywords": [
+     "lú lẫn"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 9,
+    "keywords": [
+     "dị ứng"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 10,
+    "keywords": [
+     "Phổi"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 11,
+    "keywords": [
+     "89"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 11,
+    "keywords": [
+     "103/77"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 11,
+    "keywords": [
+     "oxy"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 12,
+    "keywords": [
+     "x-quang"
+    ]
+   },
+   {
+    "section": "A",
+    "turn": 13,
+    "keywords": [
+     "viêm phổi"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 14,
+    "keywords": [
+     "Augmentin"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 15,
+    "keywords": [
+     "điện giải"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 17,
+    "keywords": [
+     "thuốc cũ"
+    ]
+   }
+  ],
+  "missing": [
+   "tien_su_gia_dinh",
+   "thuoc_la_ruou",
+   "can_nang"
+  ],
+  "flags": [
+   {
+    "kind": "red_flag",
+    "id": "confusion"
+   },
+   {
+    "kind": "interaction",
+    "pair": [
+     "apixaban",
+     "ibuprofen"
+    ]
+   },
+   {
+    "kind": "renal_dose",
+    "drug": "ibuprofen"
+   },
+   {
+    "kind": "vital_abnormal"
+   }
+  ],
+  "forbidden_numbers": [],
+  "forbidden_text": [
+   "xuất huyết tiêu hóa",
+   "sốc nhiễm khuẩn"
+  ],
+  "forbidden_patterns": [
+   "cân nặng:\\s*\\d"
+  ]
+ }
+}

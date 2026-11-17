@@ -1,0 +1,320 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p043",
+  "name": "Lê Ngọc Hạnh",
+  "birth_year": 1964,
+  "gender": "Nữ",
+  "occupation": "Hưu trí",
+  "address": "Hoàng Mai, Hà Nội",
+  "insurance": "BHYT (mức hưởng 100%)",
+  "contact": "Phạm Thu Lan (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 7 - Giường 6",
+  "attending": "bs.an",
+  "admission": {
+   "id": "BA-2026-11-02",
+   "admitted_at": "2026-11-02T19:15",
+   "ward_at": "2026-11-02T21:00",
+   "reason": "Khó thở tăng, ho khạc đờm nhiều. Vào ngày thứ 2 của bệnh.",
+   "kkb_diagnosis": "Bệnh phổi tắc nghẽn",
+   "vitals": {
+    "pulse": 80,
+    "pulse_note": "không đều",
+    "temp": 37.3,
+    "bp": "104/67",
+    "resp_rate": 21,
+    "spo2": 96,
+    "weight": null
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "APT-2023-12-28",
+   "type": "Appointment",
+   "date": "2023-12-28",
+   "encounter": "KB-2023-12-28",
+   "source": "Vinmec",
+   "description": "Siêu âm bụng",
+   "due": "2024-03-27"
+  },
+  {
+   "id": "KB-2023-12-28",
+   "type": "Encounter",
+   "date": "2023-12-28",
+   "source": "Vinmec - Khám hô hấp",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [
+    {
+     "code": "J44",
+     "display": "Bệnh phổi tắc nghẽn mạn tính"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh phổi tắc nghẽn mạn tính. Kê Ventolin xịt 100 mcg 2 nhát khi khó thở."
+  },
+  {
+   "id": "RX-2023-12-28-1",
+   "type": "MedicationRequest",
+   "date": "2023-12-28",
+   "encounter": "KB-2023-12-28",
+   "source": "Vinmec",
+   "practitioner": "BS. Lê Hà",
+   "drug_name": "Ventolin xịt 100 mcg",
+   "dose": "2 nhát khi khó thở",
+   "status": "active"
+  },
+  {
+   "id": "KB-2024-01-10",
+   "type": "Encounter",
+   "date": "2024-01-10",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "I48",
+     "display": "Rung nhĩ"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rung nhĩ. Kê Apixaban 5 mg 5 mg x 2 lần/ngày, Bisoprolol 2,5 mg 2,5 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-01-10-1",
+   "type": "MedicationRequest",
+   "date": "2024-01-10",
+   "encounter": "KB-2024-01-10",
+   "source": "Vinmec",
+   "practitioner": "BS. Nguyễn Thu",
+   "drug_name": "Apixaban 5 mg",
+   "dose": "5 mg x 2 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2024-01-10-2",
+   "type": "MedicationRequest",
+   "date": "2024-01-10",
+   "encounter": "KB-2024-01-10",
+   "source": "Vinmec",
+   "practitioner": "BS. Nguyễn Thu",
+   "drug_name": "Bisoprolol 2,5 mg",
+   "dose": "2,5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2024-01-14",
+   "type": "LabPanel",
+   "date": "2024-01-14",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 91,
+    "egfr": 77,
+    "hba1c": 7.4,
+    "potassium": 4.8
+   }
+  },
+  {
+   "id": "NGOAI-2024-03-13",
+   "type": "DocumentReference",
+   "date": "2024-03-13",
+   "source": "Giấy ra viện BV huyện (ảnh chụp)",
+   "text": "Ra viện ổn định. Dị ứng: Aspirin (nổi mẩn).",
+   "allergies_recorded": [
+    {
+     "substance": "Aspirin",
+     "reaction": "nổi mẩn"
+    }
+   ]
+  },
+  {
+   "id": "XN-2024-08-10",
+   "type": "LabPanel",
+   "date": "2024-08-10",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 93,
+    "egfr": 75,
+    "hba1c": 7.6,
+    "potassium": 5.0
+   }
+  },
+  {
+   "id": "KB-2024-08-24",
+   "type": "Encounter",
+   "date": "2024-08-24",
+   "source": "Vinmec - Khám nội tiết",
+   "practitioner": "BS. Đỗ Quang",
+   "diagnoses": [
+    {
+     "code": "E11",
+     "display": "Đái tháo đường type 2"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán đái tháo đường type 2. Kê Metformin 850 mg 850 mg x 2 lần/ngày, Diamicron MR 30 mg 30 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-08-24-1",
+   "type": "MedicationRequest",
+   "date": "2024-08-24",
+   "encounter": "KB-2024-08-24",
+   "source": "Vinmec",
+   "practitioner": "BS. Đỗ Quang",
+   "drug_name": "Metformin 850 mg",
+   "dose": "850 mg x 2 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2024-08-24-2",
+   "type": "MedicationRequest",
+   "date": "2024-08-24",
+   "encounter": "KB-2024-08-24",
+   "source": "Vinmec",
+   "practitioner": "BS. Đỗ Quang",
+   "drug_name": "Diamicron MR 30 mg",
+   "dose": "30 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2024-12-23",
+   "type": "Encounter",
+   "date": "2024-12-23",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Kê Amlodipin 5 mg 5 mg x 1 lần/ngày, Losartan 50 mg 50 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-12-23-1",
+   "type": "MedicationRequest",
+   "date": "2024-12-23",
+   "encounter": "KB-2024-12-23",
+   "source": "Vinmec",
+   "practitioner": "BS. Lê Hà",
+   "drug_name": "Amlodipin 5 mg",
+   "dose": "5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2024-12-23-2",
+   "type": "MedicationRequest",
+   "date": "2024-12-23",
+   "encounter": "KB-2024-12-23",
+   "source": "Vinmec",
+   "practitioner": "BS. Lê Hà",
+   "drug_name": "Losartan 50 mg",
+   "dose": "50 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2025-03-03",
+   "type": "LabPanel",
+   "date": "2025-03-03",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 97,
+    "egfr": 72,
+    "hba1c": 7.9,
+    "potassium": 4.3
+   }
+  },
+  {
+   "id": "KB-2025-07-12",
+   "type": "Encounter",
+   "date": "2025-07-12",
+   "source": "Vinmec - Khám nội tiết",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [
+    {
+     "code": "E11",
+     "display": "Đái tháo đường type 2"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán đái tháo đường type 2. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "XN-2025-09-26",
+   "type": "LabPanel",
+   "date": "2025-09-26",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 100,
+    "egfr": 70,
+    "hba1c": 8.2,
+    "potassium": 4.4
+   }
+  },
+  {
+   "id": "XN-2026-04-16",
+   "type": "LabPanel",
+   "date": "2026-04-16",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 104,
+    "egfr": 67,
+    "hba1c": 8.1,
+    "potassium": 4.0
+   }
+  },
+  {
+   "id": "KB-2026-05-15",
+   "type": "Encounter",
+   "date": "2026-05-15",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2026-06-02",
+   "type": "Encounter",
+   "date": "2026-06-02",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Đỗ Quang",
+   "diagnoses": [],
+   "allergies_recorded": [
+    {
+     "substance": "Aspirin",
+     "reaction": "nổi mẩn"
+    }
+   ],
+   "text": "Tái khám định kỳ. Dị ứng: Aspirin."
+  },
+  {
+   "id": "CDHA-2026-11-02",
+   "type": "ImagingStudy",
+   "date": "2026-11-02",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Phổi tăng sáng, không thấy đám mờ khu trú."
+  },
+  {
+   "id": "XN-2026-11-02",
+   "type": "LabPanel",
+   "date": "2026-11-02",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 108,
+    "egfr": 65,
+    "potassium": 4.5,
+    "crp": 122,
+    "wbc": 8.2,
+    "glucose": 11.7
+   }
+  }
+ ]
+}

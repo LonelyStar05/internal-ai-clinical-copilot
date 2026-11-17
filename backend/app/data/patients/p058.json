@@ -1,0 +1,289 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p058",
+  "name": "Lý Đức Tuấn",
+  "birth_year": 1957,
+  "gender": "Nam",
+  "occupation": "Hưu trí",
+  "address": "Hoàng Mai, Hà Nội",
+  "insurance": "BHYT (mức hưởng 95%)",
+  "contact": "Phạm Thu Mai (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 7 - Giường 23",
+  "attending": "bs.an",
+  "admission": {
+   "id": "BA-2026-11-05",
+   "admitted_at": "2026-11-05T12:30",
+   "ward_at": "2026-11-05T21:00",
+   "reason": "Khó thở khi nằm, phù hai chân. Vào ngày thứ 2 của bệnh.",
+   "kkb_diagnosis": "Suy tim",
+   "vitals": {
+    "pulse": 98,
+    "pulse_note": "đều",
+    "temp": 37.2,
+    "bp": "97/67",
+    "resp_rate": 25,
+    "spo2": 86,
+    "weight": 58
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "APT-2025-02-05",
+   "type": "Appointment",
+   "date": "2025-02-05",
+   "encounter": "KB-2025-02-05",
+   "source": "Vinmec",
+   "description": "Siêu âm tim",
+   "due": "2025-05-06"
+  },
+  {
+   "id": "KB-2025-02-05",
+   "type": "Encounter",
+   "date": "2025-02-05",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [
+    {
+     "code": "I50",
+     "display": "Suy tim"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán suy tim. Kê Furosemid 40 mg 40 mg x 1 lần/ngày, Bisoprolol 2,5 mg 2,5 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-02-05-1",
+   "type": "MedicationRequest",
+   "date": "2025-02-05",
+   "encounter": "KB-2025-02-05",
+   "source": "Vinmec",
+   "practitioner": "BS. Lê Hà",
+   "drug_name": "Furosemid 40 mg",
+   "dose": "40 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2025-02-05-2",
+   "type": "MedicationRequest",
+   "date": "2025-02-05",
+   "encounter": "KB-2025-02-05",
+   "source": "Vinmec",
+   "practitioner": "BS. Lê Hà",
+   "drug_name": "Bisoprolol 2,5 mg",
+   "dose": "2,5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2025-02-08",
+   "type": "LabPanel",
+   "date": "2025-02-08",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 96,
+    "egfr": 73,
+    "potassium": 4.9
+   }
+  },
+  {
+   "id": "NGOAI-2025-04-07",
+   "type": "DocumentReference",
+   "date": "2025-04-07",
+   "source": "Giấy ra viện BV đa khoa tỉnh (scan PDF)",
+   "text": "Ra viện ổn định. Dị ứng: Hải sản (ngứa).",
+   "allergies_recorded": [
+    {
+     "substance": "Hải sản",
+     "reaction": "ngứa"
+    }
+   ]
+  },
+  {
+   "id": "CDHA-2025-05-15",
+   "type": "ImagingStudy",
+   "date": "2025-05-15",
+   "source": "Vinmec",
+   "modality": "Siêu âm tim",
+   "text": "Kết quả trong giới hạn bình thường."
+  },
+  {
+   "id": "XN-2025-07-22",
+   "type": "LabPanel",
+   "date": "2025-07-22",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 97,
+    "egfr": 72,
+    "potassium": 4.4
+   }
+  },
+  {
+   "id": "KB-2025-08-03",
+   "type": "Encounter",
+   "date": "2025-08-03",
+   "source": "Vinmec - Khám cơ xương khớp",
+   "practitioner": "BS. Đỗ Quang",
+   "diagnoses": [
+    {
+     "code": "M10",
+     "display": "Gút"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán gút. Kê Allopurinol 300 mg 300 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-08-03-1",
+   "type": "MedicationRequest",
+   "date": "2025-08-03",
+   "encounter": "KB-2025-08-03",
+   "source": "Vinmec",
+   "practitioner": "BS. Đỗ Quang",
+   "drug_name": "Allopurinol 300 mg",
+   "dose": "300 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2025-10-19",
+   "type": "Encounter",
+   "date": "2025-10-19",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Đỗ Quang",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Kê Amlodipin 5 mg 5 mg x 1 lần/ngày, Losartan 50 mg 50 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-10-19-1",
+   "type": "MedicationRequest",
+   "date": "2025-10-19",
+   "encounter": "KB-2025-10-19",
+   "source": "Vinmec",
+   "practitioner": "BS. Đỗ Quang",
+   "drug_name": "Amlodipin 5 mg",
+   "dose": "5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2025-10-19-2",
+   "type": "MedicationRequest",
+   "date": "2025-10-19",
+   "encounter": "KB-2025-10-19",
+   "source": "Vinmec",
+   "practitioner": "BS. Đỗ Quang",
+   "drug_name": "Losartan 50 mg",
+   "dose": "50 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2025-12-06",
+   "type": "Encounter",
+   "date": "2025-12-06",
+   "source": "Vinmec - Khám cơ xương khớp",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "M10",
+     "display": "Gút"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán gút. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "XN-2026-01-02",
+   "type": "LabPanel",
+   "date": "2026-01-02",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 100,
+    "egfr": 70,
+    "potassium": 5.7
+   },
+   "note": "Không có ghi chú xử trí"
+  },
+  {
+   "id": "KB-2026-04-10",
+   "type": "Encounter",
+   "date": "2026-04-10",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "XN-2026-06-10",
+   "type": "LabPanel",
+   "date": "2026-06-10",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 103,
+    "egfr": 68
+   }
+  },
+  {
+   "id": "KB-2026-06-13",
+   "type": "Encounter",
+   "date": "2026-06-13",
+   "source": "Vinmec - Khám cơ xương khớp",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "M10",
+     "display": "Gút"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán gút. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2026-07-01",
+   "type": "Encounter",
+   "date": "2026-07-01",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [],
+   "allergies_recorded": [
+    {
+     "substance": "Hải sản",
+     "reaction": "ngứa"
+    }
+   ],
+   "text": "Tái khám định kỳ. Dị ứng: Hải sản."
+  },
+  {
+   "id": "CDHA-2026-11-05",
+   "type": "ImagingStudy",
+   "date": "2026-11-05",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Bóng tim to, xung huyết hai phổi."
+  },
+  {
+   "id": "XN-2026-11-05",
+   "type": "LabPanel",
+   "date": "2026-11-05",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 104,
+    "egfr": 67,
+    "potassium": 4.7,
+    "crp": 136,
+    "wbc": 11.8
+   }
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động",
+ "id": "TS-p068",
+ "patient_id": "p068",
+ "date": "2026-11-06T21:30",
+ "turns": [
+  {
+   "n": 1,
+   "speaker": "BS",
+   "text": "Chào bác, hôm nay bác thấy trong người thế nào?"
+  },
+  {
+   "n": 2,
+   "speaker": "BN",
+   "text": "Tôi sốt bốn hôm nay rồi, ho nhiều, đờm màu vàng."
+  },
+  {
+   "n": 3,
+   "speaker": "BS",
+   "text": "Khó thở từ bao giờ ạ?"
+  },
+  {
+   "n": 4,
+   "speaker": "BN",
+   "text": "Từ hôm qua, đi lại trong nhà cũng thấy mệt, thở dốc."
+  },
+  {
+   "n": 5,
+   "speaker": "BS",
+   "text": "Ở nhà bác đã uống thuốc gì chưa?"
+  },
+  {
+   "n": 6,
+   "speaker": "BN",
+   "text": "Chỉ uống thuốc của bệnh viện kê, vẫn uống đều hằng ngày."
+  },
+  {
+   "n": 7,
+   "speaker": "BN",
+   "text": "Sáng nay tôi còn ho ra máu, có ít tia máu đỏ."
+  },
+  {
+   "n": 8,
+   "speaker": "BS",
+   "text": "Bác có dị ứng thuốc gì không?"
+  },
+  {
+   "n": 9,
+   "speaker": "BN",
+   "text": "Không, tôi chưa dị ứng thuốc gì."
+  },
+  {
+   "n": 10,
+   "speaker": "BS",
+   "text": "Bác có hút thuốc lá hay uống rượu không?"
+  },
+  {
+   "n": 11,
+   "speaker": "BN",
+   "text": "Không hút thuốc, thỉnh thoảng uống chút rượu."
+  },
+  {
+   "n": 12,
+   "speaker": "BS",
+   "text": "Được rồi, để tôi khám. Phổi trái có ran nổ vùng đáy, phổi còn lại thông khí được. Tim nhịp đều, tần số khoảng chín mươi mốt. Bụng mềm."
+  },
+  {
+   "n": 13,
+   "speaker": "BS",
+   "text": "SpO2 đang chín mươi bảy. Huyết áp một trăm hai mươi lăm trên bảy mươi bảy."
+  },
+  {
+   "n": 14,
+   "speaker": "BS",
+   "text": "X-quang đám mờ thùy dưới phổi trái, bạch cầu mười."
+  },
+  {
+   "n": 15,
+   "speaker": "BS",
+   "text": "Nghe phù hợp viêm phổi cộng đồng phổi trái."
+  },
+  {
+   "n": 16,
+   "speaker": "BS",
+   "text": "Cho Augmentin truyền tĩnh mạch, phối hợp Clarithromycin 500 mg ngày hai lần."
+  },
+  {
+   "n": 17,
+   "speaker": "BS",
+   "text": "Làm thêm điện giải đồ, khí máu, theo dõi sát sinh hiệu."
+  }
+ ]
+}

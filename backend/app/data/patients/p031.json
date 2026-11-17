@@ -1,0 +1,196 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p031",
+  "name": "Bùi Đức Quân",
+  "birth_year": 1956,
+  "gender": "Nam",
+  "occupation": "Hưu trí",
+  "address": "Gia Lâm, Hà Nội",
+  "insurance": "BHYT (mức hưởng 100%)",
+  "contact": "Lê Thanh Liên (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 3 - Giường 4",
+  "attending": "bs.an",
+  "admission": {
+   "id": "BA-2026-10-06",
+   "admitted_at": "2026-10-06T08:45",
+   "ward_at": "2026-10-06T21:00",
+   "reason": "Khó thở khi nằm, phù hai chân. Vào ngày thứ 3 của bệnh.",
+   "kkb_diagnosis": "Suy tim",
+   "vitals": {
+    "pulse": 93,
+    "pulse_note": "đều",
+    "temp": 37.3,
+    "bp": "126/85",
+    "resp_rate": 19,
+    "spo2": 93,
+    "weight": null
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "KB-2024-01-29",
+   "type": "Encounter",
+   "date": "2024-01-29",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "I50",
+     "display": "Suy tim"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán suy tim. Kê Furosemid 40 mg 40 mg x 1 lần/ngày, Bisoprolol 2,5 mg 2,5 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-01-29-1",
+   "type": "MedicationRequest",
+   "date": "2024-01-29",
+   "encounter": "KB-2024-01-29",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Furosemid 40 mg",
+   "dose": "40 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2024-01-29-2",
+   "type": "MedicationRequest",
+   "date": "2024-01-29",
+   "encounter": "KB-2024-01-29",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Bisoprolol 2,5 mg",
+   "dose": "2,5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2024-02-18",
+   "type": "LabPanel",
+   "date": "2024-02-18",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 84,
+    "egfr": 83,
+    "potassium": 4.0
+   }
+  },
+  {
+   "id": "KB-2024-10-21",
+   "type": "Encounter",
+   "date": "2024-10-21",
+   "source": "Vinmec - Khám cơ xương khớp",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "M10",
+     "display": "Gút"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán gút. Kê Allopurinol 300 mg 300 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-10-21-1",
+   "type": "MedicationRequest",
+   "date": "2024-10-21",
+   "encounter": "KB-2024-10-21",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Allopurinol 300 mg",
+   "dose": "300 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2025-01-06",
+   "type": "LabPanel",
+   "date": "2025-01-06",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 85,
+    "egfr": 82,
+    "potassium": 4.3
+   }
+  },
+  {
+   "id": "KB-2025-01-25",
+   "type": "Encounter",
+   "date": "2025-01-25",
+   "source": "Vinmec - Khám cơ xương khớp",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "M10",
+     "display": "Gút"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán gút. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "XN-2025-11-21",
+   "type": "LabPanel",
+   "date": "2025-11-21",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 85,
+    "egfr": 82,
+    "potassium": 4.3
+   }
+  },
+  {
+   "id": "KB-2026-04-26",
+   "type": "Encounter",
+   "date": "2026-04-26",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [
+    {
+     "code": "I50",
+     "display": "Suy tim"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán suy tim. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2026-08-05",
+   "type": "Encounter",
+   "date": "2026-08-05",
+   "source": "Vinmec - Khám cơ xương khớp",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "M10",
+     "display": "Gút"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán gút. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "CDHA-2026-10-06",
+   "type": "ImagingStudy",
+   "date": "2026-10-06",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Bóng tim to, xung huyết hai phổi."
+  },
+  {
+   "id": "XN-2026-10-06",
+   "type": "LabPanel",
+   "date": "2026-10-06",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 86,
+    "egfr": 81,
+    "potassium": 4.3,
+    "crp": 125,
+    "wbc": 11.5
+   }
+  }
+ ]
+}

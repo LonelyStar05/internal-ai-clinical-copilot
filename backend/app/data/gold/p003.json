@@ -1,0 +1,198 @@
+{
+ "patient_id": "p003",
+ "source": "sinh tự động",
+ "traps": {
+  "missing_result": true
+ },
+ "module1": {
+  "flags": {
+   "missing": {
+    "kind": "missing_result",
+    "must_cite": [
+     "APT-2023-11-22"
+    ]
+   }
+  },
+  "facts": [
+   {
+    "id": "dx-J44",
+    "contains": "Bệnh phổi tắc nghẽn mạn tính",
+    "must_cite": [
+     "KB-2023-11-22"
+    ]
+   },
+   {
+    "id": "dx-I10",
+    "contains": "Tăng huyết áp",
+    "must_cite": [
+     "KB-2024-07-11"
+    ]
+   },
+   {
+    "id": "egfr",
+    "contains": "eGFR",
+    "must_cite": [
+     "XN-2023-11-27",
+     "XN-2026-10-02"
+    ]
+   }
+  ],
+  "forbidden": []
+ },
+ "module2": {
+  "transcript_id": "TS-p003",
+  "facts": [
+   {
+    "section": "S",
+    "turn": 2,
+    "keywords": [
+     "khó thở",
+     "đờm"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 4,
+    "keywords": [
+     "ventolin"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 6,
+    "keywords": [
+     "ibuprofen"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 7,
+    "keywords": [
+     "lú lẫn"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 9,
+    "keywords": [
+     "phân đen"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 11,
+    "keywords": [
+     "30 năm"
+    ]
+   },
+   {
+    "section": "S",
+    "turn": 13,
+    "keywords": [
+     "huyết áp"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 14,
+    "keywords": [
+     "Phổi"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 15,
+    "keywords": [
+     "94"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 15,
+    "keywords": [
+     "110/72"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 16,
+    "keywords": [
+     "x-quang"
+    ]
+   },
+   {
+    "section": "O",
+    "turn": 17,
+    "keywords": [
+     "54"
+    ]
+   },
+   {
+    "section": "A",
+    "turn": 18,
+    "keywords": [
+     "bệnh phổi tắc nghẽn"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 19,
+    "keywords": [
+     "Salbutamol"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 20,
+    "keywords": [
+     "điện giải"
+    ]
+   },
+   {
+    "section": "P",
+    "turn": 22,
+    "keywords": [
+     "thuốc cũ"
+    ]
+   }
+  ],
+  "missing": [
+   "di_ung"
+  ],
+  "flags": [
+   {
+    "kind": "red_flag",
+    "id": "confusion"
+   },
+   {
+    "kind": "red_flag",
+    "id": "gi_bleed"
+   },
+   {
+    "kind": "asr_normalized",
+    "value": "94"
+   },
+   {
+    "kind": "interaction",
+    "pair": [
+     "losartan",
+     "ibuprofen"
+    ]
+   },
+   {
+    "kind": "allergy_reminder",
+    "substance": "Penicillin"
+   },
+   {
+    "kind": "renal_dose",
+    "drug": "ibuprofen"
+   }
+  ],
+  "forbidden_numbers": [],
+  "forbidden_text": [
+   "xuất huyết tiêu hóa",
+   "sốc nhiễm khuẩn"
+  ],
+  "forbidden_patterns": []
+ }
+}

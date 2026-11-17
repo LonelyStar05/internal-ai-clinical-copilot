@@ -1,0 +1,220 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p071",
+  "name": "Hoàng Quang Hùng",
+  "birth_year": 1965,
+  "gender": "Nam",
+  "occupation": "Hưu trí",
+  "address": "Hai Bà Trưng, Hà Nội",
+  "insurance": "BHYT (mức hưởng 80%)",
+  "contact": "Phạm Ngọc Yến (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 2 - Giường 12",
+  "attending": "bs.binh",
+  "admission": {
+   "id": "BA-2026-10-07",
+   "admitted_at": "2026-10-07T14:15",
+   "ward_at": "2026-10-07T21:00",
+   "reason": "Sốt rét run, tiểu buốt. Vào ngày thứ 4 của bệnh.",
+   "kkb_diagnosis": "Nhiễm khuẩn tiết niệu",
+   "vitals": {
+    "pulse": 95,
+    "pulse_note": "không đều",
+    "temp": 38.6,
+    "bp": "129/84",
+    "resp_rate": 20,
+    "spo2": 98,
+    "weight": null
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "APT-2024-03-22",
+   "type": "Appointment",
+   "date": "2024-03-22",
+   "encounter": "KB-2024-03-22",
+   "source": "Vinmec",
+   "description": "Siêu âm tim",
+   "due": "2024-06-20"
+  },
+  {
+   "id": "KB-2024-03-22",
+   "type": "Encounter",
+   "date": "2024-03-22",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Kê Amlodipin 5 mg 5 mg x 1 lần/ngày, Losartan 50 mg 50 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-03-22-1",
+   "type": "MedicationRequest",
+   "date": "2024-03-22",
+   "encounter": "KB-2024-03-22",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Amlodipin 5 mg",
+   "dose": "5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2024-03-22-2",
+   "type": "MedicationRequest",
+   "date": "2024-03-22",
+   "encounter": "KB-2024-03-22",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Losartan 50 mg",
+   "dose": "50 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2024-03-26",
+   "type": "LabPanel",
+   "date": "2024-03-26",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 92,
+    "egfr": 76,
+    "potassium": 3.9
+   }
+  },
+  {
+   "id": "KB-2024-05-31",
+   "type": "Encounter",
+   "date": "2024-05-31",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "I48",
+     "display": "Rung nhĩ"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rung nhĩ. Kê Apixaban 5 mg 5 mg x 2 lần/ngày, Bisoprolol 2,5 mg 2,5 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-05-31-1",
+   "type": "MedicationRequest",
+   "date": "2024-05-31",
+   "encounter": "KB-2024-05-31",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Apixaban 5 mg",
+   "dose": "5 mg x 2 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2024-05-31-2",
+   "type": "MedicationRequest",
+   "date": "2024-05-31",
+   "encounter": "KB-2024-05-31",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Bisoprolol 2,5 mg",
+   "dose": "2,5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "CDHA-2024-06-26",
+   "type": "ImagingStudy",
+   "date": "2024-06-26",
+   "source": "Vinmec",
+   "modality": "Siêu âm tim",
+   "text": "Kết quả trong giới hạn bình thường."
+  },
+  {
+   "id": "KB-2025-01-21",
+   "type": "Encounter",
+   "date": "2025-01-21",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "I48",
+     "display": "Rung nhĩ"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rung nhĩ. Kê Warfarin 2 mg 2 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-01-21-1",
+   "type": "MedicationRequest",
+   "date": "2025-01-21",
+   "encounter": "KB-2025-01-21",
+   "source": "Vinmec",
+   "practitioner": "BS. Nguyễn Thu",
+   "drug_name": "Warfarin 2 mg",
+   "dose": "2 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2025-01-27",
+   "type": "LabPanel",
+   "date": "2025-01-27",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 92,
+    "egfr": 76,
+    "potassium": 3.8
+   }
+  },
+  {
+   "id": "KB-2025-05-22",
+   "type": "Encounter",
+   "date": "2025-05-22",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [
+    {
+     "code": "I48",
+     "display": "Rung nhĩ"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rung nhĩ. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "XN-2025-12-21",
+   "type": "LabPanel",
+   "date": "2025-12-21",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 93,
+    "egfr": 75,
+    "potassium": 4.1
+   }
+  },
+  {
+   "id": "CDHA-2026-10-07",
+   "type": "ImagingStudy",
+   "date": "2026-10-07",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Không thấy tổn thương nhu mô phổi."
+  },
+  {
+   "id": "XN-2026-10-07",
+   "type": "LabPanel",
+   "date": "2026-10-07",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 93,
+    "egfr": 75,
+    "potassium": 4.9,
+    "crp": 86,
+    "wbc": 10.0
+   }
+  }
+ ]
+}

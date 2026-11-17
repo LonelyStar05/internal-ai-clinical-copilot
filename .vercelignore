@@ -1,0 +1,13 @@
+.git/
+.next/
+.codex-video-tooling/
+_backup_ui_v1/
+deliverables/
+design-system/
+logs/
+node_modules/
+backend/.venv/
+backend/tests/
+**/__pycache__/
+**/.pytest_cache/
+*.tsbuildinfo

@@ -1,0 +1,229 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p005",
+  "name": "Dương Minh Tuấn",
+  "birth_year": 1974,
+  "gender": "Nam",
+  "occupation": "Hưu trí",
+  "address": "Hoàng Mai, Hà Nội",
+  "insurance": "BHYT (mức hưởng 80%)",
+  "contact": "Bùi Thanh Hằng (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 3 - Giường 29",
+  "attending": "bs.an",
+  "admission": {
+   "id": "BA-2026-10-30",
+   "admitted_at": "2026-10-30T12:15",
+   "ward_at": "2026-10-30T21:00",
+   "reason": "Khó thở tăng, ho khạc đờm nhiều. Vào ngày thứ 2 của bệnh.",
+   "kkb_diagnosis": "Bệnh phổi tắc nghẽn",
+   "vitals": {
+    "pulse": 103,
+    "pulse_note": "đều",
+    "temp": 36.9,
+    "bp": "128/65",
+    "resp_rate": 27,
+    "spo2": 90,
+    "weight": null
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "KB-2024-12-07",
+   "type": "Encounter",
+   "date": "2024-12-07",
+   "source": "Vinmec - Khám hô hấp",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "J44",
+     "display": "Bệnh phổi tắc nghẽn mạn tính"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh phổi tắc nghẽn mạn tính. Kê Ventolin xịt 100 mcg 2 nhát khi khó thở."
+  },
+  {
+   "id": "RX-2024-12-07-1",
+   "type": "MedicationRequest",
+   "date": "2024-12-07",
+   "encounter": "KB-2024-12-07",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Ventolin xịt 100 mcg",
+   "dose": "2 nhát khi khó thở",
+   "status": "active"
+  },
+  {
+   "id": "XN-2024-12-07",
+   "type": "LabPanel",
+   "date": "2024-12-07",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 84,
+    "egfr": 83,
+    "potassium": 4.3
+   }
+  },
+  {
+   "id": "KB-2025-03-22",
+   "type": "Encounter",
+   "date": "2025-03-22",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "E78",
+     "display": "Rối loạn lipid máu"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rối loạn lipid máu. Kê Atorvastatin 20 mg 20 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-03-22-1",
+   "type": "MedicationRequest",
+   "date": "2025-03-22",
+   "encounter": "KB-2025-03-22",
+   "source": "Vinmec",
+   "practitioner": "BS. Nguyễn Thu",
+   "drug_name": "Atorvastatin 20 mg",
+   "dose": "20 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2025-05-12",
+   "type": "LabPanel",
+   "date": "2025-05-12",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 90,
+    "egfr": 78,
+    "potassium": 4.6
+   }
+  },
+  {
+   "id": "KB-2025-06-26",
+   "type": "Encounter",
+   "date": "2025-06-26",
+   "source": "Vinmec - Khám cơ xương khớp",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "M10",
+     "display": "Gút"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán gút. Kê Allopurinol 300 mg 300 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-06-26-1",
+   "type": "MedicationRequest",
+   "date": "2025-06-26",
+   "encounter": "KB-2025-06-26",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Allopurinol 300 mg",
+   "dose": "300 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2025-08-20",
+   "type": "Encounter",
+   "date": "2025-08-20",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [
+    {
+     "code": "I25",
+     "display": "Bệnh tim thiếu máu cục bộ mạn"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh tim thiếu máu cục bộ mạn. Kê Plavix 75 mg 75 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-08-20-1",
+   "type": "MedicationRequest",
+   "date": "2025-08-20",
+   "encounter": "KB-2025-08-20",
+   "source": "Vinmec",
+   "practitioner": "BS. Vũ Hạnh",
+   "drug_name": "Plavix 75 mg",
+   "dose": "75 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2025-09-13",
+   "type": "Encounter",
+   "date": "2025-09-13",
+   "source": "Vinmec - Khám hô hấp",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [
+    {
+     "code": "J44",
+     "display": "Bệnh phổi tắc nghẽn mạn tính"
+    }
+   ],
+   "allergies_recorded": [],
+   "text": "Chẩn đoán bệnh phổi tắc nghẽn mạn tính. Tiếp tục thuốc cũ. Dị ứng: không."
+  },
+  {
+   "id": "XN-2025-09-17",
+   "type": "LabPanel",
+   "date": "2025-09-17",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 95,
+    "egfr": 74,
+    "potassium": 4.9
+   }
+  },
+  {
+   "id": "XN-2026-02-12",
+   "type": "LabPanel",
+   "date": "2026-02-12",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 101,
+    "egfr": 69,
+    "potassium": 5.0
+   }
+  },
+  {
+   "id": "XN-2026-06-30",
+   "type": "LabPanel",
+   "date": "2026-06-30",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 108,
+    "egfr": 65,
+    "potassium": 4.6
+   }
+  },
+  {
+   "id": "CDHA-2026-10-30",
+   "type": "ImagingStudy",
+   "date": "2026-10-30",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Phổi tăng sáng, không thấy đám mờ khu trú."
+  },
+  {
+   "id": "XN-2026-10-30",
+   "type": "LabPanel",
+   "date": "2026-10-30",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 117,
+    "egfr": 60,
+    "potassium": 4.1,
+    "crp": 87,
+    "wbc": 8.5
+   }
+  }
+ ]
+}

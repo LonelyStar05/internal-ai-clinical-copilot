@@ -1,0 +1,68 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động",
+ "id": "TS-p049",
+ "patient_id": "p049",
+ "date": "2026-11-05T21:30",
+ "turns": [
+  {
+   "n": 1,
+   "speaker": "BS",
+   "text": "Chào bác, hôm nay bác thấy trong người thế nào?"
+  },
+  {
+   "n": 2,
+   "speaker": "BN",
+   "text": "Tôi nằm xuống là khó thở, phải kê cao gối mới ngủ được."
+  },
+  {
+   "n": 3,
+   "speaker": "BS",
+   "text": "Chân bác có phù không?"
+  },
+  {
+   "n": 4,
+   "speaker": "BN",
+   "text": "Có, phù hai chân năm hôm nay, ấn vào lõm."
+  },
+  {
+   "n": 5,
+   "speaker": "BS",
+   "text": "Ở nhà bác đã uống thuốc gì chưa?"
+  },
+  {
+   "n": 6,
+   "speaker": "BN",
+   "text": "Tôi có uống ibuprofen để hạ sốt, ngày hai ba viên. Thuốc của bệnh viện thì vẫn uống đều."
+  },
+  {
+   "n": 7,
+   "speaker": "BS",
+   "text": "Được rồi, để tôi khám. Ran ẩm hai đáy phổi, phù hai chi dưới, tĩnh mạch cổ nổi. Tim nhịp đều, tần số khoảng chín mươi mốt. Bụng mềm."
+  },
+  {
+   "n": 8,
+   "speaker": "BS",
+   "text": "SpO2 đang chin mươi ba. Huyết áp một trăm mười bảy trên bảy mươi tám."
+  },
+  {
+   "n": 9,
+   "speaker": "BS",
+   "text": "X-quang bóng tim to, xung huyết hai phổi, bạch cầu mười phẩy tám."
+  },
+  {
+   "n": 10,
+   "speaker": "BS",
+   "text": "Phù hợp suy tim mất bù."
+  },
+  {
+   "n": 11,
+   "speaker": "BS",
+   "text": "Cho Furosemid tiêm tĩnh mạch."
+  },
+  {
+   "n": 12,
+   "speaker": "BS",
+   "text": "Làm thêm điện giải đồ, khí máu, theo dõi sát sinh hiệu."
+  }
+ ]
+}

@@ -1,0 +1,254 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p019",
+  "name": "Lê Quang Sơn",
+  "birth_year": 1946,
+  "gender": "Nam",
+  "occupation": "Hưu trí",
+  "address": "Long Biên, Hà Nội",
+  "insurance": "BHYT (mức hưởng 80%)",
+  "contact": "Trần Minh Hương (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 1 - Giường 29",
+  "attending": "bs.binh",
+  "admission": {
+   "id": "BA-2026-10-08",
+   "admitted_at": "2026-10-08T12:00",
+   "ward_at": "2026-10-08T21:00",
+   "reason": "Sốt rét run, tiểu buốt. Vào ngày thứ 2 của bệnh.",
+   "kkb_diagnosis": "Nhiễm khuẩn tiết niệu",
+   "vitals": {
+    "pulse": 95,
+    "pulse_note": "không đều",
+    "temp": 38.8,
+    "bp": "103/81",
+    "resp_rate": 21,
+    "spo2": 98,
+    "weight": null
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "APT-2025-03-17",
+   "type": "Appointment",
+   "date": "2025-03-17",
+   "encounter": "KB-2025-03-17",
+   "source": "Vinmec",
+   "description": "Siêu âm bụng",
+   "due": "2025-06-15"
+  },
+  {
+   "id": "KB-2025-03-17",
+   "type": "Encounter",
+   "date": "2025-03-17",
+   "source": "Vinmec - Khám nội tiết",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "E11",
+     "display": "Đái tháo đường type 2"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán đái tháo đường type 2. Kê Metformin 850 mg 850 mg x 2 lần/ngày, Diamicron MR 30 mg 30 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-03-17-1",
+   "type": "MedicationRequest",
+   "date": "2025-03-17",
+   "encounter": "KB-2025-03-17",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Metformin 850 mg",
+   "dose": "850 mg x 2 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2025-03-17-2",
+   "type": "MedicationRequest",
+   "date": "2025-03-17",
+   "encounter": "KB-2025-03-17",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Diamicron MR 30 mg",
+   "dose": "30 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2025-03-20",
+   "type": "LabPanel",
+   "date": "2025-03-20",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 88,
+    "egfr": 80,
+    "hba1c": 7.6,
+    "potassium": 4.2
+   }
+  },
+  {
+   "id": "KB-2025-05-01",
+   "type": "Encounter",
+   "date": "2025-05-01",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [
+    {
+     "code": "I48",
+     "display": "Rung nhĩ"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rung nhĩ. Kê Apixaban 5 mg 5 mg x 2 lần/ngày, Bisoprolol 2,5 mg 2,5 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-05-01-1",
+   "type": "MedicationRequest",
+   "date": "2025-05-01",
+   "encounter": "KB-2025-05-01",
+   "source": "Vinmec",
+   "practitioner": "BS. Vũ Hạnh",
+   "drug_name": "Apixaban 5 mg",
+   "dose": "5 mg x 2 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2025-05-01-2",
+   "type": "MedicationRequest",
+   "date": "2025-05-01",
+   "encounter": "KB-2025-05-01",
+   "source": "Vinmec",
+   "practitioner": "BS. Vũ Hạnh",
+   "drug_name": "Bisoprolol 2,5 mg",
+   "dose": "2,5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "NGOAI-2025-07-10",
+   "type": "DocumentReference",
+   "date": "2025-07-10",
+   "source": "Giấy ra viện BV huyện (ảnh chụp)",
+   "text": "Ra viện ổn định. Dị ứng: Hải sản (ngứa).",
+   "allergies_recorded": [
+    {
+     "substance": "Hải sản",
+     "reaction": "ngứa"
+    }
+   ]
+  },
+  {
+   "id": "XN-2025-10-09",
+   "type": "LabPanel",
+   "date": "2025-10-09",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 95,
+    "egfr": 74,
+    "hba1c": 7.3,
+    "potassium": 4.9
+   }
+  },
+  {
+   "id": "KB-2026-02-07",
+   "type": "Encounter",
+   "date": "2026-02-07",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [
+    {
+     "code": "I48",
+     "display": "Rung nhĩ"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rung nhĩ. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "XN-2026-04-18",
+   "type": "LabPanel",
+   "date": "2026-04-18",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 103,
+    "egfr": 68,
+    "hba1c": 7.2,
+    "potassium": 4.0
+   }
+  },
+  {
+   "id": "KB-2026-05-02",
+   "type": "Encounter",
+   "date": "2026-05-02",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Đỗ Quang",
+   "diagnoses": [
+    {
+     "code": "I48",
+     "display": "Rung nhĩ"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rung nhĩ. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2026-05-25",
+   "type": "Encounter",
+   "date": "2026-05-25",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [],
+   "allergies_recorded": null,
+   "text": "Tái khám. Kê Glucophage 850 mg 850 mg x 2 lần/ngày."
+  },
+  {
+   "id": "RX-2026-05-25-9",
+   "type": "MedicationRequest",
+   "date": "2026-05-25",
+   "encounter": "KB-2026-05-25",
+   "source": "Vinmec",
+   "practitioner": "BS. Vũ Hạnh",
+   "drug_name": "Glucophage 850 mg",
+   "dose": "850 mg x 2 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2026-06-07",
+   "type": "Encounter",
+   "date": "2026-06-07",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [],
+   "allergies_recorded": [
+    {
+     "substance": "Hải sản",
+     "reaction": "ngứa"
+    }
+   ],
+   "text": "Tái khám định kỳ. Dị ứng: Hải sản."
+  },
+  {
+   "id": "CDHA-2026-10-08",
+   "type": "ImagingStudy",
+   "date": "2026-10-08",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Không thấy tổn thương nhu mô phổi."
+  },
+  {
+   "id": "XN-2026-10-08",
+   "type": "LabPanel",
+   "date": "2026-10-08",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 113,
+    "egfr": 62,
+    "potassium": 4.0,
+    "crp": 138,
+    "wbc": 11.4,
+    "glucose": 13.7
+   }
+  }
+ ]
+}

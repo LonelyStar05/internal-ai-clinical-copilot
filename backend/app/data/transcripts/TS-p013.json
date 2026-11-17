@@ -1,0 +1,78 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động",
+ "id": "TS-p013",
+ "patient_id": "p013",
+ "date": "2026-11-06T21:30",
+ "turns": [
+  {
+   "n": 1,
+   "speaker": "BS",
+   "text": "Chào bác, hôm nay bác thấy trong người thế nào?"
+  },
+  {
+   "n": 2,
+   "speaker": "BN",
+   "text": "Mấy hôm nay tôi khó thở hơn hẳn, ho khạc đờm nhiều, hai hôm nay rồi."
+  },
+  {
+   "n": 3,
+   "speaker": "BS",
+   "text": "Bác có xịt thuốc ở nhà không?"
+  },
+  {
+   "n": 4,
+   "speaker": "BN",
+   "text": "Có, tôi xịt Ventolin ngày bốn năm lần mà không đỡ."
+  },
+  {
+   "n": 5,
+   "speaker": "BS",
+   "text": "Ở nhà bác đã uống thuốc gì chưa?"
+  },
+  {
+   "n": 6,
+   "speaker": "BN",
+   "text": "Tôi có uống ibuprofen để hạ sốt, ngày hai ba viên. Thuốc của bệnh viện thì vẫn uống đều."
+  },
+  {
+   "n": 7,
+   "speaker": "BS",
+   "text": "Được rồi, để tôi khám. Phổi rì rào phế nang giảm, ran rít ran ngáy hai bên. Tim nhịp đều, tần số khoảng tám mươi. Bụng mềm."
+  },
+  {
+   "n": 8,
+   "speaker": "BS",
+   "text": "SpO2 đang chín mươi lăm. Huyết áp một trăm mười chín trên bảy mươi chín."
+  },
+  {
+   "n": 9,
+   "speaker": "BS",
+   "text": "X-quang phổi tăng sáng, không thấy đám mờ khu trú, bạch cầu mười bốn phẩy một."
+  },
+  {
+   "n": 10,
+   "speaker": "BS",
+   "text": "Nghĩ đợt cấp bệnh phổi tắc nghẽn mạn tính."
+  },
+  {
+   "n": 11,
+   "speaker": "BS",
+   "text": "Cho khí dung Salbutamol, Prednisolon 40 mg uống buổi sáng."
+  },
+  {
+   "n": 12,
+   "speaker": "BS",
+   "text": "Làm thêm điện giải đồ, khí máu, theo dõi sát sinh hiệu."
+  },
+  {
+   "n": 13,
+   "speaker": "NN",
+   "text": "Thuốc cũ của bố cháu vẫn uống tiếp ạ?"
+  },
+  {
+   "n": 14,
+   "speaker": "BS",
+   "text": "Tiếp tục thuốc cũ, chiều tôi xem lại đơn."
+  }
+ ]
+}

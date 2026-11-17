@@ -1,0 +1,253 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p056",
+  "name": "Ngô Minh Hương",
+  "birth_year": 1947,
+  "gender": "Nữ",
+  "occupation": "Hưu trí",
+  "address": "Hai Bà Trưng, Hà Nội",
+  "insurance": "BHYT (mức hưởng 100%)",
+  "contact": "Ngô Thanh Hương (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 3 - Giường 24",
+  "attending": "bs.binh",
+  "admission": {
+   "id": "BA-2026-10-13",
+   "admitted_at": "2026-10-13T11:30",
+   "ward_at": "2026-10-13T21:00",
+   "reason": "Sốt, ho đờm, khó thở. Vào ngày thứ 3 của bệnh.",
+   "kkb_diagnosis": "Viêm phổi",
+   "vitals": {
+    "pulse": 90,
+    "pulse_note": "không đều",
+    "temp": 39.3,
+    "bp": "110/68",
+    "resp_rate": 22,
+    "spo2": 98,
+    "weight": null
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "KB-2024-05-06",
+   "type": "Encounter",
+   "date": "2024-05-06",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "I25",
+     "display": "Bệnh tim thiếu máu cục bộ mạn"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh tim thiếu máu cục bộ mạn. Kê Plavix 75 mg 75 mg x 1 lần/ngày, Atorvastatin 20 mg 20 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-05-06-1",
+   "type": "MedicationRequest",
+   "date": "2024-05-06",
+   "encounter": "KB-2024-05-06",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Plavix 75 mg",
+   "dose": "75 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2024-05-06-2",
+   "type": "MedicationRequest",
+   "date": "2024-05-06",
+   "encounter": "KB-2024-05-06",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Atorvastatin 20 mg",
+   "dose": "20 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2024-05-12",
+   "type": "LabPanel",
+   "date": "2024-05-12",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 86,
+    "egfr": 81,
+    "hba1c": 8.0,
+    "potassium": 4.6
+   }
+  },
+  {
+   "id": "NGOAI-2024-06-25",
+   "type": "DocumentReference",
+   "date": "2024-06-25",
+   "source": "Đơn thuốc phòng khám tư (ảnh chụp)",
+   "text": "Ra viện ổn định. Dị ứng: Aspirin (nổi mẩn).",
+   "allergies_recorded": [
+    {
+     "substance": "Aspirin",
+     "reaction": "nổi mẩn"
+    }
+   ]
+  },
+  {
+   "id": "XN-2024-11-20",
+   "type": "LabPanel",
+   "date": "2024-11-20",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 91,
+    "egfr": 77,
+    "hba1c": 8.6,
+    "potassium": 5.8
+   },
+   "note": "Không có ghi chú xử trí"
+  },
+  {
+   "id": "XN-2025-05-04",
+   "type": "LabPanel",
+   "date": "2025-05-04",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 96,
+    "egfr": 73,
+    "hba1c": 7.6
+   }
+  },
+  {
+   "id": "KB-2025-09-12",
+   "type": "Encounter",
+   "date": "2025-09-12",
+   "source": "Vinmec - Khám nội tiết",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [
+    {
+     "code": "E11",
+     "display": "Đái tháo đường type 2"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán đái tháo đường type 2. Kê Metformin 850 mg 850 mg x 2 lần/ngày, Diamicron MR 30 mg 30 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-09-12-1",
+   "type": "MedicationRequest",
+   "date": "2025-09-12",
+   "encounter": "KB-2025-09-12",
+   "source": "Vinmec",
+   "practitioner": "BS. Vũ Hạnh",
+   "drug_name": "Metformin 850 mg",
+   "dose": "850 mg x 2 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2025-09-12-2",
+   "type": "MedicationRequest",
+   "date": "2025-09-12",
+   "encounter": "KB-2025-09-12",
+   "source": "Vinmec",
+   "practitioner": "BS. Vũ Hạnh",
+   "drug_name": "Diamicron MR 30 mg",
+   "dose": "30 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2025-11-02",
+   "type": "LabPanel",
+   "date": "2025-11-02",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 100,
+    "egfr": 70,
+    "hba1c": 7.7
+   }
+  },
+  {
+   "id": "KB-2026-02-15",
+   "type": "Encounter",
+   "date": "2026-02-15",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [
+    {
+     "code": "I48",
+     "display": "Rung nhĩ"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rung nhĩ. Kê Apixaban 5 mg 5 mg x 2 lần/ngày, Bisoprolol 2,5 mg 2,5 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2026-02-15-1",
+   "type": "MedicationRequest",
+   "date": "2026-02-15",
+   "encounter": "KB-2026-02-15",
+   "source": "Vinmec",
+   "practitioner": "BS. Vũ Hạnh",
+   "drug_name": "Apixaban 5 mg",
+   "dose": "5 mg x 2 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2026-02-15-2",
+   "type": "MedicationRequest",
+   "date": "2026-02-15",
+   "encounter": "KB-2026-02-15",
+   "source": "Vinmec",
+   "practitioner": "BS. Vũ Hạnh",
+   "drug_name": "Bisoprolol 2,5 mg",
+   "dose": "2,5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2026-03-20",
+   "type": "Encounter",
+   "date": "2026-03-20",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [],
+   "allergies_recorded": [
+    {
+     "substance": "Aspirin",
+     "reaction": "nổi mẩn"
+    }
+   ],
+   "text": "Tái khám định kỳ. Dị ứng: Aspirin."
+  },
+  {
+   "id": "XN-2026-04-25",
+   "type": "LabPanel",
+   "date": "2026-04-25",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 106,
+    "egfr": 66,
+    "hba1c": 7.5
+   }
+  },
+  {
+   "id": "CDHA-2026-10-13",
+   "type": "ImagingStudy",
+   "date": "2026-10-13",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Đám mờ thùy dưới phổi trái."
+  },
+  {
+   "id": "XN-2026-10-13",
+   "type": "LabPanel",
+   "date": "2026-10-13",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 113,
+    "egfr": 62,
+    "potassium": 4.7,
+    "crp": 50,
+    "wbc": 12.4,
+    "glucose": 15.3
+   }
+  }
+ ]
+}

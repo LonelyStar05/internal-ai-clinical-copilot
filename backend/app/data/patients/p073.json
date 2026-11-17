@@ -1,0 +1,217 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p073",
+  "name": "Bùi Xuân Quân",
+  "birth_year": 1958,
+  "gender": "Nam",
+  "occupation": "Hưu trí",
+  "address": "Cầu Giấy, Hà Nội",
+  "insurance": "BHYT (mức hưởng 80%)",
+  "contact": "Phạm Ngọc Hằng (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 1 - Giường 9",
+  "attending": "bs.an",
+  "admission": {
+   "id": "BA-2026-10-13",
+   "admitted_at": "2026-10-13T11:30",
+   "ward_at": "2026-10-13T21:00",
+   "reason": "Sốt rét run, tiểu buốt. Vào ngày thứ 3 của bệnh.",
+   "kkb_diagnosis": "Nhiễm khuẩn tiết niệu",
+   "vitals": {
+    "pulse": 88,
+    "pulse_note": "đều",
+    "temp": 38.4,
+    "bp": "135/79",
+    "resp_rate": 18,
+    "spo2": 93,
+    "weight": null
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "APT-2023-10-17",
+   "type": "Appointment",
+   "date": "2023-10-17",
+   "encounter": "KB-2023-10-17",
+   "source": "Vinmec",
+   "description": "Nội soi dạ dày",
+   "due": "2024-01-15"
+  },
+  {
+   "id": "KB-2023-10-17",
+   "type": "Encounter",
+   "date": "2023-10-17",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Kê Amlodipin 5 mg 5 mg x 1 lần/ngày, Losartan 50 mg 50 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2023-10-17-1",
+   "type": "MedicationRequest",
+   "date": "2023-10-17",
+   "encounter": "KB-2023-10-17",
+   "source": "Vinmec",
+   "practitioner": "BS. Vũ Hạnh",
+   "drug_name": "Amlodipin 5 mg",
+   "dose": "5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2023-10-17-2",
+   "type": "MedicationRequest",
+   "date": "2023-10-17",
+   "encounter": "KB-2023-10-17",
+   "source": "Vinmec",
+   "practitioner": "BS. Vũ Hạnh",
+   "drug_name": "Losartan 50 mg",
+   "dose": "50 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2023-10-30",
+   "type": "LabPanel",
+   "date": "2023-10-30",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 86,
+    "egfr": 81,
+    "potassium": 4.5
+   }
+  },
+  {
+   "id": "CDHA-2024-02-01",
+   "type": "ImagingStudy",
+   "date": "2024-02-01",
+   "source": "Vinmec",
+   "modality": "Nội soi dạ dày",
+   "text": "Kết quả trong giới hạn bình thường."
+  },
+  {
+   "id": "KB-2024-03-10",
+   "type": "Encounter",
+   "date": "2024-03-10",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "NGOAI-2024-03-18",
+   "type": "DocumentReference",
+   "date": "2024-03-18",
+   "source": "Đơn thuốc phòng khám tư (ảnh chụp)",
+   "text": "Ra viện ổn định. Dị ứng: Hải sản (ngứa).",
+   "allergies_recorded": [
+    {
+     "substance": "Hải sản",
+     "reaction": "ngứa"
+    }
+   ]
+  },
+  {
+   "id": "XN-2024-06-07",
+   "type": "LabPanel",
+   "date": "2024-06-07",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 92,
+    "egfr": 76,
+    "potassium": 3.9
+   }
+  },
+  {
+   "id": "XN-2025-01-14",
+   "type": "LabPanel",
+   "date": "2025-01-14",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 97,
+    "egfr": 72,
+    "potassium": 4.9
+   }
+  },
+  {
+   "id": "KB-2025-07-18",
+   "type": "Encounter",
+   "date": "2025-07-18",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "XN-2025-08-11",
+   "type": "LabPanel",
+   "date": "2025-08-11",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 104,
+    "egfr": 67,
+    "potassium": 4.2
+   }
+  },
+  {
+   "id": "KB-2025-08-19",
+   "type": "Encounter",
+   "date": "2025-08-19",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [],
+   "allergies_recorded": [],
+   "text": "Tái khám định kỳ. Dị ứng: không."
+  },
+  {
+   "id": "XN-2026-03-28",
+   "type": "LabPanel",
+   "date": "2026-03-28",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 111,
+    "egfr": 63,
+    "potassium": 4.3
+   }
+  },
+  {
+   "id": "CDHA-2026-10-13",
+   "type": "ImagingStudy",
+   "date": "2026-10-13",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Không thấy tổn thương nhu mô phổi."
+  },
+  {
+   "id": "XN-2026-10-13",
+   "type": "LabPanel",
+   "date": "2026-10-13",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 121,
+    "egfr": 58,
+    "potassium": 4.4,
+    "crp": 117,
+    "wbc": 9.9
+   }
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động",
+ "id": "TS-p027",
+ "patient_id": "p027",
+ "date": "2026-10-30T21:30",
+ "turns": [
+  {
+   "n": 1,
+   "speaker": "BS",
+   "text": "Chào bác, hôm nay bác thấy trong người thế nào?"
+  },
+  {
+   "n": 2,
+   "speaker": "BN",
+   "text": "Mấy hôm nay tôi khó thở hơn hẳn, ho khạc đờm nhiều, ba hôm nay rồi."
+  },
+  {
+   "n": 3,
+   "speaker": "BS",
+   "text": "Bác có xịt thuốc ở nhà không?"
+  },
+  {
+   "n": 4,
+   "speaker": "BN",
+   "text": "Có, tôi xịt Ventolin ngày bốn năm lần mà không đỡ."
+  },
+  {
+   "n": 5,
+   "speaker": "BS",
+   "text": "Ở nhà bác đã uống thuốc gì chưa?"
+  },
+  {
+   "n": 6,
+   "speaker": "BN",
+   "text": "Chỉ uống thuốc của bệnh viện kê, vẫn uống đều hằng ngày."
+  },
+  {
+   "n": 7,
+   "speaker": "NN",
+   "text": "Bác sĩ ơi, từ tối qua bố cháu hay lú lẫn, nói lảm nhảm, gọi không nhận ra người nhà."
+  },
+  {
+   "n": 8,
+   "speaker": "BS",
+   "text": "Bác có dị ứng thuốc gì không?"
+  },
+  {
+   "n": 9,
+   "speaker": "BN",
+   "text": "Tôi dị ứng penicillin, bị khó thở, nổi mề đay."
+  },
+  {
+   "n": 10,
+   "speaker": "BS",
+   "text": "Được rồi, để tôi khám. Phổi rì rào phế nang giảm, ran rít ran ngáy hai bên. Tim nhịp đều, tần số khoảng một trăm linh bốn. Bụng mềm."
+  },
+  {
+   "n": 11,
+   "speaker": "BS",
+   "text": "SpO2 đang tám mươi tám, cho thở oxy kính hai lít. Huyết áp một trăm ba mươi tư trên bảy mươi tám."
+  },
+  {
+   "n": 12,
+   "speaker": "BS",
+   "text": "X-quang phổi tăng sáng, không thấy đám mờ khu trú, bạch cầu mười bốn phẩy một."
+  },
+  {
+   "n": 13,
+   "speaker": "BS",
+   "text": "Nghĩ đợt cấp bệnh phổi tắc nghẽn mạn tính."
+  },
+  {
+   "n": 14,
+   "speaker": "BS",
+   "text": "Cho khí dung Salbutamol, Prednisolon 40 mg uống buổi sáng, phối hợp Levofloxacin 750 mg ngày một lần."
+  },
+  {
+   "n": 15,
+   "speaker": "BS",
+   "text": "Làm thêm điện giải đồ, khí máu, theo dõi sát sinh hiệu."
+  },
+  {
+   "n": 16,
+   "speaker": "NN",
+   "text": "Thuốc cũ của bố cháu vẫn uống tiếp ạ?"
+  },
+  {
+   "n": 17,
+   "speaker": "BS",
+   "text": "Tiếp tục thuốc cũ, chiều tôi xem lại đơn."
+  }
+ ]
+}

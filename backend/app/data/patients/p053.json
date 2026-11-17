@@ -1,0 +1,233 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p053",
+  "name": "Ngô Thị Lan",
+  "birth_year": 1947,
+  "gender": "Nữ",
+  "occupation": "Hưu trí",
+  "address": "Hai Bà Trưng, Hà Nội",
+  "insurance": "BHYT (mức hưởng 95%)",
+  "contact": "Phạm Thị Hoa (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 5 - Giường 21",
+  "attending": "bs.an",
+  "admission": {
+   "id": "BA-2026-10-04",
+   "admitted_at": "2026-10-04T16:30",
+   "ward_at": "2026-10-04T21:00",
+   "reason": "Sốt, ho đờm, khó thở. Vào ngày thứ 4 của bệnh.",
+   "kkb_diagnosis": "Viêm phổi",
+   "vitals": {
+    "pulse": 81,
+    "pulse_note": "đều",
+    "temp": 38.7,
+    "bp": "106/66",
+    "resp_rate": 17,
+    "spo2": 93,
+    "weight": null
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "KB-2024-05-01",
+   "type": "Encounter",
+   "date": "2024-05-01",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Kê Amlodipin 5 mg 5 mg x 1 lần/ngày, Losartan 50 mg 50 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-05-01-1",
+   "type": "MedicationRequest",
+   "date": "2024-05-01",
+   "encounter": "KB-2024-05-01",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Amlodipin 5 mg",
+   "dose": "5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2024-05-01-2",
+   "type": "MedicationRequest",
+   "date": "2024-05-01",
+   "encounter": "KB-2024-05-01",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Losartan 50 mg",
+   "dose": "50 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2024-05-20",
+   "type": "LabPanel",
+   "date": "2024-05-20",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 106,
+    "egfr": 66,
+    "potassium": 4.7
+   }
+  },
+  {
+   "id": "KB-2024-06-20",
+   "type": "Encounter",
+   "date": "2024-06-20",
+   "source": "Vinmec - Khám cơ xương khớp",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "M10",
+     "display": "Gút"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán gút. Kê Allopurinol 300 mg 300 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-06-20-1",
+   "type": "MedicationRequest",
+   "date": "2024-06-20",
+   "encounter": "KB-2024-06-20",
+   "source": "Vinmec",
+   "practitioner": "BS. Nguyễn Thu",
+   "drug_name": "Allopurinol 300 mg",
+   "dose": "300 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2024-12-25",
+   "type": "LabPanel",
+   "date": "2024-12-25",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 111,
+    "egfr": 63,
+    "potassium": 3.9
+   }
+  },
+  {
+   "id": "KB-2025-01-11",
+   "type": "Encounter",
+   "date": "2025-01-11",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [
+    {
+     "code": "E78",
+     "display": "Rối loạn lipid máu"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rối loạn lipid máu. Kê Atorvastatin 20 mg 20 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-01-11-1",
+   "type": "MedicationRequest",
+   "date": "2025-01-11",
+   "encounter": "KB-2025-01-11",
+   "source": "Vinmec",
+   "practitioner": "BS. Vũ Hạnh",
+   "drug_name": "Atorvastatin 20 mg",
+   "dose": "20 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2025-07-06",
+   "type": "Encounter",
+   "date": "2025-07-06",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "E78",
+     "display": "Rối loạn lipid máu"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rối loạn lipid máu. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "XN-2025-08-07",
+   "type": "LabPanel",
+   "date": "2025-08-07",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 117,
+    "egfr": 60,
+    "potassium": 5.0
+   }
+  },
+  {
+   "id": "KB-2025-10-23",
+   "type": "Encounter",
+   "date": "2025-10-23",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "XN-2026-03-02",
+   "type": "LabPanel",
+   "date": "2026-03-02",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 121,
+    "egfr": 58,
+    "potassium": 4.1
+   }
+  },
+  {
+   "id": "KB-2026-07-26",
+   "type": "Encounter",
+   "date": "2026-07-26",
+   "source": "Vinmec - Khám cơ xương khớp",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "M10",
+     "display": "Gút"
+    }
+   ],
+   "allergies_recorded": [],
+   "text": "Chẩn đoán gút. Tiếp tục thuốc cũ. Dị ứng: không."
+  },
+  {
+   "id": "CDHA-2026-10-04",
+   "type": "ImagingStudy",
+   "date": "2026-10-04",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Đám mờ thùy dưới phổi trái."
+  },
+  {
+   "id": "XN-2026-10-04",
+   "type": "LabPanel",
+   "date": "2026-10-04",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 127,
+    "egfr": 55,
+    "potassium": 4.8,
+    "crp": 164,
+    "wbc": 8.2
+   }
+  }
+ ]
+}

@@ -1,0 +1,315 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p032",
+  "name": "Phạm Xuân Long",
+  "birth_year": 1946,
+  "gender": "Nam",
+  "occupation": "Hưu trí",
+  "address": "Hoàng Mai, Hà Nội",
+  "insurance": "BHYT (mức hưởng 100%)",
+  "contact": "Bùi Thu Hằng (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 6 - Giường 19",
+  "attending": "bs.an",
+  "admission": {
+   "id": "BA-2026-10-09",
+   "admitted_at": "2026-10-09T09:45",
+   "ward_at": "2026-10-09T21:00",
+   "reason": "Sốt, ho đờm, khó thở. Vào ngày thứ 5 của bệnh.",
+   "kkb_diagnosis": "Viêm phổi",
+   "vitals": {
+    "pulse": 82,
+    "pulse_note": "đều",
+    "temp": 39.2,
+    "bp": "133/64",
+    "resp_rate": 22,
+    "spo2": 96,
+    "weight": null
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "APT-2024-10-26",
+   "type": "Appointment",
+   "date": "2024-10-26",
+   "encounter": "KB-2024-10-26",
+   "source": "Vinmec",
+   "description": "Nội soi dạ dày",
+   "due": "2025-01-24"
+  },
+  {
+   "id": "KB-2024-10-26",
+   "type": "Encounter",
+   "date": "2024-10-26",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "E78",
+     "display": "Rối loạn lipid máu"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rối loạn lipid máu. Kê Atorvastatin 20 mg 20 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-10-26-1",
+   "type": "MedicationRequest",
+   "date": "2024-10-26",
+   "encounter": "KB-2024-10-26",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Atorvastatin 20 mg",
+   "dose": "20 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2024-11-13",
+   "type": "LabPanel",
+   "date": "2024-11-13",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 83,
+    "egfr": 84,
+    "hba1c": 8.3,
+    "potassium": 4.2
+   }
+  },
+  {
+   "id": "CDHA-2025-01-22",
+   "type": "ImagingStudy",
+   "date": "2025-01-22",
+   "source": "Vinmec",
+   "modality": "Nội soi dạ dày",
+   "text": "Kết quả trong giới hạn bình thường."
+  },
+  {
+   "id": "NGOAI-2025-02-03",
+   "type": "DocumentReference",
+   "date": "2025-02-03",
+   "source": "Giấy ra viện BV đa khoa tỉnh (scan PDF)",
+   "text": "Ra viện ổn định. Dị ứng: Aspirin (nổi mẩn).",
+   "allergies_recorded": [
+    {
+     "substance": "Aspirin",
+     "reaction": "nổi mẩn"
+    }
+   ]
+  },
+  {
+   "id": "KB-2025-04-09",
+   "type": "Encounter",
+   "date": "2025-04-09",
+   "source": "Vinmec - Khám nội tiết",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [
+    {
+     "code": "E11",
+     "display": "Đái tháo đường type 2"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán đái tháo đường type 2. Kê Metformin 850 mg 850 mg x 2 lần/ngày, Diamicron MR 30 mg 30 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-04-09-1",
+   "type": "MedicationRequest",
+   "date": "2025-04-09",
+   "encounter": "KB-2025-04-09",
+   "source": "Vinmec",
+   "practitioner": "BS. Vũ Hạnh",
+   "drug_name": "Metformin 850 mg",
+   "dose": "850 mg x 2 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2025-04-09-2",
+   "type": "MedicationRequest",
+   "date": "2025-04-09",
+   "encounter": "KB-2025-04-09",
+   "source": "Vinmec",
+   "practitioner": "BS. Vũ Hạnh",
+   "drug_name": "Diamicron MR 30 mg",
+   "dose": "30 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2025-05-06",
+   "type": "LabPanel",
+   "date": "2025-05-06",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 95,
+    "egfr": 74,
+    "hba1c": 7.2,
+    "potassium": 4.3
+   }
+  },
+  {
+   "id": "KB-2025-06-12",
+   "type": "Encounter",
+   "date": "2025-06-12",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Kê Amlodipin 5 mg 5 mg x 1 lần/ngày, Losartan 50 mg 50 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-06-12-1",
+   "type": "MedicationRequest",
+   "date": "2025-06-12",
+   "encounter": "KB-2025-06-12",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Amlodipin 5 mg",
+   "dose": "5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2025-06-12-2",
+   "type": "MedicationRequest",
+   "date": "2025-06-12",
+   "encounter": "KB-2025-06-12",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Losartan 50 mg",
+   "dose": "50 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2025-08-29",
+   "type": "Encounter",
+   "date": "2025-08-29",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "XN-2025-10-26",
+   "type": "LabPanel",
+   "date": "2025-10-26",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 109,
+    "egfr": 64,
+    "hba1c": 7.1,
+    "potassium": 5.8
+   },
+   "note": "Không có ghi chú xử trí"
+  },
+  {
+   "id": "KB-2026-02-10",
+   "type": "Encounter",
+   "date": "2026-02-10",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2026-04-06",
+   "type": "Encounter",
+   "date": "2026-04-06",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "E78",
+     "display": "Rối loạn lipid máu"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rối loạn lipid máu. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2026-05-01",
+   "type": "Encounter",
+   "date": "2026-05-01",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [],
+   "allergies_recorded": null,
+   "text": "Tái khám. Kê Amlor 5 mg 5 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2026-05-01-9",
+   "type": "MedicationRequest",
+   "date": "2026-05-01",
+   "encounter": "KB-2026-05-01",
+   "source": "Vinmec",
+   "practitioner": "BS. Vũ Hạnh",
+   "drug_name": "Amlor 5 mg",
+   "dose": "5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2026-05-03",
+   "type": "LabPanel",
+   "date": "2026-05-03",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 132,
+    "egfr": 53,
+    "hba1c": 8.3
+   }
+  },
+  {
+   "id": "KB-2026-05-15",
+   "type": "Encounter",
+   "date": "2026-05-15",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [],
+   "allergies_recorded": [
+    {
+     "substance": "Aspirin",
+     "reaction": "nổi mẩn"
+    }
+   ],
+   "text": "Tái khám định kỳ. Dị ứng: Aspirin."
+  },
+  {
+   "id": "CDHA-2026-10-09",
+   "type": "ImagingStudy",
+   "date": "2026-10-09",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Đám mờ thùy dưới phổi trái."
+  },
+  {
+   "id": "XN-2026-10-09",
+   "type": "LabPanel",
+   "date": "2026-10-09",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 163,
+    "egfr": 43,
+    "potassium": 4.1,
+    "crp": 96,
+    "wbc": 12.2,
+    "glucose": 14.8
+   }
+  }
+ ]
+}

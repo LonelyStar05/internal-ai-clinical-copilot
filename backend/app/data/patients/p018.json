@@ -1,0 +1,229 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p018",
+  "name": "Đỗ Thị Mai",
+  "birth_year": 1954,
+  "gender": "Nữ",
+  "occupation": "Hưu trí",
+  "address": "Thanh Xuân, Hà Nội",
+  "insurance": "BHYT (mức hưởng 100%)",
+  "contact": "Đỗ Thị Mai (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 3 - Giường 26",
+  "attending": "bs.binh",
+  "admission": {
+   "id": "BA-2026-10-31",
+   "admitted_at": "2026-10-31T07:45",
+   "ward_at": "2026-10-31T21:00",
+   "reason": "Sốt, ho đờm, khó thở. Vào ngày thứ 2 của bệnh.",
+   "kkb_diagnosis": "Viêm phổi",
+   "vitals": {
+    "pulse": 122,
+    "pulse_note": "đều",
+    "temp": 38.4,
+    "bp": "132/70",
+    "resp_rate": 29,
+    "spo2": 89,
+    "weight": null
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "KB-2024-05-08",
+   "type": "Encounter",
+   "date": "2024-05-08",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "I25",
+     "display": "Bệnh tim thiếu máu cục bộ mạn"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh tim thiếu máu cục bộ mạn. Kê Plavix 75 mg 75 mg x 1 lần/ngày, Atorvastatin 20 mg 20 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-05-08-1",
+   "type": "MedicationRequest",
+   "date": "2024-05-08",
+   "encounter": "KB-2024-05-08",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Plavix 75 mg",
+   "dose": "75 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2024-05-08-2",
+   "type": "MedicationRequest",
+   "date": "2024-05-08",
+   "encounter": "KB-2024-05-08",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Atorvastatin 20 mg",
+   "dose": "20 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2024-05-26",
+   "type": "LabPanel",
+   "date": "2024-05-26",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 90,
+    "egfr": 78,
+    "potassium": 4.3
+   }
+  },
+  {
+   "id": "KB-2024-05-29",
+   "type": "Encounter",
+   "date": "2024-05-29",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "I25",
+     "display": "Bệnh tim thiếu máu cục bộ mạn"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh tim thiếu máu cục bộ mạn. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "NGOAI-2024-09-25",
+   "type": "DocumentReference",
+   "date": "2024-09-25",
+   "source": "Đơn thuốc phòng khám tư (ảnh chụp)",
+   "text": "Ra viện ổn định. Dị ứng: Penicillin (khó thở, nổi mề đay).",
+   "allergies_recorded": [
+    {
+     "substance": "Penicillin",
+     "reaction": "khó thở, nổi mề đay"
+    }
+   ]
+  },
+  {
+   "id": "KB-2024-10-14",
+   "type": "Encounter",
+   "date": "2024-10-14",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "I25",
+     "display": "Bệnh tim thiếu máu cục bộ mạn"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh tim thiếu máu cục bộ mạn. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2024-12-14",
+   "type": "Encounter",
+   "date": "2024-12-14",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "I25",
+     "display": "Bệnh tim thiếu máu cục bộ mạn"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh tim thiếu máu cục bộ mạn. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "XN-2025-03-19",
+   "type": "LabPanel",
+   "date": "2025-03-19",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 104,
+    "egfr": 67,
+    "potassium": 4.2
+   }
+  },
+  {
+   "id": "KB-2025-05-30",
+   "type": "Encounter",
+   "date": "2025-05-30",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "I25",
+     "display": "Bệnh tim thiếu máu cục bộ mạn"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh tim thiếu máu cục bộ mạn. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2025-06-14",
+   "type": "Encounter",
+   "date": "2025-06-14",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [],
+   "allergies_recorded": null,
+   "text": "Tái khám. Kê Lipitor 20 mg 20 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-06-14-9",
+   "type": "MedicationRequest",
+   "date": "2025-06-14",
+   "encounter": "KB-2025-06-14",
+   "source": "Vinmec",
+   "practitioner": "BS. Nguyễn Thu",
+   "drug_name": "Lipitor 20 mg",
+   "dose": "20 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2025-06-26",
+   "type": "Encounter",
+   "date": "2025-06-26",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [],
+   "allergies_recorded": [],
+   "text": "Tái khám định kỳ. Dị ứng: không."
+  },
+  {
+   "id": "XN-2026-01-11",
+   "type": "LabPanel",
+   "date": "2026-01-11",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 127,
+    "egfr": 55,
+    "potassium": 4.6
+   }
+  },
+  {
+   "id": "CDHA-2026-10-31",
+   "type": "ImagingStudy",
+   "date": "2026-10-31",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Đám mờ thùy dưới phổi trái."
+  },
+  {
+   "id": "XN-2026-10-31",
+   "type": "LabPanel",
+   "date": "2026-10-31",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 159,
+    "egfr": 44,
+    "potassium": 4.1,
+    "crp": 158,
+    "wbc": 12.5
+   }
+  }
+ ]
+}

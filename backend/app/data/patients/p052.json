@@ -1,0 +1,203 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p052",
+  "name": "Trần Thu Loan",
+  "birth_year": 1971,
+  "gender": "Nữ",
+  "occupation": "Hưu trí",
+  "address": "Hà Đông, Hà Nội",
+  "insurance": "BHYT (mức hưởng 100%)",
+  "contact": "Ngô Thanh Loan (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 3 - Giường 18",
+  "attending": "bs.an",
+  "admission": {
+   "id": "BA-2026-11-03",
+   "admitted_at": "2026-11-03T18:15",
+   "ward_at": "2026-11-03T21:00",
+   "reason": "Khó thở khi nằm, phù hai chân. Vào ngày thứ 5 của bệnh.",
+   "kkb_diagnosis": "Suy tim",
+   "vitals": {
+    "pulse": 77,
+    "pulse_note": "đều",
+    "temp": 36.9,
+    "bp": "133/63",
+    "resp_rate": 17,
+    "spo2": 97,
+    "weight": 73
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "KB-2024-12-31",
+   "type": "Encounter",
+   "date": "2024-12-31",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [
+    {
+     "code": "I50",
+     "display": "Suy tim"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán suy tim. Kê Furosemid 40 mg 40 mg x 1 lần/ngày, Bisoprolol 2,5 mg 2,5 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-12-31-1",
+   "type": "MedicationRequest",
+   "date": "2024-12-31",
+   "encounter": "KB-2024-12-31",
+   "source": "Vinmec",
+   "practitioner": "BS. Lê Hà",
+   "drug_name": "Furosemid 40 mg",
+   "dose": "40 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2024-12-31-2",
+   "type": "MedicationRequest",
+   "date": "2024-12-31",
+   "encounter": "KB-2024-12-31",
+   "source": "Vinmec",
+   "practitioner": "BS. Lê Hà",
+   "drug_name": "Bisoprolol 2,5 mg",
+   "dose": "2,5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2025-01-11",
+   "type": "LabPanel",
+   "date": "2025-01-11",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 99,
+    "egfr": 71,
+    "potassium": 4.9
+   }
+  },
+  {
+   "id": "KB-2025-02-13",
+   "type": "Encounter",
+   "date": "2025-02-13",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "I25",
+     "display": "Bệnh tim thiếu máu cục bộ mạn"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh tim thiếu máu cục bộ mạn. Kê Plavix 75 mg 75 mg x 1 lần/ngày, Atorvastatin 20 mg 20 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-02-13-1",
+   "type": "MedicationRequest",
+   "date": "2025-02-13",
+   "encounter": "KB-2025-02-13",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Plavix 75 mg",
+   "dose": "75 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2025-02-13-2",
+   "type": "MedicationRequest",
+   "date": "2025-02-13",
+   "encounter": "KB-2025-02-13",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Atorvastatin 20 mg",
+   "dose": "20 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2025-07-06",
+   "type": "Encounter",
+   "date": "2025-07-06",
+   "source": "Vinmec - Khám cơ xương khớp",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "M10",
+     "display": "Gút"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán gút. Kê Allopurinol 300 mg 300 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-07-06-1",
+   "type": "MedicationRequest",
+   "date": "2025-07-06",
+   "encounter": "KB-2025-07-06",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Allopurinol 300 mg",
+   "dose": "300 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2025-08-15",
+   "type": "LabPanel",
+   "date": "2025-08-15",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 111,
+    "egfr": 63,
+    "potassium": 4.6
+   }
+  },
+  {
+   "id": "KB-2026-02-21",
+   "type": "Encounter",
+   "date": "2026-02-21",
+   "source": "Vinmec - Khám cơ xương khớp",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "M10",
+     "display": "Gút"
+    }
+   ],
+   "allergies_recorded": [],
+   "text": "Chẩn đoán gút. Tiếp tục thuốc cũ. Dị ứng: không."
+  },
+  {
+   "id": "XN-2026-03-24",
+   "type": "LabPanel",
+   "date": "2026-03-24",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 127,
+    "egfr": 55,
+    "potassium": 4.4
+   }
+  },
+  {
+   "id": "CDHA-2026-11-03",
+   "type": "ImagingStudy",
+   "date": "2026-11-03",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Bóng tim to, xung huyết hai phổi."
+  },
+  {
+   "id": "XN-2026-11-03",
+   "type": "LabPanel",
+   "date": "2026-11-03",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 149,
+    "egfr": 47,
+    "potassium": 5.0,
+    "crp": 176,
+    "wbc": 10.1
+   }
+  }
+ ]
+}

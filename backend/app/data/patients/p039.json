@@ -1,0 +1,271 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p039",
+  "name": "Dương Quang Sơn",
+  "birth_year": 1946,
+  "gender": "Nam",
+  "occupation": "Hưu trí",
+  "address": "Gia Lâm, Hà Nội",
+  "insurance": "BHYT (mức hưởng 95%)",
+  "contact": "Trần Ngọc Mai (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 3 - Giường 3",
+  "attending": "bs.an",
+  "admission": {
+   "id": "BA-2026-10-06",
+   "admitted_at": "2026-10-06T11:45",
+   "ward_at": "2026-10-06T21:00",
+   "reason": "Sốt rét run, tiểu buốt. Vào ngày thứ 4 của bệnh.",
+   "kkb_diagnosis": "Nhiễm khuẩn tiết niệu",
+   "vitals": {
+    "pulse": 84,
+    "pulse_note": "không đều",
+    "temp": 38.6,
+    "bp": "130/76",
+    "resp_rate": 21,
+    "spo2": 95,
+    "weight": 46
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "KB-2025-01-15",
+   "type": "Encounter",
+   "date": "2025-01-15",
+   "source": "Vinmec - Khám cơ xương khớp",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "M10",
+     "display": "Gút"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán gút. Kê Allopurinol 300 mg 300 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-01-15-1",
+   "type": "MedicationRequest",
+   "date": "2025-01-15",
+   "encounter": "KB-2025-01-15",
+   "source": "Vinmec",
+   "practitioner": "BS. Nguyễn Thu",
+   "drug_name": "Allopurinol 300 mg",
+   "dose": "300 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2025-01-16",
+   "type": "LabPanel",
+   "date": "2025-01-16",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 86,
+    "egfr": 81,
+    "hba1c": 6.7,
+    "potassium": 4.4
+   }
+  },
+  {
+   "id": "NGOAI-2025-04-24",
+   "type": "DocumentReference",
+   "date": "2025-04-24",
+   "source": "Đơn thuốc phòng khám tư (ảnh chụp)",
+   "text": "Ra viện ổn định. Dị ứng: Aspirin (nổi mẩn).",
+   "allergies_recorded": [
+    {
+     "substance": "Aspirin",
+     "reaction": "nổi mẩn"
+    }
+   ]
+  },
+  {
+   "id": "XN-2025-08-18",
+   "type": "LabPanel",
+   "date": "2025-08-18",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 93,
+    "egfr": 75,
+    "hba1c": 8.3,
+    "potassium": 4.1
+   }
+  },
+  {
+   "id": "KB-2025-08-29",
+   "type": "Encounter",
+   "date": "2025-08-29",
+   "source": "Vinmec - Khám nội tiết",
+   "practitioner": "BS. Đỗ Quang",
+   "diagnoses": [
+    {
+     "code": "E11",
+     "display": "Đái tháo đường type 2"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán đái tháo đường type 2. Kê Metformin 850 mg 850 mg x 2 lần/ngày, Diamicron MR 30 mg 30 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-08-29-1",
+   "type": "MedicationRequest",
+   "date": "2025-08-29",
+   "encounter": "KB-2025-08-29",
+   "source": "Vinmec",
+   "practitioner": "BS. Đỗ Quang",
+   "drug_name": "Metformin 850 mg",
+   "dose": "850 mg x 2 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2025-08-29-2",
+   "type": "MedicationRequest",
+   "date": "2025-08-29",
+   "encounter": "KB-2025-08-29",
+   "source": "Vinmec",
+   "practitioner": "BS. Đỗ Quang",
+   "drug_name": "Diamicron MR 30 mg",
+   "dose": "30 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2026-01-31",
+   "type": "Encounter",
+   "date": "2026-01-31",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [
+    {
+     "code": "I48",
+     "display": "Rung nhĩ"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rung nhĩ. Kê Apixaban 5 mg 5 mg x 2 lần/ngày, Bisoprolol 2,5 mg 2,5 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2026-01-31-1",
+   "type": "MedicationRequest",
+   "date": "2026-01-31",
+   "encounter": "KB-2026-01-31",
+   "source": "Vinmec",
+   "practitioner": "BS. Lê Hà",
+   "drug_name": "Apixaban 5 mg",
+   "dose": "5 mg x 2 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2026-01-31-2",
+   "type": "MedicationRequest",
+   "date": "2026-01-31",
+   "encounter": "KB-2026-01-31",
+   "source": "Vinmec",
+   "practitioner": "BS. Lê Hà",
+   "drug_name": "Bisoprolol 2,5 mg",
+   "dose": "2,5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2026-03-21",
+   "type": "LabPanel",
+   "date": "2026-03-21",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 100,
+    "egfr": 70,
+    "hba1c": 8.2,
+    "potassium": 4.9
+   }
+  },
+  {
+   "id": "KB-2026-04-16",
+   "type": "Encounter",
+   "date": "2026-04-16",
+   "source": "Vinmec - Khám nội tiết",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [
+    {
+     "code": "E11",
+     "display": "Đái tháo đường type 2"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán đái tháo đường type 2. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2026-06-01",
+   "type": "Encounter",
+   "date": "2026-06-01",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "I48",
+     "display": "Rung nhĩ"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rung nhĩ. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2026-06-13",
+   "type": "Encounter",
+   "date": "2026-06-13",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [],
+   "allergies_recorded": null,
+   "text": "Tái khám. Kê Glucophage 850 mg 850 mg x 2 lần/ngày."
+  },
+  {
+   "id": "RX-2026-06-13-9",
+   "type": "MedicationRequest",
+   "date": "2026-06-13",
+   "encounter": "KB-2026-06-13",
+   "source": "Vinmec",
+   "practitioner": "BS. Trịnh Sơn",
+   "drug_name": "Glucophage 850 mg",
+   "dose": "850 mg x 2 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2026-07-02",
+   "type": "Encounter",
+   "date": "2026-07-02",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [],
+   "allergies_recorded": [
+    {
+     "substance": "Aspirin",
+     "reaction": "nổi mẩn"
+    }
+   ],
+   "text": "Tái khám định kỳ. Dị ứng: Aspirin."
+  },
+  {
+   "id": "CDHA-2026-10-06",
+   "type": "ImagingStudy",
+   "date": "2026-10-06",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Không thấy tổn thương nhu mô phổi."
+  },
+  {
+   "id": "XN-2026-10-06",
+   "type": "LabPanel",
+   "date": "2026-10-06",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 109,
+    "egfr": 64,
+    "potassium": 3.9,
+    "crp": 89,
+    "wbc": 6.6,
+    "glucose": 9.2
+   }
+  }
+ ]
+}

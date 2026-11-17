@@ -1,0 +1,282 @@
+{
+  "_note": "Đáp án viết tay cho ca mẫu. R7-R11 bổ sung sau khi chấm: đây là các cờ hợp lệ mà bản đáp án đầu bỏ sót.",
+  "module1": {
+    "flags": {
+      "M1": {
+        "kind": "unresolved_abnormal",
+        "must_cite": [
+          "XN-2026-03-12"
+        ]
+      },
+      "M2": {
+        "kind": "duplicate_ingredient",
+        "must_cite": [
+          "RX-2025-02-20-3",
+          "RX-2025-12-05-2"
+        ]
+      },
+      "M3": {
+        "kind": "allergy_conflict",
+        "must_cite": [
+          "NGOAI-2025-06-03",
+          "KB-2025-12-05"
+        ]
+      },
+      "M4": {
+        "kind": "renal_dose",
+        "must_cite": [
+          "RX-2024-05-14-1",
+          "XN-2026-11-08"
+        ]
+      },
+      "M5": {
+        "kind": "missing_result",
+        "must_cite": [
+          "APT-2025-02-20"
+        ]
+      }
+    },
+    "facts": [
+      {
+        "id": "dtd",
+        "contains": "Đái tháo đường",
+        "must_cite": [
+          "KB-2024-05-14"
+        ]
+      },
+      {
+        "id": "rung_nhi",
+        "contains": "Rung nhĩ",
+        "must_cite": [
+          "KB-2025-02-20"
+        ]
+      },
+      {
+        "id": "tha",
+        "contains": "Tăng huyết áp",
+        "must_cite": [
+          "KB-2025-02-20"
+        ]
+      },
+      {
+        "id": "hba1c",
+        "contains": "HbA1c",
+        "must_cite": [
+          "XN-2026-03-12"
+        ]
+      },
+      {
+        "id": "egfr",
+        "contains": "eGFR",
+        "must_cite": [
+          "XN-2024-05-14",
+          "XN-2026-11-08"
+        ]
+      }
+    ],
+    "forbidden": [
+      "bệnh thận mạn"
+    ]
+  },
+  "module2": {
+    "facts": [
+      {
+        "id": "sot_ho",
+        "section": "S",
+        "turn": 2,
+        "keywords": [
+          "sốt",
+          "đờm"
+        ]
+      },
+      {
+        "id": "kho_tho",
+        "section": "S",
+        "turn": 4,
+        "keywords": [
+          "khó thở"
+        ]
+      },
+      {
+        "id": "dau_nguc",
+        "section": "S",
+        "turn": 6,
+        "keywords": [
+          "đau"
+        ]
+      },
+      {
+        "id": "ibuprofen",
+        "section": "S",
+        "turn": 8,
+        "keywords": [
+          "ibuprofen"
+        ]
+      },
+      {
+        "id": "lu_lan",
+        "section": "S",
+        "turn": 9,
+        "keywords": [
+          "lú lẫn"
+        ]
+      },
+      {
+        "id": "phan_den",
+        "section": "S",
+        "turn": 11,
+        "keywords": [
+          "phân"
+        ]
+      },
+      {
+        "id": "kham_phoi",
+        "section": "O",
+        "turn": 12,
+        "keywords": [
+          "ran"
+        ]
+      },
+      {
+        "id": "spo2",
+        "section": "O",
+        "turn": 13,
+        "keywords": [
+          "91"
+        ]
+      },
+      {
+        "id": "huyet_ap",
+        "section": "O",
+        "turn": 13,
+        "keywords": [
+          "128/76"
+        ]
+      },
+      {
+        "id": "cls",
+        "section": "O",
+        "turn": 14,
+        "keywords": [
+          "CRP"
+        ]
+      },
+      {
+        "id": "chan_doan",
+        "section": "A",
+        "turn": 15,
+        "keywords": [
+          "viêm phổi"
+        ]
+      },
+      {
+        "id": "khang_sinh",
+        "section": "P",
+        "turn": 15,
+        "keywords": [
+          "Clarithromycin"
+        ]
+      },
+      {
+        "id": "xet_nghiem",
+        "section": "P",
+        "turn": 16,
+        "keywords": [
+          "cấy đờm"
+        ]
+      },
+      {
+        "id": "thuoc_cu",
+        "section": "P",
+        "turn": 18,
+        "keywords": [
+          "thuốc cũ"
+        ]
+      },
+      {
+        "id": "oxy",
+        "section": "P",
+        "turn": 13,
+        "keywords": [
+          "oxy"
+        ]
+      }
+    ],
+    "missing": [
+      "di_ung",
+      "tien_su_gia_dinh",
+      "thuoc_la_ruou",
+      "can_nang"
+    ],
+    "flags": {
+      "R1": {
+        "kind": "red_flag",
+        "id": "confusion"
+      },
+      "R2": {
+        "kind": "red_flag",
+        "id": "gi_bleed"
+      },
+      "R3": {
+        "kind": "interaction",
+        "pair": [
+          "apixaban",
+          "ibuprofen"
+        ]
+      },
+      "R4": {
+        "kind": "interaction",
+        "pair": [
+          "apixaban",
+          "clarithromycin"
+        ]
+      },
+      "R5": {
+        "kind": "allergy_reminder",
+        "substance": "Aspirin"
+      },
+      "R6": {
+        "kind": "asr_normalized",
+        "value": "90"
+      },
+      "R7": {
+        "kind": "vital_abnormal"
+      },
+      "R8": {
+        "kind": "allergy_cross",
+        "drug": "ibuprofen"
+      },
+      "R9": {
+        "kind": "interaction",
+        "pair": [
+          "amlodipine",
+          "clarithromycin"
+        ]
+      },
+      "R10": {
+        "kind": "renal_dose",
+        "drug": "ibuprofen"
+      },
+      "R11": {
+        "kind": "interaction",
+        "pair": [
+          "losartan",
+          "ibuprofen"
+        ]
+      }
+    },
+    "forbidden_numbers": [
+      "152/90"
+    ],
+    "forbidden_text": [
+      "xuất huyết tiêu hóa",
+      "sốc nhiễm khuẩn"
+    ],
+    "forbidden_patterns": [
+      "cân nặng:\\s*\\d"
+    ],
+    "transcript_id": "TS-2026-11-08"
+  },
+  "patient_id": "p001",
+  "source": "viết tay"
+}

@@ -1,0 +1,26 @@
+{
+  "_note": "DỮ LIỆU GIẢ LẬP 100%",
+  "id": "TS-2026-11-08",
+  "patient_id": "p001",
+  "date": "2026-11-08T16:30",
+  "turns": [
+    {"n": 1,  "speaker": "BS", "text": "Chào bác, bác thấy trong người thế nào?"},
+    {"n": 2,  "speaker": "BN", "text": "Mệt lắm bác sĩ ạ. Sốt ba hôm nay rồi, ho nhiều, đờm màu vàng."},
+    {"n": 3,  "speaker": "BS", "text": "Khó thở từ bao giờ ạ?"},
+    {"n": 4,  "speaker": "BN", "text": "Từ hôm qua, đi vào nhà vệ sinh cũng thở hổn hển."},
+    {"n": 5,  "speaker": "BS", "text": "Có đau ngực không bác?"},
+    {"n": 6,  "speaker": "BN", "text": "Đau bên phải, ho mạnh thì đau hơn."},
+    {"n": 7,  "speaker": "BS", "text": "Ở nhà bác đã uống thuốc gì chưa?"},
+    {"n": 8,  "speaker": "BN", "text": "Tôi uống thuốc hạ sốt, cái viên ibuprofen ấy, ngày hai ba viên. Với thuốc huyết áp, thuốc tiểu đường thì vẫn uống đều."},
+    {"n": 9,  "speaker": "NN", "text": "Bác sĩ ơi, mấy hôm nay bố cháu hay lú lẫn, tối qua còn nói lảm nhảm, không nhận ra cháu."},
+    {"n": 10, "speaker": "BS", "text": "Thế à. Bác ăn uống được không, đi tiểu bình thường không?"},
+    {"n": 11, "speaker": "BN", "text": "Ăn kém lắm. Tiểu ít hơn mọi khi. À hôm kia tôi đi ngoài phân hơi đen, một lần thôi."},
+    {"n": 12, "speaker": "BS", "text": "Được rồi. Để tôi nghe phổi. Phổi phải có ran nổ vùng đáy, phổi trái thông khí được. Tim loạn nhịp hoàn toàn, tần số khoảng một trăm. Bụng mềm, không chướng."},
+    {"n": 13, "speaker": "BS", "text": "SpO2 đang chín mươi mốt, cho thở oxy kính hai lít. Huyết áp một trăm hai mươi tám trên bảy mươi sáu."},
+    {"n": 14, "speaker": "BS", "text": "X-quang có đám mờ đáy phổi phải, bạch cầu mười lăm phẩy hai, CRP chín mươi sáu."},
+    {"n": 15, "speaker": "BS", "text": "Nghe phù hợp viêm phổi cộng đồng phổi phải. Cho Augmentin truyền với Clarithromycin 500 mg ngày hai lần. Paracetamol khi sốt trên ba mươi tám rưỡi."},
+    {"n": 16, "speaker": "BS", "text": "Làm thêm khí máu, điện giải đồ, cấy đờm. Theo dõi sát, báo tôi nếu SpO2 dưới chin mươi."},
+    {"n": 17, "speaker": "NN", "text": "Còn thuốc chống đông của bố cháu vẫn uống tiếp ạ?"},
+    {"n": 18, "speaker": "BS", "text": "Tiếp tục thuốc cũ trước đã, chiều tôi xem lại."}
+  ]
+}

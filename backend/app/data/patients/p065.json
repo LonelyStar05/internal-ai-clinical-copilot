@@ -1,0 +1,213 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p065",
+  "name": "Lý Xuân Khải",
+  "birth_year": 1973,
+  "gender": "Nam",
+  "occupation": "Hưu trí",
+  "address": "Thanh Xuân, Hà Nội",
+  "insurance": "BHYT (mức hưởng 95%)",
+  "contact": "Lê Thị Mai (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 7 - Giường 15",
+  "attending": "bs.an",
+  "admission": {
+   "id": "BA-2026-10-25",
+   "admitted_at": "2026-10-25T17:45",
+   "ward_at": "2026-10-25T21:00",
+   "reason": "Khó thở khi nằm, phù hai chân. Vào ngày thứ 2 của bệnh.",
+   "kkb_diagnosis": "Suy tim",
+   "vitals": {
+    "pulse": 87,
+    "pulse_note": "không đều",
+    "temp": 37.2,
+    "bp": "115/73",
+    "resp_rate": 20,
+    "spo2": 93,
+    "weight": 66
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "APT-2024-12-12",
+   "type": "Appointment",
+   "date": "2024-12-12",
+   "encounter": "KB-2024-12-12",
+   "source": "Vinmec",
+   "description": "Nội soi dạ dày",
+   "due": "2025-03-12"
+  },
+  {
+   "id": "KB-2024-12-12",
+   "type": "Encounter",
+   "date": "2024-12-12",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "I50",
+     "display": "Suy tim"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán suy tim. Kê Furosemid 40 mg 40 mg x 1 lần/ngày, Bisoprolol 2,5 mg 2,5 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-12-12-1",
+   "type": "MedicationRequest",
+   "date": "2024-12-12",
+   "encounter": "KB-2024-12-12",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Furosemid 40 mg",
+   "dose": "40 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2024-12-12-2",
+   "type": "MedicationRequest",
+   "date": "2024-12-12",
+   "encounter": "KB-2024-12-12",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Bisoprolol 2,5 mg",
+   "dose": "2,5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2024-12-28",
+   "type": "LabPanel",
+   "date": "2024-12-28",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 108,
+    "egfr": 65,
+    "potassium": 4.9
+   }
+  },
+  {
+   "id": "KB-2025-02-28",
+   "type": "Encounter",
+   "date": "2025-02-28",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [
+    {
+     "code": "I48",
+     "display": "Rung nhĩ"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rung nhĩ. Kê Apixaban 5 mg 5 mg x 2 lần/ngày."
+  },
+  {
+   "id": "RX-2025-02-28-1",
+   "type": "MedicationRequest",
+   "date": "2025-02-28",
+   "encounter": "KB-2025-02-28",
+   "source": "Vinmec",
+   "practitioner": "BS. Vũ Hạnh",
+   "drug_name": "Apixaban 5 mg",
+   "dose": "5 mg x 2 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "CDHA-2025-03-06",
+   "type": "ImagingStudy",
+   "date": "2025-03-06",
+   "source": "Vinmec",
+   "modality": "Nội soi dạ dày",
+   "text": "Kết quả trong giới hạn bình thường."
+  },
+  {
+   "id": "KB-2025-05-01",
+   "type": "Encounter",
+   "date": "2025-05-01",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "I48",
+     "display": "Rung nhĩ"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rung nhĩ. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2025-05-16",
+   "type": "Encounter",
+   "date": "2025-05-16",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "I50",
+     "display": "Suy tim"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán suy tim. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "XN-2025-08-07",
+   "type": "LabPanel",
+   "date": "2025-08-07",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 119,
+    "egfr": 59,
+    "potassium": 4.5
+   }
+  },
+  {
+   "id": "KB-2026-01-12",
+   "type": "Encounter",
+   "date": "2026-01-12",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "I48",
+     "display": "Rung nhĩ"
+    }
+   ],
+   "allergies_recorded": [],
+   "text": "Chẩn đoán rung nhĩ. Tiếp tục thuốc cũ. Dị ứng: không."
+  },
+  {
+   "id": "XN-2026-03-12",
+   "type": "LabPanel",
+   "date": "2026-03-12",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 132,
+    "egfr": 53,
+    "potassium": 4.9
+   }
+  },
+  {
+   "id": "CDHA-2026-10-25",
+   "type": "ImagingStudy",
+   "date": "2026-10-25",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Bóng tim to, xung huyết hai phổi."
+  },
+  {
+   "id": "XN-2026-10-25",
+   "type": "LabPanel",
+   "date": "2026-10-25",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 149,
+    "egfr": 47,
+    "potassium": 4.3,
+    "crp": 113,
+    "wbc": 9.7
+   }
+  }
+ ]
+}

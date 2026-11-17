@@ -1,0 +1,71 @@
+{
+  "_note": "DỮ LIỆU GIẢ LẬP 100% - không phải bệnh nhân thật",
+  "patient": {
+    "id": "p001",
+    "name": "Trần Văn Bình",
+    "birth_year": 1958,
+    "gender": "Nam",
+    "occupation": "Hưu trí",
+    "address": "Hoàng Mai, Hà Nội",
+    "insurance": "BHYT (mức hưởng 80%)",
+    "contact": "Trần Thị Lan (con gái)",
+    "ward": "Khoa Nội tổng hợp",
+    "bed": "Buồng 3 - Giường 12",
+    "attending": "bs.an",
+    "admission": {
+      "id": "BA-2026-11-08",
+      "admitted_at": "2026-11-08T14:20",
+      "ward_at": "2026-11-08T16:00",
+      "reason": "Sốt, ho đờm, khó thở. Vào ngày thứ 3 của bệnh.",
+      "kkb_diagnosis": "Viêm phổi / ĐTĐ type 2 / THA / Rung nhĩ",
+      "vitals": {"pulse": 104, "pulse_note": "không đều", "temp": 38.6, "bp": "128/76", "resp_rate": 26, "spo2": 91, "weight": null}
+    }
+  },
+  "resources": [
+    {
+      "id": "KB-2024-05-14", "type": "Encounter", "date": "2024-05-14", "source": "Vinmec - Khám nội tiết",
+      "practitioner": "BS. Nguyễn Thu", "text": "Chẩn đoán đái tháo đường type 2. Kê Metformin 850 mg x 2 lần/ngày.",
+      "diagnoses": [{"code": "E11", "display": "Đái tháo đường type 2"}],
+      "allergies_recorded": null
+    },
+    {
+      "id": "RX-2024-05-14-1", "type": "MedicationRequest", "date": "2024-05-14", "encounter": "KB-2024-05-14",
+      "source": "Vinmec", "practitioner": "BS. Nguyễn Thu",
+      "drug_name": "Metformin 850 mg", "dose": "850 mg x 2 lần/ngày", "daily_mg": 1700, "status": "active"
+    },
+    {
+      "id": "KB-2025-02-20", "type": "Encounter", "date": "2025-02-20", "source": "Vinmec - Khám tim mạch",
+      "practitioner": "BS. Phạm Minh",
+      "text": "Phát hiện rung nhĩ. Kê Apixaban 5 mg x 2 lần/ngày, Bisoprolol 2,5 mg x 1, Amlodipin 5 mg x 1. Hẹn siêu âm tim sau 3 tháng.",
+      "diagnoses": [{"code": "I48", "display": "Rung nhĩ"}, {"code": "I10", "display": "Tăng huyết áp"}],
+      "allergies_recorded": null
+    },
+    {"id": "RX-2025-02-20-1", "type": "MedicationRequest", "date": "2025-02-20", "encounter": "KB-2025-02-20", "source": "Vinmec", "practitioner": "BS. Phạm Minh", "drug_name": "Apixaban 5 mg", "dose": "5 mg x 2 lần/ngày", "status": "active"},
+    {"id": "RX-2025-02-20-2", "type": "MedicationRequest", "date": "2025-02-20", "encounter": "KB-2025-02-20", "source": "Vinmec", "practitioner": "BS. Phạm Minh", "drug_name": "Bisoprolol 2,5 mg", "dose": "2,5 mg x 1 lần/ngày", "status": "active"},
+    {"id": "RX-2025-02-20-3", "type": "MedicationRequest", "date": "2025-02-20", "encounter": "KB-2025-02-20", "source": "Vinmec", "practitioner": "BS. Phạm Minh", "drug_name": "Amlodipin 5 mg", "dose": "5 mg x 1 lần/ngày", "status": "active"},
+    {
+      "id": "APT-2025-02-20", "type": "Appointment", "date": "2025-02-20", "encounter": "KB-2025-02-20", "source": "Vinmec",
+      "description": "Siêu âm tim", "due": "2025-05-20", "result_type": "echocardiogram"
+    },
+    {
+      "id": "NGOAI-2025-06-03", "type": "DocumentReference", "date": "2025-06-03", "source": "Giấy ra viện BV đa khoa tỉnh (scan PDF)",
+      "text": "Chẩn đoán: Viêm phổi. Điều trị Ceftriaxone 7 ngày. Dị ứng: Aspirin (nổi mẩn). Ra viện ổn định.",
+      "allergies_recorded": [{"substance": "Aspirin", "reaction": "nổi mẩn"}]
+    },
+    {
+      "id": "KB-2025-12-05", "type": "Encounter", "date": "2025-12-05", "source": "Vinmec - Khám nội",
+      "practitioner": "BS. Lê Hà", "text": "HA 152/90. Thêm Losartan 50 mg x 1 lần/ngày. Kê Amlor 5 mg x 1 lần/ngày. Dị ứng: không.",
+      "diagnoses": [{"code": "I10", "display": "Tăng huyết áp"}],
+      "allergies_recorded": []
+    },
+    {"id": "RX-2025-12-05-1", "type": "MedicationRequest", "date": "2025-12-05", "encounter": "KB-2025-12-05", "source": "Vinmec", "practitioner": "BS. Lê Hà", "drug_name": "Losartan 50 mg", "dose": "50 mg x 1 lần/ngày", "status": "active"},
+    {"id": "RX-2025-12-05-2", "type": "MedicationRequest", "date": "2025-12-05", "encounter": "KB-2025-12-05", "source": "Vinmec", "practitioner": "BS. Lê Hà", "drug_name": "Amlor 5 mg", "dose": "5 mg x 1 lần/ngày", "status": "active"},
+
+    {"id": "XN-2024-05-14", "type": "LabPanel", "date": "2024-05-14", "source": "Vinmec", "results": {"hba1c": 7.1, "creatinine": 98, "egfr": 68, "potassium": 4.3}},
+    {"id": "XN-2025-09-10", "type": "LabPanel", "date": "2025-09-10", "source": "Vinmec", "results": {"hba1c": 7.6, "creatinine": 125, "egfr": 51, "potassium": 4.9}},
+    {"id": "XN-2026-03-12", "type": "LabPanel", "date": "2026-03-12", "source": "Vinmec", "results": {"hba1c": 8.4, "creatinine": 142, "egfr": 43, "potassium": 5.8}, "note": "Không có ghi chú xử trí"},
+    {"id": "XN-2026-07-20", "type": "LabPanel", "date": "2026-07-20", "source": "Vinmec", "results": {"hba1c": 8.1, "creatinine": 150, "egfr": 40}, "note": "Không làm kali"},
+    {"id": "XN-2026-11-08", "type": "LabPanel", "date": "2026-11-08", "source": "Vinmec", "results": {"creatinine": 158, "egfr": 38, "potassium": 5.4, "crp": 96, "wbc": 15.2}},
+    {"id": "CDHA-2026-11-08", "type": "ImagingStudy", "date": "2026-11-08", "source": "Vinmec", "modality": "X-quang ngực", "text": "Đám mờ thùy dưới phổi phải."}
+  ]
+}

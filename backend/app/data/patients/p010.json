@@ -1,0 +1,269 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p010",
+  "name": "Hoàng Đức Dũng",
+  "birth_year": 1940,
+  "gender": "Nam",
+  "occupation": "Hưu trí",
+  "address": "Đống Đa, Hà Nội",
+  "insurance": "BHYT (mức hưởng 100%)",
+  "contact": "Bùi Thị Hương (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 2 - Giường 6",
+  "attending": "bs.an",
+  "admission": {
+   "id": "BA-2026-10-19",
+   "admitted_at": "2026-10-19T16:00",
+   "ward_at": "2026-10-19T21:00",
+   "reason": "Khó thở khi nằm, phù hai chân. Vào ngày thứ 2 của bệnh.",
+   "kkb_diagnosis": "Suy tim",
+   "vitals": {
+    "pulse": 84,
+    "pulse_note": "không đều",
+    "temp": 37.3,
+    "bp": "146/77",
+    "resp_rate": 19,
+    "spo2": 93,
+    "weight": null
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "KB-2024-04-04",
+   "type": "Encounter",
+   "date": "2024-04-04",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Đỗ Quang",
+   "diagnoses": [
+    {
+     "code": "I50",
+     "display": "Suy tim"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán suy tim. Kê Furosemid 40 mg 40 mg x 1 lần/ngày, Bisoprolol 2,5 mg 2,5 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-04-04-1",
+   "type": "MedicationRequest",
+   "date": "2024-04-04",
+   "encounter": "KB-2024-04-04",
+   "source": "Vinmec",
+   "practitioner": "BS. Đỗ Quang",
+   "drug_name": "Furosemid 40 mg",
+   "dose": "40 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2024-04-04-2",
+   "type": "MedicationRequest",
+   "date": "2024-04-04",
+   "encounter": "KB-2024-04-04",
+   "source": "Vinmec",
+   "practitioner": "BS. Đỗ Quang",
+   "drug_name": "Bisoprolol 2,5 mg",
+   "dose": "2,5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2024-04-20",
+   "type": "LabPanel",
+   "date": "2024-04-20",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 93,
+    "egfr": 75,
+    "potassium": 4.0
+   }
+  },
+  {
+   "id": "KB-2024-05-18",
+   "type": "Encounter",
+   "date": "2024-05-18",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [
+    {
+     "code": "I48",
+     "display": "Rung nhĩ"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rung nhĩ. Kê Warfarin 2 mg 2 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-05-18-1",
+   "type": "MedicationRequest",
+   "date": "2024-05-18",
+   "encounter": "KB-2024-05-18",
+   "source": "Vinmec",
+   "practitioner": "BS. Vũ Hạnh",
+   "drug_name": "Warfarin 2 mg",
+   "dose": "2 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2024-07-12",
+   "type": "Encounter",
+   "date": "2024-07-12",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Kê Amlodipin 5 mg 5 mg x 1 lần/ngày, Losartan 50 mg 50 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-07-12-1",
+   "type": "MedicationRequest",
+   "date": "2024-07-12",
+   "encounter": "KB-2024-07-12",
+   "source": "Vinmec",
+   "practitioner": "BS. Lê Hà",
+   "drug_name": "Amlodipin 5 mg",
+   "dose": "5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2024-07-12-2",
+   "type": "MedicationRequest",
+   "date": "2024-07-12",
+   "encounter": "KB-2024-07-12",
+   "source": "Vinmec",
+   "practitioner": "BS. Lê Hà",
+   "drug_name": "Losartan 50 mg",
+   "dose": "50 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "NGOAI-2024-08-06",
+   "type": "DocumentReference",
+   "date": "2024-08-06",
+   "source": "Giấy ra viện BV đa khoa tỉnh (scan PDF)",
+   "text": "Ra viện ổn định. Dị ứng: Hải sản (ngứa).",
+   "allergies_recorded": [
+    {
+     "substance": "Hải sản",
+     "reaction": "ngứa"
+    }
+   ]
+  },
+  {
+   "id": "XN-2024-10-20",
+   "type": "LabPanel",
+   "date": "2024-10-20",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 95,
+    "egfr": 74,
+    "potassium": 3.9
+   }
+  },
+  {
+   "id": "KB-2025-02-28",
+   "type": "Encounter",
+   "date": "2025-02-28",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2025-03-25",
+   "type": "Encounter",
+   "date": "2025-03-25",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [
+    {
+     "code": "I50",
+     "display": "Suy tim"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán suy tim. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2025-04-10",
+   "type": "Encounter",
+   "date": "2025-04-10",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [],
+   "allergies_recorded": [
+    {
+     "substance": "Hải sản",
+     "reaction": "ngứa"
+    }
+   ],
+   "text": "Tái khám định kỳ. Dị ứng: Hải sản."
+  },
+  {
+   "id": "XN-2025-04-26",
+   "type": "LabPanel",
+   "date": "2025-04-26",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 96,
+    "egfr": 73,
+    "potassium": 4.7
+   }
+  },
+  {
+   "id": "XN-2025-10-19",
+   "type": "LabPanel",
+   "date": "2025-10-19",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 97,
+    "egfr": 72,
+    "potassium": 4.6
+   }
+  },
+  {
+   "id": "XN-2026-04-28",
+   "type": "LabPanel",
+   "date": "2026-04-28",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 99,
+    "egfr": 71,
+    "potassium": 6.1
+   },
+   "note": "Không có ghi chú xử trí"
+  },
+  {
+   "id": "CDHA-2026-10-19",
+   "type": "ImagingStudy",
+   "date": "2026-10-19",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Bóng tim to, xung huyết hai phổi."
+  },
+  {
+   "id": "XN-2026-10-19",
+   "type": "LabPanel",
+   "date": "2026-10-19",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 100,
+    "egfr": 70,
+    "potassium": 4.3,
+    "crp": 41,
+    "wbc": 9.0
+   }
+  }
+ ]
+}

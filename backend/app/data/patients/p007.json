@@ -1,0 +1,176 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p007",
+  "name": "Đỗ Minh Phúc",
+  "birth_year": 1972,
+  "gender": "Nam",
+  "occupation": "Hưu trí",
+  "address": "Thanh Xuân, Hà Nội",
+  "insurance": "BHYT (mức hưởng 95%)",
+  "contact": "Đặng Minh Liên (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 5 - Giường 1",
+  "attending": "bs.an",
+  "admission": {
+   "id": "BA-2026-10-18",
+   "admitted_at": "2026-10-18T13:15",
+   "ward_at": "2026-10-18T21:00",
+   "reason": "Sốt, ho đờm, khó thở. Vào ngày thứ 4 của bệnh.",
+   "kkb_diagnosis": "Viêm phổi",
+   "vitals": {
+    "pulse": 99,
+    "pulse_note": "đều",
+    "temp": 38.3,
+    "bp": "111/67",
+    "resp_rate": 26,
+    "spo2": 88,
+    "weight": null
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "APT-2025-01-12",
+   "type": "Appointment",
+   "date": "2025-01-12",
+   "encounter": "KB-2025-01-12",
+   "source": "Vinmec",
+   "description": "Siêu âm tim",
+   "due": "2025-04-12"
+  },
+  {
+   "id": "KB-2025-01-12",
+   "type": "Encounter",
+   "date": "2025-01-12",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "E78",
+     "display": "Rối loạn lipid máu"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rối loạn lipid máu. Kê Atorvastatin 20 mg 20 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-01-12-1",
+   "type": "MedicationRequest",
+   "date": "2025-01-12",
+   "encounter": "KB-2025-01-12",
+   "source": "Vinmec",
+   "practitioner": "BS. Nguyễn Thu",
+   "drug_name": "Atorvastatin 20 mg",
+   "dose": "20 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2025-01-13",
+   "type": "LabPanel",
+   "date": "2025-01-13",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 101,
+    "egfr": 69,
+    "potassium": 4.9
+   }
+  },
+  {
+   "id": "KB-2025-02-01",
+   "type": "Encounter",
+   "date": "2025-02-01",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "E78",
+     "display": "Rối loạn lipid máu"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rối loạn lipid máu. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "CDHA-2025-04-03",
+   "type": "ImagingStudy",
+   "date": "2025-04-03",
+   "source": "Vinmec",
+   "modality": "Siêu âm tim",
+   "text": "Kết quả trong giới hạn bình thường."
+  },
+  {
+   "id": "XN-2025-08-18",
+   "type": "LabPanel",
+   "date": "2025-08-18",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 111,
+    "egfr": 63,
+    "potassium": 4.6
+   }
+  },
+  {
+   "id": "KB-2026-01-06",
+   "type": "Encounter",
+   "date": "2026-01-06",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "E78",
+     "display": "Rối loạn lipid máu"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rối loạn lipid máu. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "XN-2026-03-28",
+   "type": "LabPanel",
+   "date": "2026-03-28",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 121,
+    "egfr": 58,
+    "potassium": 4.6
+   }
+  },
+  {
+   "id": "KB-2026-06-29",
+   "type": "Encounter",
+   "date": "2026-06-29",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Đỗ Quang",
+   "diagnoses": [
+    {
+     "code": "E78",
+     "display": "Rối loạn lipid máu"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rối loạn lipid máu. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "CDHA-2026-10-18",
+   "type": "ImagingStudy",
+   "date": "2026-10-18",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Đám mờ thùy dưới phổi trái."
+  },
+  {
+   "id": "XN-2026-10-18",
+   "type": "LabPanel",
+   "date": "2026-10-18",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 135,
+    "egfr": 52,
+    "potassium": 4.2,
+    "crp": 16,
+    "wbc": 12.8
+   }
+  }
+ ]
+}

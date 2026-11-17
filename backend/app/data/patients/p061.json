@@ -1,0 +1,226 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p061",
+  "name": "Bùi Xuân Quân",
+  "birth_year": 1952,
+  "gender": "Nam",
+  "occupation": "Hưu trí",
+  "address": "Đống Đa, Hà Nội",
+  "insurance": "BHYT (mức hưởng 80%)",
+  "contact": "Ngô Ngọc Thủy (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 7 - Giường 16",
+  "attending": "bs.an",
+  "admission": {
+   "id": "BA-2026-10-04",
+   "admitted_at": "2026-10-04T08:00",
+   "ward_at": "2026-10-04T21:00",
+   "reason": "Khó thở tăng, ho khạc đờm nhiều. Vào ngày thứ 2 của bệnh.",
+   "kkb_diagnosis": "Bệnh phổi tắc nghẽn",
+   "vitals": {
+    "pulse": 120,
+    "pulse_note": "đều",
+    "temp": 36.8,
+    "bp": "118/64",
+    "resp_rate": 26,
+    "spo2": 86,
+    "weight": null
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "APT-2024-09-08",
+   "type": "Appointment",
+   "date": "2024-09-08",
+   "encounter": "KB-2024-09-08",
+   "source": "Vinmec",
+   "description": "Siêu âm bụng",
+   "due": "2024-12-07"
+  },
+  {
+   "id": "KB-2024-09-08",
+   "type": "Encounter",
+   "date": "2024-09-08",
+   "source": "Vinmec - Khám hô hấp",
+   "practitioner": "BS. Đỗ Quang",
+   "diagnoses": [
+    {
+     "code": "J44",
+     "display": "Bệnh phổi tắc nghẽn mạn tính"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh phổi tắc nghẽn mạn tính. Kê Ventolin xịt 100 mcg 2 nhát khi khó thở."
+  },
+  {
+   "id": "RX-2024-09-08-1",
+   "type": "MedicationRequest",
+   "date": "2024-09-08",
+   "encounter": "KB-2024-09-08",
+   "source": "Vinmec",
+   "practitioner": "BS. Đỗ Quang",
+   "drug_name": "Ventolin xịt 100 mcg",
+   "dose": "2 nhát khi khó thở",
+   "status": "active"
+  },
+  {
+   "id": "XN-2024-09-13",
+   "type": "LabPanel",
+   "date": "2024-09-13",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 108,
+    "egfr": 65,
+    "hba1c": 7.9,
+    "potassium": 4.2
+   }
+  },
+  {
+   "id": "XN-2025-06-06",
+   "type": "LabPanel",
+   "date": "2025-06-06",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 127,
+    "egfr": 55,
+    "hba1c": 7.4,
+    "potassium": 4.9
+   }
+  },
+  {
+   "id": "KB-2026-01-21",
+   "type": "Encounter",
+   "date": "2026-01-21",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [
+    {
+     "code": "E78",
+     "display": "Rối loạn lipid máu"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rối loạn lipid máu. Kê Atorvastatin 20 mg 20 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2026-01-21-1",
+   "type": "MedicationRequest",
+   "date": "2026-01-21",
+   "encounter": "KB-2026-01-21",
+   "source": "Vinmec",
+   "practitioner": "BS. Lê Hà",
+   "drug_name": "Atorvastatin 20 mg",
+   "dose": "20 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2026-01-28",
+   "type": "LabPanel",
+   "date": "2026-01-28",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 159,
+    "egfr": 44,
+    "hba1c": 7.3,
+    "potassium": 4.2
+   }
+  },
+  {
+   "id": "KB-2026-06-04",
+   "type": "Encounter",
+   "date": "2026-06-04",
+   "source": "Vinmec - Khám nội tiết",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "E11",
+     "display": "Đái tháo đường type 2"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán đái tháo đường type 2. Kê Metformin 850 mg 850 mg x 2 lần/ngày, Diamicron MR 30 mg 30 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2026-06-04-1",
+   "type": "MedicationRequest",
+   "date": "2026-06-04",
+   "encounter": "KB-2026-06-04",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Metformin 850 mg",
+   "dose": "850 mg x 2 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2026-06-04-2",
+   "type": "MedicationRequest",
+   "date": "2026-06-04",
+   "encounter": "KB-2026-06-04",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Diamicron MR 30 mg",
+   "dose": "30 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2026-06-17",
+   "type": "Encounter",
+   "date": "2026-06-17",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Đỗ Quang",
+   "diagnoses": [
+    {
+     "code": "E78",
+     "display": "Rối loạn lipid máu"
+    }
+   ],
+   "allergies_recorded": [],
+   "text": "Chẩn đoán rối loạn lipid máu. Tiếp tục thuốc cũ. Dị ứng: không."
+  },
+  {
+   "id": "KB-2026-07-08",
+   "type": "Encounter",
+   "date": "2026-07-08",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [],
+   "allergies_recorded": null,
+   "text": "Tái khám. Kê Lipitor 20 mg 20 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2026-07-08-9",
+   "type": "MedicationRequest",
+   "date": "2026-07-08",
+   "encounter": "KB-2026-07-08",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Lipitor 20 mg",
+   "dose": "20 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "CDHA-2026-10-04",
+   "type": "ImagingStudy",
+   "date": "2026-10-04",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Phổi tăng sáng, không thấy đám mờ khu trú."
+  },
+  {
+   "id": "XN-2026-10-04",
+   "type": "LabPanel",
+   "date": "2026-10-04",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 206,
+    "egfr": 34,
+    "potassium": 4.9,
+    "crp": 25,
+    "wbc": 16.7,
+    "glucose": 7.7
+   }
+  }
+ ]
+}

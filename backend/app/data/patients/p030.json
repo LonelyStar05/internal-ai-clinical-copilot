@@ -1,0 +1,209 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p030",
+  "name": "Phạm Ngọc Loan",
+  "birth_year": 1957,
+  "gender": "Nữ",
+  "occupation": "Hưu trí",
+  "address": "Hà Đông, Hà Nội",
+  "insurance": "BHYT (mức hưởng 95%)",
+  "contact": "Dương Minh Hương (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 3 - Giường 26",
+  "attending": "bs.binh",
+  "admission": {
+   "id": "BA-2026-10-31",
+   "admitted_at": "2026-10-31T13:45",
+   "ward_at": "2026-10-31T21:00",
+   "reason": "Khó thở tăng, ho khạc đờm nhiều. Vào ngày thứ 5 của bệnh.",
+   "kkb_diagnosis": "Bệnh phổi tắc nghẽn",
+   "vitals": {
+    "pulse": 102,
+    "pulse_note": "đều",
+    "temp": 37.1,
+    "bp": "129/88",
+    "resp_rate": 30,
+    "spo2": 86,
+    "weight": null
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "KB-2024-04-21",
+   "type": "Encounter",
+   "date": "2024-04-21",
+   "source": "Vinmec - Khám hô hấp",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "J44",
+     "display": "Bệnh phổi tắc nghẽn mạn tính"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh phổi tắc nghẽn mạn tính. Kê Ventolin xịt 100 mcg 2 nhát khi khó thở."
+  },
+  {
+   "id": "RX-2024-04-21-1",
+   "type": "MedicationRequest",
+   "date": "2024-04-21",
+   "encounter": "KB-2024-04-21",
+   "source": "Vinmec",
+   "practitioner": "BS. Nguyễn Thu",
+   "drug_name": "Ventolin xịt 100 mcg",
+   "dose": "2 nhát khi khó thở",
+   "status": "active"
+  },
+  {
+   "id": "XN-2024-04-24",
+   "type": "LabPanel",
+   "date": "2024-04-24",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 108,
+    "egfr": 65,
+    "potassium": 4.4
+   }
+  },
+  {
+   "id": "XN-2024-10-26",
+   "type": "LabPanel",
+   "date": "2024-10-26",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 108,
+    "egfr": 65,
+    "potassium": 3.9
+   }
+  },
+  {
+   "id": "XN-2025-04-28",
+   "type": "LabPanel",
+   "date": "2025-04-28",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 108,
+    "egfr": 65,
+    "potassium": 4.0
+   }
+  },
+  {
+   "id": "KB-2025-09-19",
+   "type": "Encounter",
+   "date": "2025-09-19",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "I25",
+     "display": "Bệnh tim thiếu máu cục bộ mạn"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh tim thiếu máu cục bộ mạn. Kê Plavix 75 mg 75 mg x 1 lần/ngày, Atorvastatin 20 mg 20 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-09-19-1",
+   "type": "MedicationRequest",
+   "date": "2025-09-19",
+   "encounter": "KB-2025-09-19",
+   "source": "Vinmec",
+   "practitioner": "BS. Nguyễn Thu",
+   "drug_name": "Plavix 75 mg",
+   "dose": "75 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2025-09-19-2",
+   "type": "MedicationRequest",
+   "date": "2025-09-19",
+   "encounter": "KB-2025-09-19",
+   "source": "Vinmec",
+   "practitioner": "BS. Nguyễn Thu",
+   "drug_name": "Atorvastatin 20 mg",
+   "dose": "20 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2025-10-28",
+   "type": "LabPanel",
+   "date": "2025-10-28",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 109,
+    "egfr": 64,
+    "potassium": 4.5
+   }
+  },
+  {
+   "id": "XN-2026-05-10",
+   "type": "LabPanel",
+   "date": "2026-05-10",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 109,
+    "egfr": 64,
+    "potassium": 4.2
+   }
+  },
+  {
+   "id": "KB-2026-07-29",
+   "type": "Encounter",
+   "date": "2026-07-29",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "I25",
+     "display": "Bệnh tim thiếu máu cục bộ mạn"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh tim thiếu máu cục bộ mạn. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2026-08-11",
+   "type": "Encounter",
+   "date": "2026-08-11",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [],
+   "allergies_recorded": null,
+   "text": "Tái khám. Kê Lipitor 20 mg 20 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2026-08-11-9",
+   "type": "MedicationRequest",
+   "date": "2026-08-11",
+   "encounter": "KB-2026-08-11",
+   "source": "Vinmec",
+   "practitioner": "BS. Vũ Hạnh",
+   "drug_name": "Lipitor 20 mg",
+   "dose": "20 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "CDHA-2026-10-31",
+   "type": "ImagingStudy",
+   "date": "2026-10-31",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Phổi tăng sáng, không thấy đám mờ khu trú."
+  },
+  {
+   "id": "XN-2026-10-31",
+   "type": "LabPanel",
+   "date": "2026-10-31",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 109,
+    "egfr": 64,
+    "potassium": 4.9,
+    "crp": 71,
+    "wbc": 8.9
+   }
+  }
+ ]
+}

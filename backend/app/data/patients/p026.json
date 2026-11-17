@@ -1,0 +1,239 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p026",
+  "name": "Lý Minh Dũng",
+  "birth_year": 1962,
+  "gender": "Nam",
+  "occupation": "Hưu trí",
+  "address": "Cầu Giấy, Hà Nội",
+  "insurance": "BHYT (mức hưởng 80%)",
+  "contact": "Trần Minh Loan (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 5 - Giường 28",
+  "attending": "bs.an",
+  "admission": {
+   "id": "BA-2026-10-08",
+   "admitted_at": "2026-10-08T15:00",
+   "ward_at": "2026-10-08T21:00",
+   "reason": "Khó thở tăng, ho khạc đờm nhiều. Vào ngày thứ 5 của bệnh.",
+   "kkb_diagnosis": "Bệnh phổi tắc nghẽn",
+   "vitals": {
+    "pulse": 121,
+    "pulse_note": "không đều",
+    "temp": 37.3,
+    "bp": "110/83",
+    "resp_rate": 29,
+    "spo2": 90,
+    "weight": null
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "APT-2025-01-06",
+   "type": "Appointment",
+   "date": "2025-01-06",
+   "encounter": "KB-2025-01-06",
+   "source": "Vinmec",
+   "description": "Nội soi dạ dày",
+   "due": "2025-04-06"
+  },
+  {
+   "id": "KB-2025-01-06",
+   "type": "Encounter",
+   "date": "2025-01-06",
+   "source": "Vinmec - Khám hô hấp",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "J44",
+     "display": "Bệnh phổi tắc nghẽn mạn tính"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh phổi tắc nghẽn mạn tính. Kê Ventolin xịt 100 mcg 2 nhát khi khó thở."
+  },
+  {
+   "id": "RX-2025-01-06-1",
+   "type": "MedicationRequest",
+   "date": "2025-01-06",
+   "encounter": "KB-2025-01-06",
+   "source": "Vinmec",
+   "practitioner": "BS. Nguyễn Thu",
+   "drug_name": "Ventolin xịt 100 mcg",
+   "dose": "2 nhát khi khó thở",
+   "status": "active"
+  },
+  {
+   "id": "XN-2025-01-19",
+   "type": "LabPanel",
+   "date": "2025-01-19",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 109,
+    "egfr": 64,
+    "potassium": 4.8
+   }
+  },
+  {
+   "id": "KB-2025-03-15",
+   "type": "Encounter",
+   "date": "2025-03-15",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Đỗ Quang",
+   "diagnoses": [
+    {
+     "code": "I48",
+     "display": "Rung nhĩ"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rung nhĩ. Kê Apixaban 5 mg 5 mg x 2 lần/ngày, Bisoprolol 2,5 mg 2,5 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-03-15-1",
+   "type": "MedicationRequest",
+   "date": "2025-03-15",
+   "encounter": "KB-2025-03-15",
+   "source": "Vinmec",
+   "practitioner": "BS. Đỗ Quang",
+   "drug_name": "Apixaban 5 mg",
+   "dose": "5 mg x 2 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2025-03-15-2",
+   "type": "MedicationRequest",
+   "date": "2025-03-15",
+   "encounter": "KB-2025-03-15",
+   "source": "Vinmec",
+   "practitioner": "BS. Đỗ Quang",
+   "drug_name": "Bisoprolol 2,5 mg",
+   "dose": "2,5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2025-04-08",
+   "type": "Encounter",
+   "date": "2025-04-08",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [
+    {
+     "code": "I48",
+     "display": "Rung nhĩ"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rung nhĩ. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "CDHA-2025-04-26",
+   "type": "ImagingStudy",
+   "date": "2025-04-26",
+   "source": "Vinmec",
+   "modality": "Nội soi dạ dày",
+   "text": "Kết quả trong giới hạn bình thường."
+  },
+  {
+   "id": "XN-2025-06-28",
+   "type": "LabPanel",
+   "date": "2025-06-28",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 115,
+    "egfr": 61,
+    "potassium": 4.5
+   }
+  },
+  {
+   "id": "KB-2025-07-17",
+   "type": "Encounter",
+   "date": "2025-07-17",
+   "source": "Vinmec - Khám hô hấp",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "J44",
+     "display": "Bệnh phổi tắc nghẽn mạn tính"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh phổi tắc nghẽn mạn tính. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "XN-2025-11-29",
+   "type": "LabPanel",
+   "date": "2025-11-29",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 121,
+    "egfr": 58,
+    "potassium": 4.5
+   }
+  },
+  {
+   "id": "KB-2026-03-22",
+   "type": "Encounter",
+   "date": "2026-03-22",
+   "source": "Vinmec - Khám hô hấp",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "J44",
+     "display": "Bệnh phổi tắc nghẽn mạn tính"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh phổi tắc nghẽn mạn tính. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "XN-2026-05-18",
+   "type": "LabPanel",
+   "date": "2026-05-18",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 125,
+    "egfr": 56,
+    "potassium": 4.2
+   }
+  },
+  {
+   "id": "KB-2026-06-11",
+   "type": "Encounter",
+   "date": "2026-06-11",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [
+    {
+     "code": "I48",
+     "display": "Rung nhĩ"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rung nhĩ. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "CDHA-2026-10-08",
+   "type": "ImagingStudy",
+   "date": "2026-10-08",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Phổi tăng sáng, không thấy đám mờ khu trú."
+  },
+  {
+   "id": "XN-2026-10-08",
+   "type": "LabPanel",
+   "date": "2026-10-08",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 132,
+    "egfr": 53,
+    "potassium": 4.7,
+    "crp": 134,
+    "wbc": 8.1
+   }
+  }
+ ]
+}

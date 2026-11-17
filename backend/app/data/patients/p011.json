@@ -1,0 +1,228 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p011",
+  "name": "Đặng Văn Khải",
+  "birth_year": 1942,
+  "gender": "Nam",
+  "occupation": "Hưu trí",
+  "address": "Cầu Giấy, Hà Nội",
+  "insurance": "BHYT (mức hưởng 95%)",
+  "contact": "Dương Thu Mai (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 8 - Giường 1",
+  "attending": "bs.an",
+  "admission": {
+   "id": "BA-2026-10-22",
+   "admitted_at": "2026-10-22T18:30",
+   "ward_at": "2026-10-22T21:00",
+   "reason": "Sốt, ho đờm, khó thở. Vào ngày thứ 5 của bệnh.",
+   "kkb_diagnosis": "Viêm phổi",
+   "vitals": {
+    "pulse": 103,
+    "pulse_note": "đều",
+    "temp": 38.5,
+    "bp": "135/68",
+    "resp_rate": 28,
+    "spo2": 86,
+    "weight": null
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "KB-2023-12-28",
+   "type": "Encounter",
+   "date": "2023-12-28",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "E78",
+     "display": "Rối loạn lipid máu"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rối loạn lipid máu. Kê Atorvastatin 20 mg 20 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2023-12-28-1",
+   "type": "MedicationRequest",
+   "date": "2023-12-28",
+   "encounter": "KB-2023-12-28",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Atorvastatin 20 mg",
+   "dose": "20 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2024-01-07",
+   "type": "LabPanel",
+   "date": "2024-01-07",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 100,
+    "egfr": 70,
+    "potassium": 3.9
+   }
+  },
+  {
+   "id": "NGOAI-2024-02-20",
+   "type": "DocumentReference",
+   "date": "2024-02-20",
+   "source": "Giấy ra viện BV đa khoa tỉnh (scan PDF)",
+   "text": "Ra viện ổn định. Dị ứng: Penicillin (khó thở, nổi mề đay).",
+   "allergies_recorded": [
+    {
+     "substance": "Penicillin",
+     "reaction": "khó thở, nổi mề đay"
+    }
+   ]
+  },
+  {
+   "id": "KB-2024-03-31",
+   "type": "Encounter",
+   "date": "2024-03-31",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [
+    {
+     "code": "E78",
+     "display": "Rối loạn lipid máu"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rối loạn lipid máu. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "XN-2024-09-30",
+   "type": "LabPanel",
+   "date": "2024-09-30",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 106,
+    "egfr": 66,
+    "potassium": 4.1
+   }
+  },
+  {
+   "id": "KB-2024-11-16",
+   "type": "Encounter",
+   "date": "2024-11-16",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Đỗ Quang",
+   "diagnoses": [
+    {
+     "code": "E78",
+     "display": "Rối loạn lipid máu"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rối loạn lipid máu. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2024-11-23",
+   "type": "Encounter",
+   "date": "2024-11-23",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [
+    {
+     "code": "E78",
+     "display": "Rối loạn lipid máu"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rối loạn lipid máu. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2024-11-27",
+   "type": "Encounter",
+   "date": "2024-11-27",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [
+    {
+     "code": "E78",
+     "display": "Rối loạn lipid máu"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rối loạn lipid máu. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "XN-2025-06-03",
+   "type": "LabPanel",
+   "date": "2025-06-03",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 113,
+    "egfr": 62,
+    "potassium": 4.6
+   }
+  },
+  {
+   "id": "XN-2026-02-12",
+   "type": "LabPanel",
+   "date": "2026-02-12",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 123,
+    "egfr": 57,
+    "potassium": 3.9
+   }
+  },
+  {
+   "id": "KB-2026-09-21",
+   "type": "Encounter",
+   "date": "2026-09-21",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Nguyễn Thu",
+   "diagnoses": [
+    {
+     "code": "E78",
+     "display": "Rối loạn lipid máu"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán rối loạn lipid máu. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "CDHA-2026-10-22",
+   "type": "ImagingStudy",
+   "date": "2026-10-22",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Đám mờ thùy dưới phổi phải."
+  },
+  {
+   "id": "XN-2026-10-22",
+   "type": "LabPanel",
+   "date": "2026-10-22",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 132,
+    "egfr": 53,
+    "potassium": 5.0,
+    "crp": 167,
+    "wbc": 11.1
+   }
+  },
+  {
+   "id": "KB-2026-10-30",
+   "type": "Encounter",
+   "date": "2026-10-30",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [],
+   "allergies_recorded": [
+    {
+     "substance": "Penicillin",
+     "reaction": "khó thở, nổi mề đay"
+    }
+   ],
+   "text": "Tái khám định kỳ. Dị ứng: Penicillin."
+  }
+ ]
+}

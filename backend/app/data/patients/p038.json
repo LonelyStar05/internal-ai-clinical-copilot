@@ -1,0 +1,294 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p038",
+  "name": "Hoàng Ngọc Loan",
+  "birth_year": 1940,
+  "gender": "Nữ",
+  "occupation": "Hưu trí",
+  "address": "Thanh Xuân, Hà Nội",
+  "insurance": "BHYT (mức hưởng 80%)",
+  "contact": "Trần Thu Mai (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 7 - Giường 13",
+  "attending": "bs.an",
+  "admission": {
+   "id": "BA-2026-10-20",
+   "admitted_at": "2026-10-20T15:00",
+   "ward_at": "2026-10-20T21:00",
+   "reason": "Sốt rét run, tiểu buốt. Vào ngày thứ 4 của bệnh.",
+   "kkb_diagnosis": "Nhiễm khuẩn tiết niệu",
+   "vitals": {
+    "pulse": 91,
+    "pulse_note": "đều",
+    "temp": 38.8,
+    "bp": "150/58",
+    "resp_rate": 19,
+    "spo2": 94,
+    "weight": null
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "APT-2024-04-04",
+   "type": "Appointment",
+   "date": "2024-04-04",
+   "encounter": "KB-2024-04-04",
+   "source": "Vinmec",
+   "description": "Nội soi dạ dày",
+   "due": "2024-07-03"
+  },
+  {
+   "id": "KB-2024-04-04",
+   "type": "Encounter",
+   "date": "2024-04-04",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Phạm Minh",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Kê Amlodipin 5 mg 5 mg x 1 lần/ngày, Losartan 50 mg 50 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-04-04-1",
+   "type": "MedicationRequest",
+   "date": "2024-04-04",
+   "encounter": "KB-2024-04-04",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Amlodipin 5 mg",
+   "dose": "5 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2024-04-04-2",
+   "type": "MedicationRequest",
+   "date": "2024-04-04",
+   "encounter": "KB-2024-04-04",
+   "source": "Vinmec",
+   "practitioner": "BS. Phạm Minh",
+   "drug_name": "Losartan 50 mg",
+   "dose": "50 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2024-04-12",
+   "type": "LabPanel",
+   "date": "2024-04-12",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 83,
+    "egfr": 84,
+    "hba1c": 8.2,
+    "potassium": 4.7
+   }
+  },
+  {
+   "id": "KB-2024-04-17",
+   "type": "Encounter",
+   "date": "2024-04-17",
+   "source": "Vinmec - Khám nội tiết",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [
+    {
+     "code": "E11",
+     "display": "Đái tháo đường type 2"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán đái tháo đường type 2. Kê Metformin 850 mg 850 mg x 2 lần/ngày, Diamicron MR 30 mg 30 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-04-17-1",
+   "type": "MedicationRequest",
+   "date": "2024-04-17",
+   "encounter": "KB-2024-04-17",
+   "source": "Vinmec",
+   "practitioner": "BS. Lê Hà",
+   "drug_name": "Metformin 850 mg",
+   "dose": "850 mg x 2 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2024-04-17-2",
+   "type": "MedicationRequest",
+   "date": "2024-04-17",
+   "encounter": "KB-2024-04-17",
+   "source": "Vinmec",
+   "practitioner": "BS. Lê Hà",
+   "drug_name": "Diamicron MR 30 mg",
+   "dose": "30 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2024-06-11",
+   "type": "Encounter",
+   "date": "2024-06-11",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2024-06-28",
+   "type": "Encounter",
+   "date": "2024-06-28",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "CDHA-2024-07-07",
+   "type": "ImagingStudy",
+   "date": "2024-07-07",
+   "source": "Vinmec",
+   "modality": "Nội soi dạ dày",
+   "text": "Kết quả trong giới hạn bình thường."
+  },
+  {
+   "id": "XN-2024-10-11",
+   "type": "LabPanel",
+   "date": "2024-10-11",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 85,
+    "egfr": 82,
+    "hba1c": 6.9,
+    "potassium": 4.0
+   }
+  },
+  {
+   "id": "NGOAI-2024-10-13",
+   "type": "DocumentReference",
+   "date": "2024-10-13",
+   "source": "Giấy ra viện BV đa khoa tỉnh (scan PDF)",
+   "text": "Ra viện ổn định. Dị ứng: Penicillin (khó thở, nổi mề đay).",
+   "allergies_recorded": [
+    {
+     "substance": "Penicillin",
+     "reaction": "khó thở, nổi mề đay"
+    }
+   ]
+  },
+  {
+   "id": "KB-2025-03-21",
+   "type": "Encounter",
+   "date": "2025-03-21",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Đỗ Quang",
+   "diagnoses": [
+    {
+     "code": "I10",
+     "display": "Tăng huyết áp"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán tăng huyết áp. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "XN-2025-04-23",
+   "type": "LabPanel",
+   "date": "2025-04-23",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 88,
+    "egfr": 80,
+    "hba1c": 7.7,
+    "potassium": 5.9
+   },
+   "note": "Không có ghi chú xử trí"
+  },
+  {
+   "id": "XN-2025-10-26",
+   "type": "LabPanel",
+   "date": "2025-10-26",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 91,
+    "egfr": 77,
+    "hba1c": 7.1
+   }
+  },
+  {
+   "id": "XN-2026-05-03",
+   "type": "LabPanel",
+   "date": "2026-05-03",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 93,
+    "egfr": 75,
+    "hba1c": 6.7
+   }
+  },
+  {
+   "id": "KB-2026-07-29",
+   "type": "Encounter",
+   "date": "2026-07-29",
+   "source": "Vinmec - Khám nội tiết",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [
+    {
+     "code": "E11",
+     "display": "Đái tháo đường type 2"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán đái tháo đường type 2. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2026-09-07",
+   "type": "Encounter",
+   "date": "2026-09-07",
+   "source": "Vinmec - Khám nội",
+   "practitioner": "BS. Lê Hà",
+   "diagnoses": [],
+   "allergies_recorded": [
+    {
+     "substance": "Penicillin",
+     "reaction": "khó thở, nổi mề đay"
+    }
+   ],
+   "text": "Tái khám định kỳ. Dị ứng: Penicillin."
+  },
+  {
+   "id": "CDHA-2026-10-20",
+   "type": "ImagingStudy",
+   "date": "2026-10-20",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Không thấy tổn thương nhu mô phổi."
+  },
+  {
+   "id": "XN-2026-10-20",
+   "type": "LabPanel",
+   "date": "2026-10-20",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 96,
+    "egfr": 73,
+    "potassium": 4.3,
+    "crp": 5,
+    "wbc": 16.2,
+    "glucose": 11.7
+   }
+  }
+ ]
+}

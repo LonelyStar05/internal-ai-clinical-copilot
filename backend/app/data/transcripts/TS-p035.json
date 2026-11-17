@@ -1,0 +1,93 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động",
+ "id": "TS-p035",
+ "patient_id": "p035",
+ "date": "2026-11-07T21:30",
+ "turns": [
+  {
+   "n": 1,
+   "speaker": "BS",
+   "text": "Chào bác, hôm nay bác thấy trong người thế nào?"
+  },
+  {
+   "n": 2,
+   "speaker": "BN",
+   "text": "Tôi sốt rét run ba hôm nay, đi tiểu buốt, tiểu rắt."
+  },
+  {
+   "n": 3,
+   "speaker": "BS",
+   "text": "Có đau lưng không bác?"
+  },
+  {
+   "n": 4,
+   "speaker": "BN",
+   "text": "Đau âm ỉ bên hông phải."
+  },
+  {
+   "n": 5,
+   "speaker": "BS",
+   "text": "Ở nhà bác đã uống thuốc gì chưa?"
+  },
+  {
+   "n": 6,
+   "speaker": "BN",
+   "text": "Tôi có uống ibuprofen để hạ sốt, ngày hai ba viên. Thuốc của bệnh viện thì vẫn uống đều."
+  },
+  {
+   "n": 7,
+   "speaker": "BS",
+   "text": "Bác có dị ứng thuốc gì không?"
+  },
+  {
+   "n": 8,
+   "speaker": "BN",
+   "text": "Tôi dị ứng penicillin, bị khó thở, nổi mề đay."
+  },
+  {
+   "n": 9,
+   "speaker": "BS",
+   "text": "Được rồi, để tôi khám. Ấn đau điểm niệu quản phải, rung thận phải dương tính. Tim nhịp đều, tần số khoảng một trăm linh năm. Bụng mềm."
+  },
+  {
+   "n": 10,
+   "speaker": "BS",
+   "text": "SpO2 đang chin mươi sáu. Huyết áp một trăm linh bảy trên năm mươi tám."
+  },
+  {
+   "n": 11,
+   "speaker": "BS",
+   "text": "X-quang không thấy tổn thương nhu mô phổi, bạch cầu mười một phẩy bốn."
+  },
+  {
+   "n": 12,
+   "speaker": "BS",
+   "text": "Cân nặng hôm nay bảy mươi ba ki lô."
+  },
+  {
+   "n": 13,
+   "speaker": "BS",
+   "text": "Nghĩ nhiễm khuẩn tiết niệu."
+  },
+  {
+   "n": 14,
+   "speaker": "BS",
+   "text": "Cho Ceftriaxone truyền tĩnh mạch, phối hợp Levofloxacin 750 mg ngày một lần."
+  },
+  {
+   "n": 15,
+   "speaker": "BS",
+   "text": "Làm thêm điện giải đồ, khí máu, theo dõi sát sinh hiệu."
+  },
+  {
+   "n": 16,
+   "speaker": "NN",
+   "text": "Thuốc cũ của bố cháu vẫn uống tiếp ạ?"
+  },
+  {
+   "n": 17,
+   "speaker": "BS",
+   "text": "Tiếp tục thuốc cũ, chiều tôi xem lại đơn."
+  }
+ ]
+}

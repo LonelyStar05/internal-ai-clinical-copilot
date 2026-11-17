@@ -1,0 +1,231 @@
+{
+ "_note": "DỮ LIỆU GIẢ LẬP 100% - sinh tự động, không phải bệnh nhân thật",
+ "patient": {
+  "id": "p066",
+  "name": "Ngô Văn Long",
+  "birth_year": 1975,
+  "gender": "Nam",
+  "occupation": "Hưu trí",
+  "address": "Thanh Xuân, Hà Nội",
+  "insurance": "BHYT (mức hưởng 95%)",
+  "contact": "Vũ Thu Dung (con)",
+  "ward": "Khoa Nội tổng hợp",
+  "bed": "Buồng 7 - Giường 16",
+  "attending": "bs.binh",
+  "admission": {
+   "id": "BA-2026-11-09",
+   "admitted_at": "2026-11-09T10:45",
+   "ward_at": "2026-11-09T21:00",
+   "reason": "Sốt rét run, tiểu buốt. Vào ngày thứ 5 của bệnh.",
+   "kkb_diagnosis": "Nhiễm khuẩn tiết niệu",
+   "vitals": {
+    "pulse": 78,
+    "pulse_note": "đều",
+    "temp": 39.4,
+    "bp": "150/68",
+    "resp_rate": 20,
+    "spo2": 94,
+    "weight": 62
+   }
+  }
+ },
+ "resources": [
+  {
+   "id": "APT-2024-07-01",
+   "type": "Appointment",
+   "date": "2024-07-01",
+   "encounter": "KB-2024-07-01",
+   "source": "Vinmec",
+   "description": "Siêu âm tim",
+   "due": "2024-09-29"
+  },
+  {
+   "id": "KB-2024-07-01",
+   "type": "Encounter",
+   "date": "2024-07-01",
+   "source": "Vinmec - Khám nội tiết",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [
+    {
+     "code": "E11",
+     "display": "Đái tháo đường type 2"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán đái tháo đường type 2. Kê Metformin 850 mg 850 mg x 2 lần/ngày, Diamicron MR 30 mg 30 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-07-01-1",
+   "type": "MedicationRequest",
+   "date": "2024-07-01",
+   "encounter": "KB-2024-07-01",
+   "source": "Vinmec",
+   "practitioner": "BS. Vũ Hạnh",
+   "drug_name": "Metformin 850 mg",
+   "dose": "850 mg x 2 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2024-07-01-2",
+   "type": "MedicationRequest",
+   "date": "2024-07-01",
+   "encounter": "KB-2024-07-01",
+   "source": "Vinmec",
+   "practitioner": "BS. Vũ Hạnh",
+   "drug_name": "Diamicron MR 30 mg",
+   "dose": "30 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2024-07-07",
+   "type": "LabPanel",
+   "date": "2024-07-07",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 99,
+    "egfr": 71,
+    "hba1c": 8.4,
+    "potassium": 4.5
+   }
+  },
+  {
+   "id": "KB-2024-07-29",
+   "type": "Encounter",
+   "date": "2024-07-29",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Đỗ Quang",
+   "diagnoses": [
+    {
+     "code": "I25",
+     "display": "Bệnh tim thiếu máu cục bộ mạn"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh tim thiếu máu cục bộ mạn. Kê Plavix 75 mg 75 mg x 1 lần/ngày, Atorvastatin 20 mg 20 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2024-07-29-1",
+   "type": "MedicationRequest",
+   "date": "2024-07-29",
+   "encounter": "KB-2024-07-29",
+   "source": "Vinmec",
+   "practitioner": "BS. Đỗ Quang",
+   "drug_name": "Plavix 75 mg",
+   "dose": "75 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "RX-2024-07-29-2",
+   "type": "MedicationRequest",
+   "date": "2024-07-29",
+   "encounter": "KB-2024-07-29",
+   "source": "Vinmec",
+   "practitioner": "BS. Đỗ Quang",
+   "drug_name": "Atorvastatin 20 mg",
+   "dose": "20 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "KB-2025-02-26",
+   "type": "Encounter",
+   "date": "2025-02-26",
+   "source": "Vinmec - Khám cơ xương khớp",
+   "practitioner": "BS. Vũ Hạnh",
+   "diagnoses": [
+    {
+     "code": "M10",
+     "display": "Gút"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán gút. Kê Allopurinol 300 mg 300 mg x 1 lần/ngày."
+  },
+  {
+   "id": "RX-2025-02-26-1",
+   "type": "MedicationRequest",
+   "date": "2025-02-26",
+   "encounter": "KB-2025-02-26",
+   "source": "Vinmec",
+   "practitioner": "BS. Vũ Hạnh",
+   "drug_name": "Allopurinol 300 mg",
+   "dose": "300 mg x 1 lần/ngày",
+   "status": "active"
+  },
+  {
+   "id": "XN-2025-04-14",
+   "type": "LabPanel",
+   "date": "2025-04-14",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 117,
+    "egfr": 60,
+    "hba1c": 7.8,
+    "potassium": 4.1
+   }
+  },
+  {
+   "id": "KB-2025-08-30",
+   "type": "Encounter",
+   "date": "2025-08-30",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Trịnh Sơn",
+   "diagnoses": [
+    {
+     "code": "I25",
+     "display": "Bệnh tim thiếu máu cục bộ mạn"
+    }
+   ],
+   "allergies_recorded": null,
+   "text": "Chẩn đoán bệnh tim thiếu máu cục bộ mạn. Tiếp tục thuốc cũ."
+  },
+  {
+   "id": "KB-2025-12-13",
+   "type": "Encounter",
+   "date": "2025-12-13",
+   "source": "Vinmec - Khám tim mạch",
+   "practitioner": "BS. Đỗ Quang",
+   "diagnoses": [
+    {
+     "code": "I25",
+     "display": "Bệnh tim thiếu máu cục bộ mạn"
+    }
+   ],
+   "allergies_recorded": [],
+   "text": "Chẩn đoán bệnh tim thiếu máu cục bộ mạn. Tiếp tục thuốc cũ. Dị ứng: không."
+  },
+  {
+   "id": "XN-2026-02-08",
+   "type": "LabPanel",
+   "date": "2026-02-08",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 146,
+    "egfr": 48,
+    "hba1c": 8.2,
+    "potassium": 3.8
+   }
+  },
+  {
+   "id": "CDHA-2026-11-09",
+   "type": "ImagingStudy",
+   "date": "2026-11-09",
+   "source": "Vinmec",
+   "modality": "X-quang ngực",
+   "text": "Không thấy tổn thương nhu mô phổi."
+  },
+  {
+   "id": "XN-2026-11-09",
+   "type": "LabPanel",
+   "date": "2026-11-09",
+   "source": "Vinmec",
+   "results": {
+    "creatinine": 189,
+    "egfr": 37,
+    "potassium": 3.8,
+    "crp": 21,
+    "wbc": 9.2,
+    "glucose": 11.7
+   }
+  }
+ ]
+}

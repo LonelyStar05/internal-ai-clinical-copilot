@@ -1,0 +1,625 @@
+{
+  "_note": "Bộ tri thức RÚT GỌN cho prototype. Các tương tác thuốc là danh sách nhóm tự soạn, PHẢI đối chiếu lại DDInter 2.0 / tờ hướng dẫn sử dụng và nhờ bác sĩ, dược sĩ xác nhận trước khi dùng thật.",
+  "drugs": {
+    "metformin": {
+      "display": "Metformin",
+      "brands": [
+        "metformin",
+        "glucophage",
+        "panfor"
+      ],
+      "class": "biguanide"
+    },
+    "apixaban": {
+      "display": "Apixaban",
+      "brands": [
+        "apixaban",
+        "eliquis"
+      ],
+      "class": "anticoagulant"
+    },
+    "bisoprolol": {
+      "display": "Bisoprolol",
+      "brands": [
+        "bisoprolol",
+        "concor"
+      ],
+      "class": "beta_blocker"
+    },
+    "amlodipine": {
+      "display": "Amlodipin",
+      "brands": [
+        "amlodipin",
+        "amlodipine",
+        "amlor",
+        "norvasc"
+      ],
+      "class": "ccb"
+    },
+    "losartan": {
+      "display": "Losartan",
+      "brands": [
+        "losartan",
+        "cozaar"
+      ],
+      "class": "arb"
+    },
+    "ibuprofen": {
+      "display": "Ibuprofen",
+      "brands": [
+        "ibuprofen",
+        "brufen",
+        "gofen"
+      ],
+      "class": "nsaid"
+    },
+    "aspirin": {
+      "display": "Aspirin",
+      "brands": [
+        "aspirin",
+        "aspegic"
+      ],
+      "class": "nsaid"
+    },
+    "clarithromycin": {
+      "display": "Clarithromycin",
+      "brands": [
+        "clarithromycin",
+        "klacid"
+      ],
+      "class": "macrolide"
+    },
+    "amoxicillin_clavulanate": {
+      "display": "Amoxicillin/clavulanat",
+      "brands": [
+        "augmentin",
+        "amoxicillin clavulanat"
+      ],
+      "class": "penicillin"
+    },
+    "paracetamol": {
+      "display": "Paracetamol",
+      "brands": [
+        "paracetamol",
+        "panadol",
+        "efferalgan"
+      ],
+      "class": "analgesic"
+    },
+    "ceftriaxone": {
+      "display": "Ceftriaxone",
+      "brands": [
+        "ceftriaxone",
+        "rocephin"
+      ],
+      "class": "cephalosporin"
+    },
+    "gliclazide": {
+      "display": "Gliclazid",
+      "brands": [
+        "gliclazid",
+        "gliclazide",
+        "diamicron"
+      ],
+      "class": "sulfonylurea"
+    },
+    "atorvastatin": {
+      "display": "Atorvastatin",
+      "brands": [
+        "atorvastatin",
+        "lipitor"
+      ],
+      "class": "statin"
+    },
+    "furosemide": {
+      "display": "Furosemid",
+      "brands": [
+        "furosemid",
+        "furosemide",
+        "lasix"
+      ],
+      "class": "loop_diuretic"
+    },
+    "spironolactone": {
+      "display": "Spironolacton",
+      "brands": [
+        "spironolacton",
+        "spironolactone",
+        "verospiron"
+      ],
+      "class": "k_sparing_diuretic"
+    },
+    "salbutamol": {
+      "display": "Salbutamol",
+      "brands": [
+        "salbutamol",
+        "ventolin"
+      ],
+      "class": "saba"
+    },
+    "allopurinol": {
+      "display": "Allopurinol",
+      "brands": [
+        "allopurinol",
+        "zyloprim"
+      ],
+      "class": "xanthine_oxidase_inhibitor"
+    },
+    "warfarin": {
+      "display": "Warfarin",
+      "brands": [
+        "warfarin",
+        "coumadin"
+      ],
+      "class": "anticoagulant"
+    },
+    "omeprazole": {
+      "display": "Omeprazol",
+      "brands": [
+        "omeprazol",
+        "omeprazole",
+        "losec"
+      ],
+      "class": "ppi"
+    },
+    "clopidogrel": {
+      "display": "Clopidogrel",
+      "brands": [
+        "clopidogrel",
+        "plavix"
+      ],
+      "class": "antiplatelet"
+    },
+    "prednisolone": {
+      "display": "Prednisolon",
+      "brands": [
+        "prednisolon",
+        "prednisolone"
+      ],
+      "class": "corticosteroid"
+    },
+    "levofloxacin": {
+      "display": "Levofloxacin",
+      "brands": [
+        "levofloxacin",
+        "tavanic"
+      ],
+      "class": "fluoroquinolone"
+    },
+    "penicillin": {
+      "display": "Penicillin",
+      "brands": [
+        "penicillin"
+      ],
+      "class": "penicillin"
+    }
+  },
+  "interactions": [
+    {
+      "a": "apixaban",
+      "b": "ibuprofen",
+      "severity": "cao",
+      "effect": "Tăng nguy cơ chảy máu khi dùng thuốc chống đông cùng NSAID."
+    },
+    {
+      "a": "apixaban",
+      "b": "aspirin",
+      "severity": "cao",
+      "effect": "Tăng nguy cơ chảy máu."
+    },
+    {
+      "a": "apixaban",
+      "b": "clarithromycin",
+      "severity": "trung bình",
+      "effect": "Clarithromycin ức chế chuyển hóa (CYP3A4/P-gp), có thể làm tăng nồng độ apixaban và nguy cơ chảy máu."
+    },
+    {
+      "a": "amlodipine",
+      "b": "clarithromycin",
+      "severity": "trung bình",
+      "effect": "Có thể tăng nồng độ amlodipin, nguy cơ hạ huyết áp."
+    },
+    {
+      "a": "losartan",
+      "b": "ibuprofen",
+      "severity": "trung bình",
+      "effect": "NSAID làm giảm tác dụng hạ áp và tăng nguy cơ suy giảm chức năng thận, tăng kali."
+    },
+    {
+      "a": "warfarin",
+      "b": "ibuprofen",
+      "severity": "cao",
+      "effect": "Tăng nguy cơ chảy máu khi dùng thuốc chống đông cùng NSAID."
+    },
+    {
+      "a": "warfarin",
+      "b": "clarithromycin",
+      "severity": "cao",
+      "effect": "Clarithromycin có thể làm tăng tác dụng chống đông của warfarin (tăng INR), nguy cơ chảy máu."
+    },
+    {
+      "a": "warfarin",
+      "b": "levofloxacin",
+      "severity": "trung bình",
+      "effect": "Fluoroquinolon có thể làm tăng INR khi dùng cùng warfarin."
+    },
+    {
+      "a": "clopidogrel",
+      "b": "omeprazole",
+      "severity": "trung bình",
+      "effect": "Omeprazol có thể làm giảm hiệu quả chống kết tập tiểu cầu của clopidogrel."
+    },
+    {
+      "a": "spironolactone",
+      "b": "losartan",
+      "severity": "cao",
+      "effect": "Cùng làm tăng kali máu, nguy cơ tăng kali nặng, nhất là khi chức năng thận giảm."
+    },
+    {
+      "a": "atorvastatin",
+      "b": "clarithromycin",
+      "severity": "cao",
+      "effect": "Clarithromycin làm tăng nồng độ atorvastatin, tăng nguy cơ tổn thương cơ (tiêu cơ vân)."
+    },
+    {
+      "a": "furosemide",
+      "b": "ibuprofen",
+      "severity": "trung bình",
+      "effect": "NSAID làm giảm tác dụng lợi tiểu và tăng nguy cơ tổn thương thận."
+    }
+  ],
+  "allergy_cross": [
+    {
+      "note": "Cùng nhóm với chất đã ghi nhận dị ứng; cần bác sĩ cân nhắc nguy cơ phản ứng chéo trước khi dùng."
+    }
+  ],
+  "renal_rules": [
+    {
+      "drug": "metformin",
+      "egfr_below": 45,
+      "level": "cần xem lại",
+      "note": "eGFR dưới 45: cần bác sĩ đánh giá lại liều/chỉ định metformin theo chức năng thận."
+    },
+    {
+      "drug": "metformin",
+      "egfr_below": 30,
+      "level": "cao",
+      "note": "eGFR dưới 30: metformin thường chống chỉ định."
+    },
+    {
+      "drug": "ibuprofen",
+      "egfr_below": 60,
+      "level": "cần xem lại",
+      "note": "NSAID trên bệnh nhân giảm chức năng thận: thận trọng."
+    },
+    {
+      "drug": "spironolactone",
+      "egfr_below": 30,
+      "level": "cao",
+      "note": "eGFR dưới 30: spironolacton cần thận trọng cao vì nguy cơ tăng kali."
+    }
+  ],
+  "labs": {
+    "hba1c": {
+      "display": "HbA1c",
+      "unit": "%",
+      "loinc": "4548-4",
+      "high": 7.0,
+      "low": null
+    },
+    "creatinine": {
+      "display": "Creatinin",
+      "unit": "µmol/L",
+      "loinc": "2160-0",
+      "high": 110,
+      "low": null
+    },
+    "egfr": {
+      "display": "eGFR",
+      "unit": "mL/phút/1,73m²",
+      "loinc": null,
+      "high": null,
+      "low": 60
+    },
+    "potassium": {
+      "display": "Kali",
+      "unit": "mmol/L",
+      "loinc": "2823-3",
+      "high": 5.0,
+      "low": 3.5,
+      "critical_high": 5.5
+    },
+    "crp": {
+      "display": "CRP",
+      "unit": "mg/L",
+      "loinc": "1988-5",
+      "high": 5,
+      "low": null
+    },
+    "wbc": {
+      "display": "Bạch cầu",
+      "unit": "G/L",
+      "loinc": "6690-2",
+      "high": 10,
+      "low": 4
+    },
+    "glucose": {
+      "display": "Glucose máu",
+      "unit": "mmol/L",
+      "loinc": "2345-7",
+      "high": 7.0,
+      "low": 3.9
+    }
+  },
+  "follow_up_days": 120,
+  "icd10": [
+    {
+      "code": "J18.9",
+      "display": "Viêm phổi, không đặc hiệu",
+      "keywords": [
+        "viêm phổi"
+      ]
+    },
+    {
+      "code": "J18.1",
+      "display": "Viêm phổi thùy, không đặc hiệu",
+      "keywords": [
+        "viêm phổi thùy"
+      ]
+    },
+    {
+      "code": "J18.8",
+      "display": "Viêm phổi khác, tác nhân không xác định",
+      "keywords": [
+        "viêm phổi khác"
+      ]
+    },
+    {
+      "code": "J15.9",
+      "display": "Viêm phổi do vi khuẩn, không đặc hiệu",
+      "keywords": [
+        "viêm phổi do vi khuẩn"
+      ]
+    },
+    {
+      "code": "E11",
+      "display": "Đái tháo đường type 2 (bác sĩ chọn mã chi tiết E11.x)",
+      "keywords": [
+        "đái tháo đường",
+        "tiểu đường"
+      ]
+    },
+    {
+      "code": "I10",
+      "display": "Tăng huyết áp vô căn (nguyên phát)",
+      "keywords": [
+        "tăng huyết áp"
+      ]
+    },
+    {
+      "code": "I48",
+      "display": "Rung nhĩ (bác sĩ chọn mã chi tiết I48.x)",
+      "keywords": [
+        "rung nhĩ"
+      ]
+    },
+    {
+      "code": "J44.1",
+      "display": "Bệnh phổi tắc nghẽn mạn tính có đợt cấp",
+      "keywords": [
+        "đợt cấp bệnh phổi tắc nghẽn mạn tính",
+        "đợt cấp copd"
+      ]
+    },
+    {
+      "code": "J44",
+      "display": "Bệnh phổi tắc nghẽn mạn tính (bác sĩ chọn mã chi tiết J44.x)",
+      "keywords": [
+        "bệnh phổi tắc nghẽn mạn tính",
+        "copd"
+      ]
+    },
+    {
+      "code": "I50",
+      "display": "Suy tim (bác sĩ chọn mã chi tiết I50.x)",
+      "keywords": [
+        "suy tim"
+      ]
+    },
+    {
+      "code": "N39.0",
+      "display": "Nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+      "keywords": [
+        "nhiễm khuẩn tiết niệu",
+        "nhiễm trùng tiểu"
+      ]
+    },
+    {
+      "code": "E78",
+      "display": "Rối loạn chuyển hóa lipoprotein (bác sĩ chọn mã chi tiết E78.x)",
+      "keywords": [
+        "rối loạn lipid máu"
+      ]
+    },
+    {
+      "code": "M10",
+      "display": "Gút (bác sĩ chọn mã chi tiết M10.x)",
+      "keywords": [
+        "gút",
+        "gout"
+      ]
+    },
+    {
+      "code": "N18",
+      "display": "Bệnh thận mạn (bác sĩ chọn mã chi tiết N18.x)",
+      "keywords": [
+        "bệnh thận mạn"
+      ]
+    }
+  ],
+  "red_flags": [
+    {
+      "id": "confusion",
+      "label": "Lú lẫn / thay đổi ý thức mới",
+      "patterns": [
+        "lú lẫn",
+        "lơ mơ",
+        "lảm nhảm",
+        "không nhận ra",
+        "mất ý thức"
+      ]
+    },
+    {
+      "id": "gi_bleed",
+      "label": "Dấu hiệu nghi chảy máu tiêu hóa",
+      "patterns": [
+        "phân hơi đen",
+        "phân đen",
+        "đi ngoài ra máu",
+        "nôn ra máu"
+      ]
+    },
+    {
+      "id": "chest_pain_severe",
+      "label": "Đau ngực nghi nguy hiểm",
+      "patterns": [
+        "đau ngực dữ dội",
+        "đau ngực lan",
+        "đau thắt ngực"
+      ]
+    },
+    {
+      "id": "hemoptysis",
+      "label": "Ho ra máu",
+      "patterns": [
+        "ho ra máu"
+      ]
+    },
+    {
+      "id": "syncope",
+      "label": "Ngất",
+      "patterns": [
+        "bị ngất",
+        "ngất xỉu",
+        "ngã ra bất tỉnh"
+      ]
+    },
+    {
+      "id": "stroke_signs",
+      "label": "Dấu hiệu nghi đột quỵ",
+      "patterns": [
+        "yếu nửa người",
+        "méo miệng",
+        "nói ngọng đột ngột"
+      ]
+    }
+  ],
+  "vital_flags": {
+    "spo2_below": 92,
+    "resp_rate_at_least": 25,
+    "sbp_at_most": 90,
+    "pulse_at_least": 130
+  },
+  "required_fields": [
+    {
+      "id": "ly_do",
+      "label": "Lý do vào viện",
+      "keywords": [
+        "sốt",
+        "ho",
+        "khó thở",
+        "đau"
+      ]
+    },
+    {
+      "id": "qua_trinh",
+      "label": "Quá trình bệnh lý",
+      "keywords": [
+        "từ hôm",
+        "hôm nay",
+        "ngày"
+      ]
+    },
+    {
+      "id": "thuoc_dang_dung",
+      "label": "Thuốc đang dùng",
+      "keywords": [
+        "thuốc",
+        "uống"
+      ]
+    },
+    {
+      "id": "di_ung",
+      "label": "Dị ứng",
+      "keywords": [
+        "dị ứng"
+      ]
+    },
+    {
+      "id": "tien_su_gia_dinh",
+      "label": "Tiền sử gia đình",
+      "keywords": [
+        "gia đình",
+        "bố mẹ",
+        "anh chị em"
+      ]
+    },
+    {
+      "id": "thuoc_la_ruou",
+      "label": "Thuốc lá / rượu bia",
+      "keywords": [
+        "thuốc lá",
+        "hút thuốc",
+        "rượu",
+        "bia"
+      ]
+    },
+    {
+      "id": "can_nang",
+      "label": "Cân nặng",
+      "keywords": [
+        "cân nặng",
+        "kg",
+        "cân"
+      ]
+    },
+    {
+      "id": "kham_toan_than",
+      "label": "Dấu hiệu sinh tồn",
+      "keywords": [
+        "spo",
+        "huyết áp",
+        "mạch",
+        "nhiệt"
+      ]
+    },
+    {
+      "id": "kham_co_quan",
+      "label": "Khám các cơ quan",
+      "keywords": [
+        "phổi",
+        "tim",
+        "bụng"
+      ]
+    },
+    {
+      "id": "chan_doan",
+      "label": "Chẩn đoán (do bác sĩ nêu)",
+      "keywords": [
+        "nghĩ",
+        "phù hợp",
+        "chẩn đoán"
+      ]
+    },
+    {
+      "id": "huong_dieu_tri",
+      "label": "Hướng điều trị",
+      "keywords": [
+        "cho ",
+        "truyền",
+        "làm thêm",
+        "theo dõi"
+      ]
+    }
+  ]
+}
